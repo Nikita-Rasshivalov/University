@@ -1,0 +1,3 @@
+The university has many faculties,1
+And faculties consist of many groups.1
+The university is consist of students and faculties. 

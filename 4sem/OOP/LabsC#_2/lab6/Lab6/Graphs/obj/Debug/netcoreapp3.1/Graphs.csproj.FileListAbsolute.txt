@@ -1,0 +1,9 @@
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\bin\Debug\netcoreapp3.1\Graphs.deps.json
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\bin\Debug\netcoreapp3.1\Graphs.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\bin\Debug\netcoreapp3.1\Graphs.pdb
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\obj\Debug\netcoreapp3.1\Graphs.csprojAssemblyReference.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\obj\Debug\netcoreapp3.1\Graphs.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\obj\Debug\netcoreapp3.1\Graphs.AssemblyInfoInputs.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\obj\Debug\netcoreapp3.1\Graphs.AssemblyInfo.cs
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\obj\Debug\netcoreapp3.1\Graphs.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\Graphs\obj\Debug\netcoreapp3.1\Graphs.pdb

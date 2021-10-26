@@ -1,0 +1,6 @@
+D:\oop\lab7\Guides\bin\Debug\Guides.dll
+D:\oop\lab7\Guides\bin\Debug\Guides.pdb
+D:\oop\lab7\Guides\obj\Debug\Guides.csproj.CoreCompileInputs.cache
+D:\oop\lab7\Guides\obj\Debug\Guides.dll
+D:\oop\lab7\Guides\obj\Debug\Guides.pdb
+D:\oop\lab7\Guides\obj\Debug\Guides.csprojAssemblyReference.cache

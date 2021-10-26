@@ -1,0 +1,14 @@
+﻿<Window x:Class="UI.EdgesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+ Title="EdgesWindow" Height="232" Width="479" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ComboBox x:Name="VertexOne" HorizontalAlignment="Left" Margin="21,93,0,0" VerticalAlignment="Top"  Width="169"/>
+        <ComboBox x:Name="VertexTwo" HorizontalAlignment="Left" Margin="202,93,0,0" VerticalAlignment="Top" Width="169"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="389,93,0,0" VerticalAlignment="Top" Click="Button_Click" />
+    </Grid>
+</Window>

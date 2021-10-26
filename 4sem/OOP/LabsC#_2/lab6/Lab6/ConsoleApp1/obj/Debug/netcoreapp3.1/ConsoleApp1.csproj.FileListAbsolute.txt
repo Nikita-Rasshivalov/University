@@ -1,0 +1,7 @@
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\ConsoleApp1\bin\Debug\netcoreapp3.1\Graph.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\ConsoleApp1\bin\Debug\netcoreapp3.1\Automatonymous.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\ConsoleApp1\bin\Debug\netcoreapp3.1\GreenPipes.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab6\Lab6\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache

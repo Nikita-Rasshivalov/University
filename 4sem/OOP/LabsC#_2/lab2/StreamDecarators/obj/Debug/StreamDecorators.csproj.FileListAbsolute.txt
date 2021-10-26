@@ -1,0 +1,13 @@
+D:\oop\lab2\StreamDecarators\bin\Debug\StreamDecarators.pdb
+D:\oop\lab2\StreamDecarators\obj\Debug\StreamDecorators.csproj.CoreCompileInputs.cache
+D:\oop\lab2\StreamDecarators\obj\Debug\StreamDecarators.pdb
+D:\oop\lab2\StreamDecarators\bin\Debug\StreamDecarators.dll.config
+D:\oop\lab2\StreamDecarators\bin\Debug\StreamDecarators.dll
+D:\oop\lab2\StreamDecarators\obj\Debug\StreamDecarators.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab2\StreamDecarators\obj\Debug\StreamDecorators.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab2\StreamDecarators\obj\Debug\StreamDecarators.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab2\StreamDecarators\obj\Debug\StreamDecarators.pdb
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab2\StreamDecarators\bin\Debug\StreamDecarators.dll.config
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab2\StreamDecarators\bin\Debug\StreamDecarators.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab2\StreamDecarators\bin\Debug\StreamDecarators.pdb
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab2\StreamDecarators\obj\Debug\StreamDecorators.csprojAssemblyReference.cache

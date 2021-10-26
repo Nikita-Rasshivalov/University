@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Directory>
+  <Record>
+    <OrganizationName>Zelenstoi</OrganizationName>
+    <OrganizationType>Private</OrganizationType>
+    <Adress>Gomel, Lipeckaja 18 street</Adress>
+    <PhoneNumber>80297672336</PhoneNumber>
+    <EmployNumbers>123</EmployNumbers>
+  </Record>
+    <Record>
+    <OrganizationName>Selmash</OrganizationName>
+    <OrganizationType>Private</OrganizationType>
+    <Adress>Gomel, Slavanskaya 125 street</Adress>
+    <PhoneNumber>80297872336</PhoneNumber>
+    <EmployNumbers>193</EmployNumbers>
+  </Record>
+    <Record>
+    <OrganizationName>Kirmash</OrganizationName>
+    <OrganizationType>State</OrganizationType>
+    <Adress>Mogilev, Lipeckaja 25а street</Adress>
+    <PhoneNumber>80297562336</PhoneNumber>
+    <EmployNumbers>333</EmployNumbers>
+  </Record>
+    <Record>
+    <OrganizationName>Gazprom</OrganizationName>
+    <OrganizationType>Private</OrganizationType>
+    <Adress>Mowkow, Krasnaja 12 street</Adress>
+    <PhoneNumber>77777562336</PhoneNumber>
+    <EmployNumbers>3333</EmployNumbers>
+  </Record>
+    <Record>
+    <OrganizationName>BelNeft</OrganizationName>
+    <OrganizationType>State</OrganizationType>
+    <Adress>Minsk, Vokzalnaja street</Adress>
+    <PhoneNumber>80297111336</PhoneNumber>
+    <EmployNumbers>3323</EmployNumbers>
+  </Record>
+
+</Directory>

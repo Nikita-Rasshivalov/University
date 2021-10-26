@@ -1,0 +1,7 @@
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab1\Lab1\DirectoryOrganizations\obj\Debug\DirectoryOrganizations.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab1\Lab1\DirectoryOrganizations\bin\Debug\DirectoryOrganizations.pdb
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab1\Lab1\DirectoryOrganizations\obj\Debug\DirectoryOrganizations.pdb
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab1\Lab1\DirectoryOrganizations\bin\Debug\DirectoryOrganizations.dll.config
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab1\Lab1\DirectoryOrganizations\bin\Debug\DirectoryOrganizations.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab1\Lab1\DirectoryOrganizations\obj\Debug\DirectoryOrganizations.dll
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab1\Lab1\DirectoryOrganizations\obj\Debug\DirectoryOrganizations.csprojAssemblyReference.cache

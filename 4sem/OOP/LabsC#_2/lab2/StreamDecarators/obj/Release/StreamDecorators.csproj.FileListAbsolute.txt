@@ -1,0 +1,7 @@
+D:\oop\lab2\StreamDecarators\bin\Release\StreamDecarators.dll.config
+D:\oop\lab2\StreamDecarators\bin\Release\StreamDecarators.dll
+D:\oop\lab2\StreamDecarators\bin\Release\StreamDecarators.pdb
+D:\oop\lab2\StreamDecarators\obj\Release\StreamDecorators.csprojAssemblyReference.cache
+D:\oop\lab2\StreamDecarators\obj\Release\StreamDecorators.csproj.CoreCompileInputs.cache
+D:\oop\lab2\StreamDecarators\obj\Release\StreamDecarators.dll
+D:\oop\lab2\StreamDecarators\obj\Release\StreamDecarators.pdb

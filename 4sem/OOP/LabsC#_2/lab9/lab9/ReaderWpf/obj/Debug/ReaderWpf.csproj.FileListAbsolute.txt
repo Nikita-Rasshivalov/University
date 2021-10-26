@@ -1,0 +1,44 @@
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\bin\Debug\ReaderWpf.exe.config
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\bin\Debug\ReaderWpf.exe
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\bin\Debug\ReaderWpf.pdb
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.csprojAssemblyReference.cache
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\MainWindow.g.cs
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\App.g.cs
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf_MarkupCompile.cache
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf_MarkupCompile.lref
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\MainWindow.baml
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.g.resources
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.Properties.Resources.resources
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.csproj.GenerateResource.cache
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.csproj.CoreCompileInputs.cache
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.exe
+E:\Отчеты 4 сем\ООП\Zhukova_Term2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.pdb
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\bin\Debug\ReaderWpf.exe.config
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\bin\Debug\ReaderWpf.exe
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\bin\Debug\ReaderWpf.pdb
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.csprojAssemblyReference.cache
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\MainWindow.g.cs
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\App.g.cs
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf_MarkupCompile.cache
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf_MarkupCompile.lref
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\MainWindow.baml
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.g.resources
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.Properties.Resources.resources
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.csproj.GenerateResource.cache
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.exe
+C:\Users\Victor\Documents\Course_2\Term_2\OOP_2\лаб 9\ReaderWpf\obj\Debug\ReaderWpf.pdb
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\bin\Debug\ReaderWpf.exe.config
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\bin\Debug\ReaderWpf.exe
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\bin\Debug\ReaderWpf.pdb
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf.csprojAssemblyReference.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\MainWindow.g.cs
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\App.g.cs
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf_MarkupCompile.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf_MarkupCompile.lref
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\MainWindow.baml
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf.g.resources
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf.Properties.Resources.resources
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf.csproj.GenerateResource.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf.exe
+C:\Users\nikit\Desktop\OOP\LabsC#_2\lab9\lab9\ReaderWpf\obj\Debug\ReaderWpf.pdb

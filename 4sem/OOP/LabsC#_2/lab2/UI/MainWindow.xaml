@@ -1,0 +1,17 @@
+﻿<Window x:Class="UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Label Content="Input numbers of last bytes" HorizontalAlignment="Left" Margin="62,16,0,0" VerticalAlignment="Top" Height="32" Width="177" FontWeight="Bold"/>
+        <Label Content="Input text" HorizontalAlignment="Left" Margin="109,86,0,0" VerticalAlignment="Top" Height="32" Width="69" FontWeight="Bold"/>
+        <TextBox x:Name="nums" HorizontalAlignment="Left" Height="28" Margin="74,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" PreviewTextInput="nums_PreviewTextInput"/>
+        <TextBox x:Name="StringInput" HorizontalAlignment="Left" Height="29" Margin="74,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="93,175,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click" Height="24"/>
+
+    </Grid>
+</Window>
