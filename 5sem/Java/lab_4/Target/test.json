@@ -1,0 +1,80 @@
+{
+  "name": "Test file",
+  "products":[
+    {
+      "name": "potato",
+      "cipher": 11
+    },
+    {
+      "name": "potato",
+      "cipher": 24
+    },
+    {
+      "name": "potato",
+      "cipher": 31
+    },
+    {
+      "name": "sandwich",
+      "cipher": 433
+    },
+    {
+      "name": "fish",
+      "cipher": 831
+    },
+    {
+      "name": "meat",
+      "cipher": 161
+    },
+    {
+      "name": "potato",
+      "cipher": 11
+    },
+    {
+      "name": "potato",
+      "cipher": 24
+    },
+    {
+      "name": "potato",
+      "cipher": 31
+    },
+    {
+      "name": "sandwich",
+      "cipher": 433
+    },
+    {
+      "name": "fish",
+      "cipher": 831
+    },
+    {
+      "name": "meat",
+      "cipher": 161
+    },
+    {
+      "name": "potato",
+      "cipher": 11
+    },
+    {
+      "name": "potato",
+      "cipher": 24
+    },
+    {
+      "name": "potato",
+      "cipher": 31
+    },
+    {
+      "name": "sandwich",
+      "cipher": 433
+    },
+    {
+      "name": "fish",
+      "cipher": 831
+    },
+    {
+      "name": "meat",
+      "cipher": 161
+    }
+  ]
+
+
+
+}
