@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nrFkVjnSsX/CTQQN8Qi7oVV4aG4yDL12G8cqO9M9KFgsLZSmsI4djwoxlxKD5Q/+qt1SviTH67+jN7fV6xIPpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikit\\Desktop\\ОЗИ\\lab2\\CipherGUI\\CipherGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.numerics.tensors\\0.1.0\\system.numerics.tensors.0.1.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

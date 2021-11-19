@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CipherFirstLabForms/1.0.0": {
+        "dependencies": {
+          "СipherLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CipherFirstLabForms.dll": {}
+        }
+      },
+      "СipherLibrary/1.0.0": {
+        "runtime": {
+          "СipherLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CipherFirstLabForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "СipherLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+x=1:0.1:2
+y = x .*(sqrt(1+x.^2)).*sin(x);
+y2=(2*x^3)-(3*x^2);
+y3=sin(x)
+y4=cos(x)
+subplot(2,2,1),plot(x,y,'-sc')
+xgrid ()
+xtitle("График1","Ось Оx","Ось Oy")
+legend("График Y(X)") 
+subplot(2,2,2),plot(x,y2,'--vg')
+xgrid ()
+xtitle("График2","Ось Оx","Ось Oy")
+legend("График Y2(X)") 
+subplot(2,2,3),plot(x,y3,':ok')
+xgrid ()
+xtitle("График3","Ось Оx","Ось Oy")
+legend("График Y3(X)") 
+subplot(2,2,4),plot(x,y4,'-..m') 
+xgrid ()
+xtitle("График4","Ось Оx","Ось Oy")
+legend("График Y4(X)")

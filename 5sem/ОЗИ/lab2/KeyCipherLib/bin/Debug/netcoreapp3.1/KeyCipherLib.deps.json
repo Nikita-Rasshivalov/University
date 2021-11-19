@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "KeyCipherLib/1.0.0": {
+        "dependencies": {
+          "Accord.Math": "3.8.0",
+          "System.Numerics.Tensors": "0.1.0"
+        },
+        "runtime": {
+          "KeyCipherLib.dll": {}
+        }
+      },
+      "Accord/3.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/Accord.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Math/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Math.Core.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          },
+          "lib/netstandard2.0/Accord.Math.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "System.Numerics.Tensors/0.1.0": {
+        "runtime": {
+          "lib/netstandard1.1/System.Numerics.Tensors.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "4.7.18.56406"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KeyCipherLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7kJrB570dO5ELim+2KWQNozuvWO9/BuZfZspdFy36fcWPNF2CEccblLuILeUlI8QJYd2DlBy0bfK8BlCx/uayA==",
+      "path": "accord/3.8.0",
+      "hashPath": "accord.3.8.0.nupkg.sha512"
+    },
+    "Accord.Math/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K3dzeQjDIrwRnoTRoMOoIbul2Uc0B8cnEtdrSlirmIo37C+jVkmYpJzme/z4Kg99XR2Vj5W5TTNlhjn+AKR+8A==",
+      "path": "accord.math/3.8.0",
+      "hashPath": "accord.math.3.8.0.nupkg.sha512"
+    },
+    "System.Numerics.Tensors/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AD8veI1AA0E9eBMmvM9gzwBNKh5JI34GNfn0KxWXqzKwypKB3EsRW2XKrvb9ussZxYGMuEUfLb929V7/I3MW8g==",
+      "path": "system.numerics.tensors/0.1.0",
+      "hashPath": "system.numerics.tensors.0.1.0.nupkg.sha512"
+    }
+  }
+}

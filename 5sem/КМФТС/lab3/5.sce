@@ -1,0 +1,11 @@
+X=[-6.28:0.1:6.28]';
+Y=[-6.28:0.1:6.28]';
+Z=(sin(X)./X)*(cos(Y'));
+subplot(2,2,1)
+plot3d(X,Y,Z)
+subplot(2,2,2)
+mesh(X,Y,Z) 
+subplot(2,2,3)
+surf(X,Y,Z) 
+subplot(2,2,4)
+mesh(X,Y,Z)

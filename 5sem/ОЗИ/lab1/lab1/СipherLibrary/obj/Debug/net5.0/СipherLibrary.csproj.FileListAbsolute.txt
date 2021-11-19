@@ -1,0 +1,12 @@
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\bin\Debug\net5.0\СipherLibrary.deps.json
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\bin\Debug\net5.0\СipherLibrary.dll
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\bin\Debug\net5.0\ref\СipherLibrary.dll
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\bin\Debug\net5.0\СipherLibrary.pdb
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\СipherLibrary.csproj.AssemblyReference.cache
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\СipherLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\СipherLibrary.AssemblyInfoInputs.cache
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\СipherLibrary.AssemblyInfo.cs
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\СipherLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\СipherLibrary.dll
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\ref\СipherLibrary.dll
+C:\Users\nikit\Desktop\ОЗИ\lab1\lab1\СipherLibrary\obj\Debug\net5.0\СipherLibrary.pdb

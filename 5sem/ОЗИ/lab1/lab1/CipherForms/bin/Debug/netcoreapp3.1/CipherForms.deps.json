@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CipherForms/1.0.0": {
+        "dependencies": {
+          "СipherLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CipherForms.dll": {}
+        }
+      },
+      "СipherLibrary/1.0.0": {
+        "runtime": {
+          "СipherLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CipherForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "СipherLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
