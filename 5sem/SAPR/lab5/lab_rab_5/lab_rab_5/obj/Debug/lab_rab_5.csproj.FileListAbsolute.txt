@@ -1,0 +1,49 @@
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe.config
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.pdb
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csprojResolveAssemblyReference.cache
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Form1.resources
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Properties.Resources.resources
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.GenerateResource.Cache
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.exe
+E:\Учеба\8 семестр\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.pdb
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe.config
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.pdb
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csprojAssemblyReference.cache
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Form1.resources
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Properties.Resources.resources
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.GenerateResource.cache
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.CoreCompileInputs.cache
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.exe
+C:\Users\Natalia\Desktop\БЗиППРвСАПР\lab_rab_5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.pdb
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe.config
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.pdb
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csprojResolveAssemblyReference.cache
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Form1.resources
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Properties.Resources.resources
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.GenerateResource.Cache
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.CoreCompileInputs.cache
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.exe
+E:\ГГТУ\3 курс\5 семестр\LISP(САПР)\Lab_5\5\5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe.config
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Form1.resources
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Properties.Resources.resources
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.GenerateResource.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.exe
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semSAPR\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.pdb
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe.config
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.exe
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\bin\Debug\lab_rab_5.pdb
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.AssemblyReference.cache
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Form1.resources
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.Properties.Resources.resources
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.GenerateResource.cache
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.exe
+C:\Users\nikit\Desktop\SAPR\lab5\lab_rab_5\lab_rab_5\obj\Debug\lab_rab_5.pdb

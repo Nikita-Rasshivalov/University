@@ -1,0 +1,10 @@
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\bin\Debug\FactApp.exe.config
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\bin\Debug\FactApp.exe
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\bin\Debug\FactApp.pdb
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\bin\Debug\ClassLibrary1.dll
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\bin\Debug\ClassLibrary1.pdb
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\obj\Debug\FactApp.csprojAssemblyReference.cache
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\obj\Debug\FactApp.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\obj\Debug\FactApp.csproj.CopyComplete
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\obj\Debug\FactApp.exe
+C:\Users\nikit\Desktop\SAPR\Lab1\C#\Number\FactApp\obj\Debug\FactApp.pdb
