@@ -1,0 +1,26 @@
+﻿@model RegistrationViewModel
+@using Microsoft.AspNetCore.Identity;
+@inject RoleManager<IdentityRole> RoleManager
+@{
+    var roles = RoleManager.Roles.Select(c => new SelectListItem { Value = c.Name, Text = c.Name })
+        .ToList();
+}
+<div class="all-container">
+    <div class="header-item">
+        <h1>User creating</h1>
+    </div>
+    <div class="header-item">
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+        <div class="error-box" asp-validation-summary="All"></div>
+        <form asp-action="Create" asp-controller="Account" method="post" class="form">
+            <input asp-for="Username" class="form-box" placeholder="username" />
+            <input asp-for="Password" class="form-box" type="password" placeholder="password" />
+            <input asp-for="RepeatPassword" class="form-box" type="password" placeholder="repeat password" />
+            <input asp-for="Email" class="form-box" placeholder="email" />
+            <select name="userRole" class="form-box"
+                    asp-items="@roles">
+            </select>
+            <div class="submit-box"><button type="submit" class="crud-button submit-button">Submit</button></div>
+        </form>
+    </div>
+</div>

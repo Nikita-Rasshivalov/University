@@ -1,0 +1,41 @@
+﻿@model PageItemsModel<Group>
+@addTagHelper *, RadiostationWeb
+<div class="all-container">
+    <div class="container-item">
+        <h1 class="title">Groups management</h1>
+    </div>
+    <div class="container-item">
+        @if (@Model?.Items.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Discription</th>
+                        <th><div class="manage-button-container"><div class="crudBtn"><a class="crudLink" asp-controller="Group" asp-action="Create"> Add group</a></div></div></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var group in @Model.Items)
+                    {
+                        <tr>
+                            <td>@group.Description</td>
+
+                            <td>
+                                <div class="manage-button-container">
+                                    <div class="crudBtn"><a class="crudLink" asp-controller="Group" asp-action="Edit" asp-route-id="@group.Id">Edit</a></div>
+                                    <div class="crudBtn"><a class="crudLink" asp-controller="Group" asp-action="Delete" asp-route-id="@group.Id">Delete</a></div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3>There are no group</h3>
+        }
+        <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Groups"></page-link></div>
+    </div>
+</div>

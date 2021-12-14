@@ -1,0 +1,16 @@
+﻿@model Genre
+<div class="all-container">
+    <div class="formContainer">
+        <h1 class="title">Edit genre</h1>
+        <form asp-action="Edit" asp-controller="Genre" method="post" class="form">
+            <input asp-for="@Model.Id" type="hidden" />
+            <label>Genre name</label>
+            <input class="inputStyle" asp-for="@Model.GenreName" type="text" placeholder="Genre name">
+            <label>Description</label>
+            <input class="inputStyle" asp-for="@Model.Description" type="text" placeholder="Description">
+            <input type="submit" class="addRecordbtn" value="Edit">
+        </form>
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+        <div class="error-box" asp-validation-summary="All"></div>
+    </div>
+</div>

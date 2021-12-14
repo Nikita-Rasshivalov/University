@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RadiostationWeb</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="~/css/site.css"/>
+</head>
+<body>
+    <header>
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a class="brand-logo " id="myLogo" asp-area="" asp-controller="Home" asp-action="Index">RadiostationWeb</a>
+
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li><a asp-controller="Account" asp-action="ManageUsers">Manage users</a></li>
+                    }
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-controller="Account" asp-action="Logout">Log out</a></li>
+                    }
+                    else
+                    {
+                        <li><a asp-controller="Account" asp-action="Login">Log in</a></li>
+                    }
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab">
+                        <a class="tab" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="tab">
+                        <a asp-area="" asp-controller="Record" asp-action="Records">Records</a>
+                    </li>
+                    <li class="tab">
+                        <a asp-area="" asp-controller="Performer" asp-action="Performers">Performers</a>
+                    </li>
+                    <li class="tab">
+                        <a asp-area="" asp-controller="Employee" asp-action="Employees">Employees</a>
+                    </li>
+                    <li class="tab">
+                        <a asp-area="" asp-controller="Group" asp-action="Groups">Groups</a>
+                    </li>
+                    <li class="tab">
+                        <a asp-area="" asp-controller="Genre" asp-action="Genres">Genres</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - RadiostationWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

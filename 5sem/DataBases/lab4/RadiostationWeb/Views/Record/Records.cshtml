@@ -1,0 +1,48 @@
+﻿@model IEnumerable<RecordViewModel>
+<div class="all-container">
+    <div class="info-container">
+        <div class="container-item">
+            <h1>Records</h1>
+        </div>
+        <div class="container-item">
+            @if (@Model?.Count() > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Performer name</th>
+                            <th>Composition name</th>
+                            <th>Genre name</th>
+                            <th>Album</th>
+                            <th>Record Date</th>
+                            <th>Rating</th>
+                            <th>Lasting</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var record in @Model)
+                        {
+                        <tr>
+                            <td>@record.Id</td>
+                            <td>@record.PerformerName</td>
+                            <td>@record.ComposName</td>
+                            <td>@record.GenreName</td>
+                            <td>@record.Album</td>
+                            <td>@record.RecordDate.ToShortDateString()</td>
+                            <td>@record.Rating</td>
+                            <td>@record.Lasting</td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <h3>There are no records</h3>
+            }
+        </div>
+    </div>
+</div>
+

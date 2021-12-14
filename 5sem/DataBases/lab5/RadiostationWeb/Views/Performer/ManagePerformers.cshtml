@@ -1,0 +1,65 @@
+﻿@model PageItemsModel<PerformerViewModel>
+@addTagHelper *, RadiostationWeb
+@{
+    var currentNameFilter = (string)Context.Request.Query["nameFilter"] ?? Context.Request.Cookies["nameFilter"];
+    var currentSurnameFilter = (string)Context.Request.Query["surnameFilter"] ?? Context.Request.Cookies["surnameFilter"];
+
+}
+<div class="all-container">
+    <div class="formContainer">
+        <h1 class="title">Performers managment</h1>
+        <form asp-action="ManagePerformers" asp-controller="Performer" method="get" class="form">
+            <div class="wrapper-items">
+                <div class="items">
+                    <div>Name filter</div>
+                    <input class="inputStyle" name="nameFilter" type="text" value="@currentNameFilter" />
+                </div>
+                <div class="items">
+                    <div>Surname filter</div>
+                    <input class="inputStyle" name="surnameFilter" type="text" value="@currentSurnameFilter" />
+                </div>
+            </div>
+            <div class="formButtons">
+                <input type="submit" class="addRecordbtn" value="Find">
+                <div class="crudBtn reset"><a class="crudLink" asp-controller="Performer" asp-action="ResetManageFilter"> Reset</a></div>
+            </div>
+        </form>
+    </div>
+    <div class="container-item">
+        @if (@Model?.Items.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Group description</th>
+                        <th><div class="manage-button-container"><div class="crudBtn"><a class="crudLink" asp-controller="Performer" asp-action="Create"> Add performer</a></div></div></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var performer in @Model.Items)
+                    {
+                        <tr>
+                            <td>@performer.Name</td>
+                            <td>@performer.Surname</td>
+                            <td>@performer.GroupName</td>
+                            <td>
+                                <div class="manage-button-container">
+                                    <div class="crudBtn"><a class="crudLink" asp-controller="Performer" asp-action="Edit" asp-route-id="@performer.Id">Edit</a></div>
+                                    <div class="crudBtn"><a class="crudLink" asp-controller="Performer" asp-action="Delete" asp-route-id="@performer.Id">Delete</a></div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3>There are no performers</h3>
+        }
+        <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Performers"></page-link></div>
+    </div>
+</div>

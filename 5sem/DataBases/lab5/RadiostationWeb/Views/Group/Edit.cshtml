@@ -1,0 +1,14 @@
+﻿@model Group
+<div class="all-container">
+    <div class="formContainer">
+        <h1 class="title">Edit groups</h1>
+        <form asp-action="Edit" asp-controller="Group" method="post" class="form">
+            <input asp-for="@Model.Id" type="hidden" />
+            <label>Discription</label>
+            <input class="inputStyle" asp-for="@Model.Description" type="text" placeholder="Discription">
+            <input type="submit" class="addRecordbtn" value="Edit">
+        </form>
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+        <div class="error-box" asp-validation-summary="All"></div>
+    </div>
+</div>

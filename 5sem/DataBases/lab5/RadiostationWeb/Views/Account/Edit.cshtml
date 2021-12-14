@@ -1,0 +1,22 @@
+﻿@model IdentityUser
+@using Microsoft.AspNetCore.Identity;
+@inject RoleManager<IdentityRole> RoleManager
+@{
+    var roles = RoleManager.Roles.Select(c => new SelectListItem { Value = c.Name, Text = c.Name })
+        .ToList();
+}
+<div class="all-container">
+    <div class="header-item">
+        <h1>User editing</h1>
+    </div>
+    <div class="header-item">
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+        <div class="error-box" asp-validation-summary="All"></div>
+        <form asp-action="Edit" asp-controller="Account" method="post" class="form">
+            <input asp-for="Id" value="@Model.Id" hidden />
+            <input asp-for="UserName" value="@Model.UserName" class="form-box" placeholder="username" />
+            <input asp-for="Email" value="@Model.Email" class="form-box" placeholder="email" />
+            <div class="submit-box"><button type="submit" class="crud-button submit-button">Submit</button></div>
+        </form>
+    </div>
+</div>

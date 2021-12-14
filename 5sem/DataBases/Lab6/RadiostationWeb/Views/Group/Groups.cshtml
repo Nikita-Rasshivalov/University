@@ -1,0 +1,56 @@
+﻿@model PageItemsModel<Group>
+@addTagHelper *, RadiostationWeb
+@inject RadiostationWeb.Data.BDLab1Context context;
+@{
+    var groupFilter = (string)Context.Request.Query["groupFilter"] ?? Context.Request.Cookies["groupFilter"];
+}
+<div class="all-container">
+    <div class="info-container">
+        <div class="formContainer">
+            <h1 class="title">Groups</h1>
+            <form asp-action="Groups" asp-controller="Group" method="get" class="form">
+                <div class="wrapper-items">
+                    <div class="items">
+                        <div>Name filter</div>
+                        <input class="inputStyle" name="groupFilter" type="text" value="@groupFilter" />
+                    </div>
+                </div>
+                <div class="formButtons">
+                    <input type="submit" class="addRecordbtn" value="Find">
+                    <div class="crudBtn reset"><a class="crudLink" asp-controller="Group" asp-action="ResetFilter"> Reset</a></div>
+                </div>
+            </form>
+        </div>
+        <div class="container-item">
+            @if (User.Identity.IsAuthenticated && User.IsInRole(RoleType.Admin))
+            {
+                <div class="crudBtn"><a class="crudLink" asp-action="ManageGroups" asp-controller="Group">Manage</a></div>
+            }
+            @if (@Model?.Items.Count() > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var group in @Model.Items)
+                        {
+                            <tr>
+                                <td>@group.Description</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <h3>There are no Group </h3>
+            }
+        </div>
+        <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Groups"></page-link></div>
+    </div>
+</div>
+

@@ -1,0 +1,33 @@
+﻿@model Record
+@inject RadiostationWeb.Data.BDLab1Context context;
+@{
+    var performers = context.Performers.Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.Name })
+        .ToList();
+
+    var genres = context.Genres.Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.GenreName })
+    .ToList();
+}
+<div class="all-container">
+    <div class="formContainer">
+        <h1 class="title">Add record</h1>
+        <form asp-action="Create" asp-controller="Record" method="post" class="form">
+            <label>Composition name</label>
+            <input class="inputStyle" asp-for="@Model.ComposName" type="text" placeholder="Composition name">
+            <label>Album</label>
+            <input class="inputStyle" asp-for="@Model.Album" type="text" placeholder="Album">
+            <label>Performer</label>
+            <select class="select-items" asp-for="@Model.PerformerId" asp-items="performers"></select>
+            <label>Genre</label>
+            <select class="select-items" asp-for="@Model.GenreId" asp-items="genres"></select>
+            <label>Lasting</label>
+            <input class="inputStyle" asp-for="@Model.Lasting" type="number" placeholder="Lasting">
+            <label>Rating</label>
+            <input class="inputStyle" asp-for="@Model.Rating" type="number" placeholder="Rating ">
+            <label>Record date</label>
+            <input class="inputStyle" asp-for="@Model.RecordDate" type="date" min="1960-01-01" value="2000-01-01" placeholder="Record date">
+            <input type="submit" class="addRecordbtn" value="Add">
+        </form>
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+        <div class="error-box" asp-validation-summary="All"></div>
+    </div>
+</div>

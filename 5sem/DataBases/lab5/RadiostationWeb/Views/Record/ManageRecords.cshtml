@@ -1,0 +1,80 @@
+﻿@model PageItemsModel<RecordViewModel>
+@addTagHelper *, RadiostationWeb
+@inject RadiostationWeb.Data.BDLab1Context context;
+@{
+    var performers = context.Performers.Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.Name })
+        .ToList();
+    var currentNameFilter = (string)Context.Request.Query["nameFilter"] ?? Context.Request.Cookies["nameFilter"];
+    var currentPerformerFilter = (string)Context.Request.Query["performerFilter"] ?? Context.Request.Cookies["performerFilter"];
+    var selectedItem = performers.FirstOrDefault(t => t.Value == currentPerformerFilter);
+    if (selectedItem != null)
+        selectedItem.Selected = true;
+}
+<div class="all-container">
+    <div class="formContainer">
+        <h1 class="title">Records managment</h1>
+        <form asp-action="ManageRecords" asp-controller="Record" method="get" class="form">
+            <div class="wrapper-items">
+                <div class="items">
+                    <div>Name filter</div>
+                    <input class="inputStyle" name="nameFilter" type="text" value="@currentNameFilter" />
+                </div>
+                <div class="items">
+                    <div>Performer filter</div>
+                    <select class="select-items" name="performerFilter" asp-items="performers">
+                        <option value="0"></option>
+                    </select>
+                </div>
+            </div>
+            <div class="formButtons">
+                <input type="submit" class="addRecordbtn" value="Find">
+                <div class="crudBtn reset"><a class="crudLink" asp-controller="Record" asp-action="ResetManageFilter"> Reset</a></div>
+            </div>
+        </form>
+    </div>
+    <div class="container-item">
+        @if (@Model?.Items.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Composition name</th>
+                        <th>Album</th>
+                        <th>Genre name</th>
+                        <th>Performer name</th>
+                        <th>Lasting</th>
+                        <th>Rating</th>
+                        <th>Record date</th>
+                        <th><div class="manage-button-container"><div class="crudBtn"><a class="crudLink" asp-controller="Record" asp-action="Create"> Add record</a></div></div></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var records in @Model.Items)
+                    {
+                        <tr>
+                            <td>@records.ComposName</td>
+                            <td>@records.Album</td>
+                            <td>@records.GenreName</td>
+                            <td>@records.PerformerName</td>
+                            <td>@records.Lasting</td>
+                            <td>@records.Rating</td>
+                            <td>@records.RecordDate.ToShortDateString()</td>
+                            <td>
+                                <div class="manage-button-container">
+                                    <div class="crudBtn"><a class="crudLink" asp-controller="Record" asp-action="Edit" asp-route-id="@records.Id">Edit</a></div>
+                                    <div class="crudBtn"><a class="crudLink" asp-controller="Record" asp-action="Delete" asp-route-id="@records.Id">Delete</a></div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3>There are no records</h3>
+        }
+        <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Records"></page-link></div>
+    </div>
+</div>

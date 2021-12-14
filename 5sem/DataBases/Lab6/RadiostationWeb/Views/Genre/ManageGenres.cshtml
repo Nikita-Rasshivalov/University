@@ -1,0 +1,42 @@
+﻿@model PageItemsModel<Genre>
+@addTagHelper *, RadiostationWeb
+<div class="all-container">
+    <div class="container-item">
+        <h1 class="title">Genres management</h1>
+    </div>
+    <div class="container-item">
+        @if (@Model?.Items.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Genre name</th>
+                        <th>Discription</th>
+                        <th><div class="manage-button-container"><div class="crudBtn"><a class="crudLink" asp-controller="Genre" asp-action="Create"> Add genre</a></div></div></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var genre in @Model.Items)
+                    {
+                    <tr>
+                        <td>@genre.GenreName</td>
+                        <td>@genre.Description</td>
+                        <td>
+                            <div class="manage-button-container">
+                                <div class="crudBtn"><a class="crudLink" asp-controller="Genre" asp-action="Edit" asp-route-id="@genre.Id">Edit</a></div>
+                                <div class="crudBtn"><a class="crudLink" asp-controller="Genre" asp-action="Delete" asp-route-id="@genre.Id">Delete</a></div>
+                            </div>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3>There are no genres</h3>
+        }
+        <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Genre"></page-link></div>
+    </div>
+</div>

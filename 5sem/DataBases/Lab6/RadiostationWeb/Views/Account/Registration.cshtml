@@ -1,0 +1,35 @@
+﻿@model RegistrationViewModel
+@{ Layout = null;}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration</title>
+    <link href="~/css/auth.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+
+            <div class="fadeIn first">Registration</div>
+            <form asp-action="Registration" asp-controller="Account" method="post">
+                <input class="fadeIn second" asp-for="Username" type="text" placeholder="User name">
+                <input class="fadeIn third" asp-for="Password" type="password" placeholder="Password">
+                <input class="fadeIn third" asp-for="RepeatPassword" type="password" placeholder="Repeat password" />
+                <input class="fadeIn third" asp-for="Email" type="email" placeholder="Email" />
+
+                <input type="submit" class="fadeIn fourth" value="Sign up">
+                <div class="fadeIn first" asp-validation-summary="All"></div>
+                <div id="formFooter">
+                    <a asp-controller="Account" asp-action="Login"><p>Log In</p></a>
+                    <a asp-controller="Home" asp-action="Index"><p>Home</p></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
