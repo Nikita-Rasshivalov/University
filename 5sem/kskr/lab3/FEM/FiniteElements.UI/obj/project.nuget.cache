@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "TuVcrmNIpu71cisq6QGnSrK4lUSJOpSDRoerxWYqMrjCZKntWYxznHPg9IR+SLLooMYM6F7MQZC7xKhGYCB52g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikit\\Desktop\\kskr\\lab3\\FEM\\FiniteElements.UI\\FiniteElements.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

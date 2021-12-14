@@ -1,0 +1,716 @@
+node 94 (internal 93) : dim 2, pos -0.0404341 0.00719665 0
+attached elements:
+TRI_3 137 (internal 136) : part SURFACE_BODY_1_1, nodes (internal 7 82 93)
+TRI_3 129 (internal 128) : part SURFACE_BODY_1_1, nodes (internal 37 79 93)
+TRI_3 128 (internal 127) : part SURFACE_BODY_1_1, nodes (internal 36 93 82)
+TRI_3 127 (internal 126) : part SURFACE_BODY_1_1, nodes (internal 36 37 93)
+TRI_3 105 (internal 104) : part SURFACE_BODY_1_1, nodes (internal 7 93 79)
+node 95 (internal 94) : dim 2, pos -0.0428992 -0.00940483 0
+attached elements:
+TRI_3 134 (internal 133) : part SURFACE_BODY_1_1, nodes (internal 38 94 79)
+TRI_3 133 (internal 132) : part SURFACE_BODY_1_1, nodes (internal 39 84 94)
+TRI_3 132 (internal 131) : part SURFACE_BODY_1_1, nodes (internal 38 39 94)
+TRI_3 39 (internal 38) : part SURFACE_BODY_1_1, nodes (internal 58 94 84)
+TRI_3 38 (internal 37) : part SURFACE_BODY_1_1, nodes (internal 58 79 94)
+node 32 (internal 31) : dim 1, pos -0.0277778 0.05 0
+attached elements:
+LINE_2 171 (internal 30) : part SURFACE_BODY_1_1, nodes (internal 31 32)
+LINE_2 170 (internal 29) : part SURFACE_BODY_1_1, nodes (internal 30 31)
+TRI_3 114 (internal 113) : part SURFACE_BODY_1_1, nodes (internal 31 88 87)
+TRI_3 112 (internal 111) : part SURFACE_BODY_1_1, nodes (internal 31 32 88)
+TRI_3 110 (internal 109) : part SURFACE_BODY_1_1, nodes (internal 30 31 87)
+node 33 (internal 32) : dim 1, pos -0.0388889 0.05 0
+attached elements:
+LINE_2 171 (internal 30) : part SURFACE_BODY_1_1, nodes (internal 31 32)
+LINE_2 164 (internal 23) : part SURFACE_BODY_1_1, nodes (internal 32 24)
+TRI_3 113 (internal 112) : part SURFACE_BODY_1_1, nodes (internal 32 63 88)
+TRI_3 112 (internal 111) : part SURFACE_BODY_1_1, nodes (internal 31 32 88)
+TRI_3 54 (internal 53) : part SURFACE_BODY_1_1, nodes (internal 32 34 63)
+TRI_3 17 (internal 16) : part SURFACE_BODY_1_1, nodes (internal 24 34 32)
+node 34 (internal 33) : dim 0, pos -0.05 -0.05 0
+attached elements:
+NODE 192 (internal 1) : part SURFACE_BODY_1_1, nodes (internal 33)
+LINE_2 182 (internal 41) : part SURFACE_BODY_1_1, nodes (internal 33 42)
+LINE_2 174 (internal 33) : part SURFACE_BODY_1_1, nodes (internal 41 33)
+TRI_3 33 (internal 32) : part SURFACE_BODY_1_1, nodes (internal 33 42 41)
+node 35 (internal 34) : dim 1, pos -0.05 0.0388889 0
+attached elements:
+LINE_2 177 (internal 36) : part SURFACE_BODY_1_1, nodes (internal 34 35)
+LINE_2 173 (internal 32) : part SURFACE_BODY_1_1, nodes (internal 24 34)
+TRI_3 55 (internal 54) : part SURFACE_BODY_1_1, nodes (internal 34 35 63)
+TRI_3 54 (internal 53) : part SURFACE_BODY_1_1, nodes (internal 32 34 63)
+TRI_3 17 (internal 16) : part SURFACE_BODY_1_1, nodes (internal 24 34 32)
+node 36 (internal 35) : dim 1, pos -0.05 0.0277778 0
+attached elements:
+LINE_2 177 (internal 36) : part SURFACE_BODY_1_1, nodes (internal 34 35)
+LINE_2 176 (internal 35) : part SURFACE_BODY_1_1, nodes (internal 35 36)
+TRI_3 56 (internal 55) : part SURFACE_BODY_1_1, nodes (internal 35 52 63)
+TRI_3 55 (internal 54) : part SURFACE_BODY_1_1, nodes (internal 34 35 63)
+TRI_3 42 (internal 41) : part SURFACE_BODY_1_1, nodes (internal 35 36 52)
+node 37 (internal 36) : dim 1, pos -0.05 0.0166667 0
+attached elements:
+LINE_2 180 (internal 39) : part SURFACE_BODY_1_1, nodes (internal 36 37)
+LINE_2 176 (internal 35) : part SURFACE_BODY_1_1, nodes (internal 35 36)
+TRI_3 128 (internal 127) : part SURFACE_BODY_1_1, nodes (internal 36 93 82)
+TRI_3 127 (internal 126) : part SURFACE_BODY_1_1, nodes (internal 36 37 93)
+TRI_3 95 (internal 94) : part SURFACE_BODY_1_1, nodes (internal 36 82 52)
+TRI_3 42 (internal 41) : part SURFACE_BODY_1_1, nodes (internal 35 36 52)
+node 38 (internal 37) : dim 1, pos -0.05 0.00555556 0
+attached elements:
+LINE_2 180 (internal 39) : part SURFACE_BODY_1_1, nodes (internal 36 37)
+LINE_2 179 (internal 38) : part SURFACE_BODY_1_1, nodes (internal 37 38)
+TRI_3 129 (internal 128) : part SURFACE_BODY_1_1, nodes (internal 37 79 93)
+TRI_3 127 (internal 126) : part SURFACE_BODY_1_1, nodes (internal 36 37 93)
+TRI_3 92 (internal 91) : part SURFACE_BODY_1_1, nodes (internal 37 38 79)
+node 39 (internal 38) : dim 1, pos -0.05 -0.00555556 0
+attached elements:
+LINE_2 181 (internal 40) : part SURFACE_BODY_1_1, nodes (internal 38 39)
+LINE_2 179 (internal 38) : part SURFACE_BODY_1_1, nodes (internal 37 38)
+TRI_3 134 (internal 133) : part SURFACE_BODY_1_1, nodes (internal 38 94 79)
+TRI_3 132 (internal 131) : part SURFACE_BODY_1_1, nodes (internal 38 39 94)
+TRI_3 92 (internal 91) : part SURFACE_BODY_1_1, nodes (internal 37 38 79)
+node 40 (internal 39) : dim 1, pos -0.05 -0.0166667 0
+attached elements:
+LINE_2 181 (internal 40) : part SURFACE_BODY_1_1, nodes (internal 38 39)
+LINE_2 175 (internal 34) : part SURFACE_BODY_1_1, nodes (internal 39 40)
+TRI_3 133 (internal 132) : part SURFACE_BODY_1_1, nodes (internal 39 84 94)
+TRI_3 132 (internal 131) : part SURFACE_BODY_1_1, nodes (internal 38 39 94)
+TRI_3 104 (internal 103) : part SURFACE_BODY_1_1, nodes (internal 39 50 84)
+TRI_3 40 (internal 39) : part SURFACE_BODY_1_1, nodes (internal 39 40 50)
+node 41 (internal 40) : dim 1, pos -0.05 -0.0277778 0
+attached elements:
+LINE_2 178 (internal 37) : part SURFACE_BODY_1_1, nodes (internal 40 41)
+LINE_2 175 (internal 34) : part SURFACE_BODY_1_1, nodes (internal 39 40)
+TRI_3 64 (internal 63) : part SURFACE_BODY_1_1, nodes (internal 40 41 65)
+TRI_3 63 (internal 62) : part SURFACE_BODY_1_1, nodes (internal 40 65 50)
+TRI_3 40 (internal 39) : part SURFACE_BODY_1_1, nodes (internal 39 40 50)
+node 42 (internal 41) : dim 1, pos -0.05 -0.0388889 0
+attached elements:
+LINE_2 178 (internal 37) : part SURFACE_BODY_1_1, nodes (internal 40 41)
+LINE_2 174 (internal 33) : part SURFACE_BODY_1_1, nodes (internal 41 33)
+TRI_3 64 (internal 63) : part SURFACE_BODY_1_1, nodes (internal 40 41 65)
+TRI_3 61 (internal 60) : part SURFACE_BODY_1_1, nodes (internal 41 42 65)
+TRI_3 33 (internal 32) : part SURFACE_BODY_1_1, nodes (internal 33 42 41)
+node 43 (internal 42) : dim 1, pos -0.0388889 -0.05 0
+attached elements:
+LINE_2 188 (internal 47) : part SURFACE_BODY_1_1, nodes (internal 42 43)
+LINE_2 182 (internal 41) : part SURFACE_BODY_1_1, nodes (internal 33 42)
+TRI_3 93 (internal 92) : part SURFACE_BODY_1_1, nodes (internal 43 80 42)
+TRI_3 62 (internal 61) : part SURFACE_BODY_1_1, nodes (internal 42 80 65)
+TRI_3 61 (internal 60) : part SURFACE_BODY_1_1, nodes (internal 41 42 65)
+TRI_3 33 (internal 32) : part SURFACE_BODY_1_1, nodes (internal 33 42 41)
+node 44 (internal 43) : dim 1, pos -0.0277778 -0.05 0
+attached elements:
+LINE_2 190 (internal 49) : part SURFACE_BODY_1_1, nodes (internal 43 44)
+LINE_2 188 (internal 47) : part SURFACE_BODY_1_1, nodes (internal 42 43)
+TRI_3 122 (internal 121) : part SURFACE_BODY_1_1, nodes (internal 43 91 80)
+TRI_3 121 (internal 120) : part SURFACE_BODY_1_1, nodes (internal 43 44 91)
+TRI_3 93 (internal 92) : part SURFACE_BODY_1_1, nodes (internal 43 80 42)
+node 45 (internal 44) : dim 1, pos -0.0166667 -0.05 0
+attached elements:
+LINE_2 190 (internal 49) : part SURFACE_BODY_1_1, nodes (internal 43 44)
+LINE_2 185 (internal 44) : part SURFACE_BODY_1_1, nodes (internal 44 45)
+TRI_3 123 (internal 122) : part SURFACE_BODY_1_1, nodes (internal 44 70 91)
+TRI_3 121 (internal 120) : part SURFACE_BODY_1_1, nodes (internal 43 44 91)
+TRI_3 72 (internal 71) : part SURFACE_BODY_1_1, nodes (internal 44 45 70)
+node 46 (internal 45) : dim 1, pos -0.00555556 -0.05 0
+attached elements:
+LINE_2 185 (internal 44) : part SURFACE_BODY_1_1, nodes (internal 44 45)
+LINE_2 184 (internal 43) : part SURFACE_BODY_1_1, nodes (internal 45 46)
+TRI_3 72 (internal 71) : part SURFACE_BODY_1_1, nodes (internal 44 45 70)
+TRI_3 71 (internal 70) : part SURFACE_BODY_1_1, nodes (internal 45 62 70)
+TRI_3 53 (internal 52) : part SURFACE_BODY_1_1, nodes (internal 45 46 62)
+node 47 (internal 46) : dim 1, pos 0.00555556 -0.05 0
+attached elements:
+LINE_2 187 (internal 46) : part SURFACE_BODY_1_1, nodes (internal 46 47)
+LINE_2 184 (internal 43) : part SURFACE_BODY_1_1, nodes (internal 45 46)
+TRI_3 83 (internal 82) : part SURFACE_BODY_1_1, nodes (internal 46 47 74)
+TRI_3 82 (internal 81) : part SURFACE_BODY_1_1, nodes (internal 46 74 62)
+TRI_3 53 (internal 52) : part SURFACE_BODY_1_1, nodes (internal 45 46 62)
+node 48 (internal 47) : dim 1, pos 0.0166667 -0.05 0
+attached elements:
+LINE_2 187 (internal 46) : part SURFACE_BODY_1_1, nodes (internal 46 47)
+LINE_2 186 (internal 45) : part SURFACE_BODY_1_1, nodes (internal 47 48)
+TRI_3 83 (internal 82) : part SURFACE_BODY_1_1, nodes (internal 46 47 74)
+TRI_3 81 (internal 80) : part SURFACE_BODY_1_1, nodes (internal 47 73 74)
+TRI_3 79 (internal 78) : part SURFACE_BODY_1_1, nodes (internal 47 48 73)
+node 49 (internal 48) : dim 1, pos 0.0277778 -0.05 0
+attached elements:
+LINE_2 186 (internal 45) : part SURFACE_BODY_1_1, nodes (internal 47 48)
+LINE_2 183 (internal 42) : part SURFACE_BODY_1_1, nodes (internal 48 49)
+TRI_3 80 (internal 79) : part SURFACE_BODY_1_1, nodes (internal 48 56 73)
+TRI_3 79 (internal 78) : part SURFACE_BODY_1_1, nodes (internal 47 48 73)
+TRI_3 44 (internal 43) : part SURFACE_BODY_1_1, nodes (internal 48 49 56)
+node 50 (internal 49) : dim 1, pos 0.0388889 -0.05 0
+attached elements:
+LINE_2 189 (internal 48) : part SURFACE_BODY_1_1, nodes (internal 49 14)
+LINE_2 183 (internal 42) : part SURFACE_BODY_1_1, nodes (internal 48 49)
+TRI_3 98 (internal 97) : part SURFACE_BODY_1_1, nodes (internal 14 16 49)
+TRI_3 97 (internal 96) : part SURFACE_BODY_1_1, nodes (internal 49 16 83)
+TRI_3 96 (internal 95) : part SURFACE_BODY_1_1, nodes (internal 49 83 56)
+TRI_3 44 (internal 43) : part SURFACE_BODY_1_1, nodes (internal 48 49 56)
+node 51 (internal 50) : dim 2, pos -0.0380113 -0.0251906 0
+attached elements:
+TRI_3 104 (internal 103) : part SURFACE_BODY_1_1, nodes (internal 39 50 84)
+TRI_3 63 (internal 62) : part SURFACE_BODY_1_1, nodes (internal 40 65 50)
+TRI_3 40 (internal 39) : part SURFACE_BODY_1_1, nodes (internal 39 40 50)
+TRI_3 28 (internal 27) : part SURFACE_BODY_1_1, nodes (internal 50 66 84)
+TRI_3 20 (internal 19) : part SURFACE_BODY_1_1, nodes (internal 50 77 66)
+TRI_3 4 (internal 3) : part SURFACE_BODY_1_1, nodes (internal 50 65 77)
+node 52 (internal 51) : dim 2, pos 0.0393038 0.0251604 0
+attached elements:
+TRI_3 103 (internal 102) : part SURFACE_BODY_1_1, nodes (internal 21 51 85)
+TRI_3 58 (internal 57) : part SURFACE_BODY_1_1, nodes (internal 22 64 51)
+TRI_3 41 (internal 40) : part SURFACE_BODY_1_1, nodes (internal 21 22 51)
+TRI_3 22 (internal 21) : part SURFACE_BODY_1_1, nodes (internal 51 78 67)
+TRI_3 12 (internal 11) : part SURFACE_BODY_1_1, nodes (internal 51 67 85)
+TRI_3 6 (internal 5) : part SURFACE_BODY_1_1, nodes (internal 51 64 78)
+node 53 (internal 52) : dim 2, pos -0.0386531 0.0249329 0
+attached elements:
+TRI_3 95 (internal 94) : part SURFACE_BODY_1_1, nodes (internal 36 82 52)
+TRI_3 56 (internal 55) : part SURFACE_BODY_1_1, nodes (internal 35 52 63)
+TRI_3 42 (internal 41) : part SURFACE_BODY_1_1, nodes (internal 35 36 52)
+TRI_3 15 (internal 14) : part SURFACE_BODY_1_1, nodes (internal 52 82 68)
+TRI_3 11 (internal 10) : part SURFACE_BODY_1_1, nodes (internal 52 76 63)
+TRI_3 8 (internal 7) : part SURFACE_BODY_1_1, nodes (internal 52 68 76)
+node 54 (internal 53) : dim 2, pos 0.0276468 -0.0217978 0
+attached elements:
+TRI_3 49 (internal 48) : part SURFACE_BODY_1_1, nodes (internal 13 53 60)
+TRI_3 46 (internal 45) : part SURFACE_BODY_1_1, nodes (internal 12 57 53)
+TRI_3 43 (internal 42) : part SURFACE_BODY_1_1, nodes (internal 12 53 13)
+TRI_3 13 (internal 12) : part SURFACE_BODY_1_1, nodes (internal 53 57 56)
+TRI_3 3 (internal 2) : part SURFACE_BODY_1_1, nodes (internal 53 56 69)
+TRI_3 2 (internal 1) : part SURFACE_BODY_1_1, nodes (internal 53 69 60)
+node 55 (internal 54) : dim 2, pos 0.0235108 0.0328758 0
+attached elements:
+TRI_3 35 (internal 34) : part SURFACE_BODY_1_1, nodes (internal 54 72 89)
+TRI_3 34 (internal 33) : part SURFACE_BODY_1_1, nodes (internal 54 89 67)
+TRI_3 23 (internal 22) : part SURFACE_BODY_1_1, nodes (internal 54 67 78)
+TRI_3 19 (internal 18) : part SURFACE_BODY_1_1, nodes (internal 54 78 81)
+TRI_3 16 (internal 15) : part SURFACE_BODY_1_1, nodes (internal 54 81 90)
+TRI_3 9 (internal 8) : part SURFACE_BODY_1_1, nodes (internal 54 90 72)
+node 56 (internal 55) : dim 2, pos -0.0230688 -0.0331223 0
+attached elements:
+TRI_3 37 (internal 36) : part SURFACE_BODY_1_1, nodes (internal 55 70 92)
+TRI_3 36 (internal 35) : part SURFACE_BODY_1_1, nodes (internal 55 92 66)
+TRI_3 21 (internal 20) : part SURFACE_BODY_1_1, nodes (internal 55 66 77)
+TRI_3 14 (internal 13) : part SURFACE_BODY_1_1, nodes (internal 55 80 91)
+TRI_3 7 (internal 6) : part SURFACE_BODY_1_1, nodes (internal 55 91 70)
+TRI_3 1 (internal 0) : part SURFACE_BODY_1_1, nodes (internal 55 77 80)
+node 57 (internal 56) : dim 2, pos 0.0313519 -0.0364412 0
+attached elements:
+TRI_3 96 (internal 95) : part SURFACE_BODY_1_1, nodes (internal 49 83 56)
+TRI_3 80 (internal 79) : part SURFACE_BODY_1_1, nodes (internal 48 56 73)
+TRI_3 44 (internal 43) : part SURFACE_BODY_1_1, nodes (internal 48 49 56)
+TRI_3 18 (internal 17) : part SURFACE_BODY_1_1, nodes (internal 56 57 73)
+TRI_3 13 (internal 12) : part SURFACE_BODY_1_1, nodes (internal 53 57 56)
+TRI_3 10 (internal 9) : part SURFACE_BODY_1_1, nodes (internal 56 83 69)
+TRI_3 3 (internal 2) : part SURFACE_BODY_1_1, nodes (internal 53 56 69)
+node 58 (internal 57) : dim 2, pos 0.019927 -0.0300079 0
+attached elements:
+TRI_3 84 (internal 83) : part SURFACE_BODY_1_1, nodes (internal 11 74 57)
+TRI_3 46 (internal 45) : part SURFACE_BODY_1_1, nodes (internal 12 57 53)
+TRI_3 45 (internal 44) : part SURFACE_BODY_1_1, nodes (internal 11 57 12)
+TRI_3 18 (internal 17) : part SURFACE_BODY_1_1, nodes (internal 56 57 73)
+TRI_3 13 (internal 12) : part SURFACE_BODY_1_1, nodes (internal 53 57 56)
+TRI_3 5 (internal 4) : part SURFACE_BODY_1_1, nodes (internal 57 74 73)
+node 59 (internal 58) : dim 2, pos -0.0326175 -0.00785034 0
+attached elements:
+TRI_3 106 (internal 105) : part SURFACE_BODY_1_1, nodes (internal 7 79 58)
+TRI_3 101 (internal 100) : part SURFACE_BODY_1_1, nodes (internal 8 58 84)
+TRI_3 47 (internal 46) : part SURFACE_BODY_1_1, nodes (internal 7 58 8)
+TRI_3 39 (internal 38) : part SURFACE_BODY_1_1, nodes (internal 58 94 84)
+TRI_3 38 (internal 37) : part SURFACE_BODY_1_1, nodes (internal 58 79 94)
+node 60 (internal 59) : dim 2, pos 0.0378141 0.00752309 0
+attached elements:
+TRI_3 140 (internal 139) : part SURFACE_BODY_1_1, nodes (internal 1 59 85)
+TRI_3 139 (internal 138) : part SURFACE_BODY_1_1, nodes (internal 0 59 1)
+TRI_3 131 (internal 130) : part SURFACE_BODY_1_1, nodes (internal 21 85 59)
+TRI_3 130 (internal 129) : part SURFACE_BODY_1_1, nodes (internal 20 21 59)
+TRI_3 91 (internal 90) : part SURFACE_BODY_1_1, nodes (internal 20 59 75)
+TRI_3 86 (internal 85) : part SURFACE_BODY_1_1, nodes (internal 0 75 59)
+node 61 (internal 60) : dim 2, pos 0.0376478 -0.0134985 0
+attached elements:
+TRI_3 89 (internal 88) : part SURFACE_BODY_1_1, nodes (internal 13 60 75)
+TRI_3 87 (internal 86) : part SURFACE_BODY_1_1, nodes (internal 19 75 60)
+TRI_3 69 (internal 68) : part SURFACE_BODY_1_1, nodes (internal 18 60 69)
+TRI_3 49 (internal 48) : part SURFACE_BODY_1_1, nodes (internal 13 53 60)
+TRI_3 48 (internal 47) : part SURFACE_BODY_1_1, nodes (internal 18 19 60)
+TRI_3 2 (internal 1) : part SURFACE_BODY_1_1, nodes (internal 53 69 60)
+node 62 (internal 61) : dim 2, pos -0.000136688 0.0372178 0
+attached elements:
+TRI_3 78 (internal 77) : part SURFACE_BODY_1_1, nodes (internal 28 61 72)
+TRI_3 76 (internal 75) : part SURFACE_BODY_1_1, nodes (internal 3 72 61)
+TRI_3 74 (internal 73) : part SURFACE_BODY_1_1, nodes (internal 29 71 61)
+TRI_3 73 (internal 72) : part SURFACE_BODY_1_1, nodes (internal 4 61 71)
+TRI_3 51 (internal 50) : part SURFACE_BODY_1_1, nodes (internal 28 29 61)
+TRI_3 50 (internal 49) : part SURFACE_BODY_1_1, nodes (internal 3 61 4)
+node 63 (internal 62) : dim 2, pos 0.000465666 -0.0372843 0
+attached elements:
+TRI_3 85 (internal 84) : part SURFACE_BODY_1_1, nodes (internal 11 62 74)
+TRI_3 82 (internal 81) : part SURFACE_BODY_1_1, nodes (internal 46 74 62)
+TRI_3 71 (internal 70) : part SURFACE_BODY_1_1, nodes (internal 45 62 70)
+TRI_3 70 (internal 69) : part SURFACE_BODY_1_1, nodes (internal 10 70 62)
+TRI_3 53 (internal 52) : part SURFACE_BODY_1_1, nodes (internal 45 46 62)
+TRI_3 52 (internal 51) : part SURFACE_BODY_1_1, nodes (internal 10 62 11)
+node 64 (internal 63) : dim 2, pos -0.0399636 0.0361984 0
+attached elements:
+TRI_3 113 (internal 112) : part SURFACE_BODY_1_1, nodes (internal 32 63 88)
+TRI_3 56 (internal 55) : part SURFACE_BODY_1_1, nodes (internal 35 52 63)
+TRI_3 55 (internal 54) : part SURFACE_BODY_1_1, nodes (internal 34 35 63)
+TRI_3 54 (internal 53) : part SURFACE_BODY_1_1, nodes (internal 32 34 63)
+TRI_3 32 (internal 31) : part SURFACE_BODY_1_1, nodes (internal 63 76 88)
+TRI_3 11 (internal 10) : part SURFACE_BODY_1_1, nodes (internal 52 76 63)
+node 65 (internal 64) : dim 2, pos 0.0394407 0.035938 0
+attached elements:
+TRI_3 60 (internal 59) : part SURFACE_BODY_1_1, nodes (internal 25 81 64)
+TRI_3 59 (internal 58) : part SURFACE_BODY_1_1, nodes (internal 22 23 64)
+TRI_3 58 (internal 57) : part SURFACE_BODY_1_1, nodes (internal 22 64 51)
+TRI_3 57 (internal 56) : part SURFACE_BODY_1_1, nodes (internal 23 25 64)
+TRI_3 26 (internal 25) : part SURFACE_BODY_1_1, nodes (internal 64 81 78)
+TRI_3 6 (internal 5) : part SURFACE_BODY_1_1, nodes (internal 51 64 78)
+node 66 (internal 65) : dim 2, pos -0.0391783 -0.0358845 0
+attached elements:
+TRI_3 64 (internal 63) : part SURFACE_BODY_1_1, nodes (internal 40 41 65)
+TRI_3 63 (internal 62) : part SURFACE_BODY_1_1, nodes (internal 40 65 50)
+TRI_3 62 (internal 61) : part SURFACE_BODY_1_1, nodes (internal 42 80 65)
+TRI_3 61 (internal 60) : part SURFACE_BODY_1_1, nodes (internal 41 42 65)
+TRI_3 25 (internal 24) : part SURFACE_BODY_1_1, nodes (internal 65 80 77)
+TRI_3 4 (internal 3) : part SURFACE_BODY_1_1, nodes (internal 50 65 77)
+node 67 (internal 66) : dim 2, pos -0.025658 -0.0232418 0
+attached elements:
+TRI_3 124 (internal 123) : part SURFACE_BODY_1_1, nodes (internal 9 66 92)
+TRI_3 102 (internal 101) : part SURFACE_BODY_1_1, nodes (internal 8 84 66)
+TRI_3 65 (internal 64) : part SURFACE_BODY_1_1, nodes (internal 8 66 9)
+TRI_3 36 (internal 35) : part SURFACE_BODY_1_1, nodes (internal 55 92 66)
+TRI_3 28 (internal 27) : part SURFACE_BODY_1_1, nodes (internal 50 66 84)
+TRI_3 21 (internal 20) : part SURFACE_BODY_1_1, nodes (internal 55 66 77)
+TRI_3 20 (internal 19) : part SURFACE_BODY_1_1, nodes (internal 50 77 66)
+node 68 (internal 67) : dim 2, pos 0.0269579 0.0223691 0
+attached elements:
+TRI_3 138 (internal 137) : part SURFACE_BODY_1_1, nodes (internal 1 85 67)
+TRI_3 115 (internal 114) : part SURFACE_BODY_1_1, nodes (internal 2 67 89)
+TRI_3 66 (internal 65) : part SURFACE_BODY_1_1, nodes (internal 1 67 2)
+TRI_3 34 (internal 33) : part SURFACE_BODY_1_1, nodes (internal 54 89 67)
+TRI_3 23 (internal 22) : part SURFACE_BODY_1_1, nodes (internal 54 67 78)
+TRI_3 22 (internal 21) : part SURFACE_BODY_1_1, nodes (internal 51 78 67)
+TRI_3 12 (internal 11) : part SURFACE_BODY_1_1, nodes (internal 51 67 85)
+node 69 (internal 68) : dim 2, pos -0.0274497 0.0218639 0
+attached elements:
+TRI_3 135 (internal 134) : part SURFACE_BODY_1_1, nodes (internal 6 68 82)
+TRI_3 107 (internal 106) : part SURFACE_BODY_1_1, nodes (internal 5 86 68)
+TRI_3 67 (internal 66) : part SURFACE_BODY_1_1, nodes (internal 5 68 6)
+TRI_3 24 (internal 23) : part SURFACE_BODY_1_1, nodes (internal 68 86 76)
+TRI_3 15 (internal 14) : part SURFACE_BODY_1_1, nodes (internal 52 82 68)
+TRI_3 8 (internal 7) : part SURFACE_BODY_1_1, nodes (internal 52 68 76)
+node 70 (internal 69) : dim 2, pos 0.0400327 -0.0255056 0
+attached elements:
+TRI_3 100 (internal 99) : part SURFACE_BODY_1_1, nodes (internal 17 69 83)
+TRI_3 69 (internal 68) : part SURFACE_BODY_1_1, nodes (internal 18 60 69)
+TRI_3 68 (internal 67) : part SURFACE_BODY_1_1, nodes (internal 17 18 69)
+TRI_3 10 (internal 9) : part SURFACE_BODY_1_1, nodes (internal 56 83 69)
+TRI_3 3 (internal 2) : part SURFACE_BODY_1_1, nodes (internal 53 56 69)
+TRI_3 2 (internal 1) : part SURFACE_BODY_1_1, nodes (internal 53 69 60)
+node 71 (internal 70) : dim 2, pos -0.0120764 -0.0372932 0
+attached elements:
+TRI_3 126 (internal 125) : part SURFACE_BODY_1_1, nodes (internal 10 92 70)
+TRI_3 123 (internal 122) : part SURFACE_BODY_1_1, nodes (internal 44 70 91)
+TRI_3 72 (internal 71) : part SURFACE_BODY_1_1, nodes (internal 44 45 70)
+TRI_3 71 (internal 70) : part SURFACE_BODY_1_1, nodes (internal 45 62 70)
+TRI_3 70 (internal 69) : part SURFACE_BODY_1_1, nodes (internal 10 70 62)
+TRI_3 37 (internal 36) : part SURFACE_BODY_1_1, nodes (internal 55 70 92)
+TRI_3 7 (internal 6) : part SURFACE_BODY_1_1, nodes (internal 55 91 70)
+node 72 (internal 71) : dim 2, pos -0.0120054 0.0384577 0
+attached elements:
+TRI_3 111 (internal 110) : part SURFACE_BODY_1_1, nodes (internal 30 87 71)
+TRI_3 109 (internal 108) : part SURFACE_BODY_1_1, nodes (internal 4 71 86)
+TRI_3 75 (internal 74) : part SURFACE_BODY_1_1, nodes (internal 29 30 71)
+TRI_3 74 (internal 73) : part SURFACE_BODY_1_1, nodes (internal 29 71 61)
+TRI_3 73 (internal 72) : part SURFACE_BODY_1_1, nodes (internal 4 61 71)
+TRI_3 30 (internal 29) : part SURFACE_BODY_1_1, nodes (internal 86 71 87)
+node 73 (internal 72) : dim 2, pos 0.0123615 0.0371799 0
+attached elements:
+TRI_3 120 (internal 119) : part SURFACE_BODY_1_1, nodes (internal 27 72 90)
+TRI_3 117 (internal 116) : part SURFACE_BODY_1_1, nodes (internal 3 89 72)
+TRI_3 78 (internal 77) : part SURFACE_BODY_1_1, nodes (internal 28 61 72)
+TRI_3 77 (internal 76) : part SURFACE_BODY_1_1, nodes (internal 27 28 72)
+TRI_3 76 (internal 75) : part SURFACE_BODY_1_1, nodes (internal 3 72 61)
+TRI_3 35 (internal 34) : part SURFACE_BODY_1_1, nodes (internal 54 72 89)
+TRI_3 9 (internal 8) : part SURFACE_BODY_1_1, nodes (internal 54 90 72)
+node 74 (internal 73) : dim 2, pos 0.0223417 -0.0407273 0
+attached elements:
+TRI_3 81 (internal 80) : part SURFACE_BODY_1_1, nodes (internal 47 73 74)
+TRI_3 80 (internal 79) : part SURFACE_BODY_1_1, nodes (internal 48 56 73)
+TRI_3 79 (internal 78) : part SURFACE_BODY_1_1, nodes (internal 47 48 73)
+TRI_3 18 (internal 17) : part SURFACE_BODY_1_1, nodes (internal 56 57 73)
+TRI_3 5 (internal 4) : part SURFACE_BODY_1_1, nodes (internal 57 74 73)
+node 75 (internal 74) : dim 2, pos 0.012159 -0.0386441 0
+attached elements:
+TRI_3 85 (internal 84) : part SURFACE_BODY_1_1, nodes (internal 11 62 74)
+TRI_3 84 (internal 83) : part SURFACE_BODY_1_1, nodes (internal 11 74 57)
+TRI_3 83 (internal 82) : part SURFACE_BODY_1_1, nodes (internal 46 47 74)
+TRI_3 82 (internal 81) : part SURFACE_BODY_1_1, nodes (internal 46 74 62)
+TRI_3 81 (internal 80) : part SURFACE_BODY_1_1, nodes (internal 47 73 74)
+TRI_3 5 (internal 4) : part SURFACE_BODY_1_1, nodes (internal 57 74 73)
+node 76 (internal 75) : dim 2, pos 0.0375705 -0.00265375 0
+attached elements:
+TRI_3 91 (internal 90) : part SURFACE_BODY_1_1, nodes (internal 20 59 75)
+TRI_3 90 (internal 89) : part SURFACE_BODY_1_1, nodes (internal 19 20 75)
+TRI_3 89 (internal 88) : part SURFACE_BODY_1_1, nodes (internal 13 60 75)
+TRI_3 88 (internal 87) : part SURFACE_BODY_1_1, nodes (internal 0 13 75)
+TRI_3 87 (internal 86) : part SURFACE_BODY_1_1, nodes (internal 19 75 60)
+TRI_3 86 (internal 85) : part SURFACE_BODY_1_1, nodes (internal 0 75 59)
+node 77 (internal 76) : dim 2, pos -0.0304692 0.0314929 0
+attached elements:
+TRI_3 32 (internal 31) : part SURFACE_BODY_1_1, nodes (internal 63 76 88)
+TRI_3 31 (internal 30) : part SURFACE_BODY_1_1, nodes (internal 76 87 88)
+TRI_3 27 (internal 26) : part SURFACE_BODY_1_1, nodes (internal 86 87 76)
+TRI_3 24 (internal 23) : part SURFACE_BODY_1_1, nodes (internal 68 86 76)
+TRI_3 11 (internal 10) : part SURFACE_BODY_1_1, nodes (internal 52 76 63)
+TRI_3 8 (internal 7) : part SURFACE_BODY_1_1, nodes (internal 52 68 76)
+node 78 (internal 77) : dim 2, pos -0.0313971 -0.0307542 0
+attached elements:
+TRI_3 25 (internal 24) : part SURFACE_BODY_1_1, nodes (internal 65 80 77)
+TRI_3 21 (internal 20) : part SURFACE_BODY_1_1, nodes (internal 55 66 77)
+TRI_3 20 (internal 19) : part SURFACE_BODY_1_1, nodes (internal 50 77 66)
+TRI_3 4 (internal 3) : part SURFACE_BODY_1_1, nodes (internal 50 65 77)
+TRI_3 1 (internal 0) : part SURFACE_BODY_1_1, nodes (internal 55 77 80)
+node 79 (internal 78) : dim 2, pos 0.0317816 0.0308068 0
+attached elements:
+TRI_3 26 (internal 25) : part SURFACE_BODY_1_1, nodes (internal 64 81 78)
+TRI_3 23 (internal 22) : part SURFACE_BODY_1_1, nodes (internal 54 67 78)
+TRI_3 22 (internal 21) : part SURFACE_BODY_1_1, nodes (internal 51 78 67)
+TRI_3 19 (internal 18) : part SURFACE_BODY_1_1, nodes (internal 54 78 81)
+TRI_3 6 (internal 5) : part SURFACE_BODY_1_1, nodes (internal 51 64 78)
+node 80 (internal 79) : dim 2, pos -0.0405779 -0.00138017 0
+attached elements:
+TRI_3 134 (internal 133) : part SURFACE_BODY_1_1, nodes (internal 38 94 79)
+TRI_3 129 (internal 128) : part SURFACE_BODY_1_1, nodes (internal 37 79 93)
+TRI_3 106 (internal 105) : part SURFACE_BODY_1_1, nodes (internal 7 79 58)
+TRI_3 105 (internal 104) : part SURFACE_BODY_1_1, nodes (internal 7 93 79)
+TRI_3 92 (internal 91) : part SURFACE_BODY_1_1, nodes (internal 37 38 79)
+TRI_3 38 (internal 37) : part SURFACE_BODY_1_1, nodes (internal 58 79 94)
+node 81 (internal 80) : dim 2, pos -0.0296948 -0.0396119 0
+attached elements:
+TRI_3 122 (internal 121) : part SURFACE_BODY_1_1, nodes (internal 43 91 80)
+TRI_3 93 (internal 92) : part SURFACE_BODY_1_1, nodes (internal 43 80 42)
+TRI_3 62 (internal 61) : part SURFACE_BODY_1_1, nodes (internal 42 80 65)
+TRI_3 25 (internal 24) : part SURFACE_BODY_1_1, nodes (internal 65 80 77)
+TRI_3 14 (internal 13) : part SURFACE_BODY_1_1, nodes (internal 55 80 91)
+TRI_3 1 (internal 0) : part SURFACE_BODY_1_1, nodes (internal 55 77 80)
+node 82 (internal 81) : dim 2, pos 0.0299052 0.0395398 0
+attached elements:
+TRI_3 119 (internal 118) : part SURFACE_BODY_1_1, nodes (internal 26 90 81)
+TRI_3 94 (internal 93) : part SURFACE_BODY_1_1, nodes (internal 26 81 25)
+TRI_3 60 (internal 59) : part SURFACE_BODY_1_1, nodes (internal 25 81 64)
+TRI_3 26 (internal 25) : part SURFACE_BODY_1_1, nodes (internal 64 81 78)
+TRI_3 19 (internal 18) : part SURFACE_BODY_1_1, nodes (internal 54 78 81)
+TRI_3 16 (internal 15) : part SURFACE_BODY_1_1, nodes (internal 54 81 90)
+node 83 (internal 82) : dim 2, pos -0.0345878 0.0138768 0
+attached elements:
+TRI_3 137 (internal 136) : part SURFACE_BODY_1_1, nodes (internal 7 82 93)
+TRI_3 136 (internal 135) : part SURFACE_BODY_1_1, nodes (internal 6 82 7)
+TRI_3 135 (internal 134) : part SURFACE_BODY_1_1, nodes (internal 6 68 82)
+TRI_3 128 (internal 127) : part SURFACE_BODY_1_1, nodes (internal 36 93 82)
+TRI_3 95 (internal 94) : part SURFACE_BODY_1_1, nodes (internal 36 82 52)
+TRI_3 15 (internal 14) : part SURFACE_BODY_1_1, nodes (internal 52 82 68)
+node 84 (internal 83) : dim 2, pos 0.0420475 -0.0357511 0
+attached elements:
+TRI_3 100 (internal 99) : part SURFACE_BODY_1_1, nodes (internal 17 69 83)
+TRI_3 99 (internal 98) : part SURFACE_BODY_1_1, nodes (internal 16 17 83)
+TRI_3 97 (internal 96) : part SURFACE_BODY_1_1, nodes (internal 49 16 83)
+TRI_3 96 (internal 95) : part SURFACE_BODY_1_1, nodes (internal 49 83 56)
+TRI_3 10 (internal 9) : part SURFACE_BODY_1_1, nodes (internal 56 83 69)
+node 85 (internal 84) : dim 2, pos -0.033508 -0.0162413 0
+attached elements:
+TRI_3 133 (internal 132) : part SURFACE_BODY_1_1, nodes (internal 39 84 94)
+TRI_3 104 (internal 103) : part SURFACE_BODY_1_1, nodes (internal 39 50 84)
+TRI_3 102 (internal 101) : part SURFACE_BODY_1_1, nodes (internal 8 84 66)
+TRI_3 101 (internal 100) : part SURFACE_BODY_1_1, nodes (internal 8 58 84)
+TRI_3 39 (internal 38) : part SURFACE_BODY_1_1, nodes (internal 58 94 84)
+TRI_3 28 (internal 27) : part SURFACE_BODY_1_1, nodes (internal 50 66 84)
+node 86 (internal 85) : dim 2, pos 0.0353117 0.0165305 0
+attached elements:
+TRI_3 140 (internal 139) : part SURFACE_BODY_1_1, nodes (internal 1 59 85)
+TRI_3 138 (internal 137) : part SURFACE_BODY_1_1, nodes (internal 1 85 67)
+TRI_3 131 (internal 130) : part SURFACE_BODY_1_1, nodes (internal 21 85 59)
+TRI_3 103 (internal 102) : part SURFACE_BODY_1_1, nodes (internal 21 51 85)
+TRI_3 12 (internal 11) : part SURFACE_BODY_1_1, nodes (internal 51 67 85)
+node 87 (internal 86) : dim 2, pos -0.0193304 0.0287518 0
+attached elements:
+TRI_3 109 (internal 108) : part SURFACE_BODY_1_1, nodes (internal 4 71 86)
+TRI_3 108 (internal 107) : part SURFACE_BODY_1_1, nodes (internal 4 86 5)
+TRI_3 107 (internal 106) : part SURFACE_BODY_1_1, nodes (internal 5 86 68)
+TRI_3 30 (internal 29) : part SURFACE_BODY_1_1, nodes (internal 86 71 87)
+TRI_3 27 (internal 26) : part SURFACE_BODY_1_1, nodes (internal 86 87 76)
+TRI_3 24 (internal 23) : part SURFACE_BODY_1_1, nodes (internal 68 86 76)
+node 88 (internal 87) : dim 2, pos -0.0230723 0.0400712 0
+attached elements:
+TRI_3 114 (internal 113) : part SURFACE_BODY_1_1, nodes (internal 31 88 87)
+TRI_3 111 (internal 110) : part SURFACE_BODY_1_1, nodes (internal 30 87 71)
+TRI_3 110 (internal 109) : part SURFACE_BODY_1_1, nodes (internal 30 31 87)
+TRI_3 31 (internal 30) : part SURFACE_BODY_1_1, nodes (internal 76 87 88)
+TRI_3 30 (internal 29) : part SURFACE_BODY_1_1, nodes (internal 86 71 87)
+TRI_3 27 (internal 26) : part SURFACE_BODY_1_1, nodes (internal 86 87 76)
+node 89 (internal 88) : dim 2, pos -0.0321844 0.0417246 0
+attached elements:
+TRI_3 114 (internal 113) : part SURFACE_BODY_1_1, nodes (internal 31 88 87)
+TRI_3 113 (internal 112) : part SURFACE_BODY_1_1, nodes (internal 32 63 88)
+TRI_3 112 (internal 111) : part SURFACE_BODY_1_1, nodes (internal 31 32 88)
+TRI_3 32 (internal 31) : part SURFACE_BODY_1_1, nodes (internal 63 76 88)
+TRI_3 31 (internal 30) : part SURFACE_BODY_1_1, nodes (internal 76 87 88)
+node 90 (internal 89) : dim 2, pos 0.0170065 0.0274211 0
+attached elements:
+TRI_3 117 (internal 116) : part SURFACE_BODY_1_1, nodes (internal 3 89 72)
+TRI_3 116 (internal 115) : part SURFACE_BODY_1_1, nodes (internal 2 89 3)
+TRI_3 115 (internal 114) : part SURFACE_BODY_1_1, nodes (internal 2 67 89)
+TRI_3 35 (internal 34) : part SURFACE_BODY_1_1, nodes (internal 54 72 89)
+TRI_3 34 (internal 33) : part SURFACE_BODY_1_1, nodes (internal 54 89 67)
+node 91 (internal 90) : dim 2, pos 0.0219984 0.0414975 0
+attached elements:
+TRI_3 120 (internal 119) : part SURFACE_BODY_1_1, nodes (internal 27 72 90)
+TRI_3 119 (internal 118) : part SURFACE_BODY_1_1, nodes (internal 26 90 81)
+TRI_3 118 (internal 117) : part SURFACE_BODY_1_1, nodes (internal 26 27 90)
+TRI_3 16 (internal 15) : part SURFACE_BODY_1_1, nodes (internal 54 81 90)
+TRI_3 9 (internal 8) : part SURFACE_BODY_1_1, nodes (internal 54 90 72)
+node 92 (internal 91) : dim 2, pos -0.0218168 -0.0415968 0
+attached elements:
+TRI_3 123 (internal 122) : part SURFACE_BODY_1_1, nodes (internal 44 70 91)
+TRI_3 122 (internal 121) : part SURFACE_BODY_1_1, nodes (internal 43 91 80)
+TRI_3 121 (internal 120) : part SURFACE_BODY_1_1, nodes (internal 43 44 91)
+TRI_3 14 (internal 13) : part SURFACE_BODY_1_1, nodes (internal 55 80 91)
+TRI_3 7 (internal 6) : part SURFACE_BODY_1_1, nodes (internal 55 91 70)
+node 93 (internal 92) : dim 2, pos -0.0166391 -0.0277338 0
+attached elements:
+TRI_3 126 (internal 125) : part SURFACE_BODY_1_1, nodes (internal 10 92 70)
+TRI_3 125 (internal 124) : part SURFACE_BODY_1_1, nodes (internal 9 92 10)
+TRI_3 124 (internal 123) : part SURFACE_BODY_1_1, nodes (internal 9 66 92)
+TRI_3 37 (internal 36) : part SURFACE_BODY_1_1, nodes (internal 55 70 92)
+TRI_3 36 (internal 35) : part SURFACE_BODY_1_1, nodes (internal 55 92 66)
+node 1 (internal 0) : dim 1, pos 0.025 1.00005e-17 0
+attached elements:
+LINE_2 154 (internal 13) : part SURFACE_BODY_1_1, nodes (internal 1 0)
+LINE_2 149 (internal 8) : part SURFACE_BODY_1_1, nodes (internal 0 13)
+TRI_3 139 (internal 138) : part SURFACE_BODY_1_1, nodes (internal 0 59 1)
+TRI_3 88 (internal 87) : part SURFACE_BODY_1_1, nodes (internal 0 13 75)
+TRI_3 86 (internal 85) : part SURFACE_BODY_1_1, nodes (internal 0 75 59)
+node 2 (internal 1) : dim 1, pos 0.0224824 0.0109334 0
+attached elements:
+LINE_2 154 (internal 13) : part SURFACE_BODY_1_1, nodes (internal 1 0)
+LINE_2 147 (internal 6) : part SURFACE_BODY_1_1, nodes (internal 2 1)
+TRI_3 140 (internal 139) : part SURFACE_BODY_1_1, nodes (internal 1 59 85)
+TRI_3 139 (internal 138) : part SURFACE_BODY_1_1, nodes (internal 0 59 1)
+TRI_3 138 (internal 137) : part SURFACE_BODY_1_1, nodes (internal 1 85 67)
+TRI_3 66 (internal 65) : part SURFACE_BODY_1_1, nodes (internal 1 67 2)
+node 3 (internal 2) : dim 1, pos 0.0154368 0.0196648 0
+attached elements:
+LINE_2 151 (internal 10) : part SURFACE_BODY_1_1, nodes (internal 3 2)
+LINE_2 147 (internal 6) : part SURFACE_BODY_1_1, nodes (internal 2 1)
+TRI_3 116 (internal 115) : part SURFACE_BODY_1_1, nodes (internal 2 89 3)
+TRI_3 115 (internal 114) : part SURFACE_BODY_1_1, nodes (internal 2 67 89)
+TRI_3 66 (internal 65) : part SURFACE_BODY_1_1, nodes (internal 1 67 2)
+node 4 (internal 3) : dim 1, pos 0.00528218 0.0244356 0
+attached elements:
+LINE_2 151 (internal 10) : part SURFACE_BODY_1_1, nodes (internal 3 2)
+LINE_2 144 (internal 3) : part SURFACE_BODY_1_1, nodes (internal 4 3)
+TRI_3 117 (internal 116) : part SURFACE_BODY_1_1, nodes (internal 3 89 72)
+TRI_3 116 (internal 115) : part SURFACE_BODY_1_1, nodes (internal 2 89 3)
+TRI_3 76 (internal 75) : part SURFACE_BODY_1_1, nodes (internal 3 72 61)
+TRI_3 50 (internal 49) : part SURFACE_BODY_1_1, nodes (internal 3 61 4)
+node 5 (internal 4) : dim 1, pos -0.00593633 0.024285 0
+attached elements:
+LINE_2 150 (internal 9) : part SURFACE_BODY_1_1, nodes (internal 5 4)
+LINE_2 144 (internal 3) : part SURFACE_BODY_1_1, nodes (internal 4 3)
+TRI_3 109 (internal 108) : part SURFACE_BODY_1_1, nodes (internal 4 71 86)
+TRI_3 108 (internal 107) : part SURFACE_BODY_1_1, nodes (internal 4 86 5)
+TRI_3 73 (internal 72) : part SURFACE_BODY_1_1, nodes (internal 4 61 71)
+TRI_3 50 (internal 49) : part SURFACE_BODY_1_1, nodes (internal 3 61 4)
+node 6 (internal 5) : dim 1, pos -0.0159592 0.0192433 0
+attached elements:
+LINE_2 150 (internal 9) : part SURFACE_BODY_1_1, nodes (internal 5 4)
+LINE_2 148 (internal 7) : part SURFACE_BODY_1_1, nodes (internal 6 5)
+TRI_3 108 (internal 107) : part SURFACE_BODY_1_1, nodes (internal 4 86 5)
+TRI_3 107 (internal 106) : part SURFACE_BODY_1_1, nodes (internal 5 86 68)
+TRI_3 67 (internal 66) : part SURFACE_BODY_1_1, nodes (internal 5 68 6)
+node 7 (internal 6) : dim 1, pos -0.0227679 0.0103259 0
+attached elements:
+LINE_2 153 (internal 12) : part SURFACE_BODY_1_1, nodes (internal 7 6)
+LINE_2 148 (internal 7) : part SURFACE_BODY_1_1, nodes (internal 6 5)
+TRI_3 136 (internal 135) : part SURFACE_BODY_1_1, nodes (internal 6 82 7)
+TRI_3 135 (internal 134) : part SURFACE_BODY_1_1, nodes (internal 6 68 82)
+TRI_3 67 (internal 66) : part SURFACE_BODY_1_1, nodes (internal 5 68 6)
+node 8 (internal 7) : dim 1, pos -0.024991 -0.000671205 0
+attached elements:
+LINE_2 153 (internal 12) : part SURFACE_BODY_1_1, nodes (internal 7 6)
+LINE_2 143 (internal 2) : part SURFACE_BODY_1_1, nodes (internal 8 7)
+TRI_3 137 (internal 136) : part SURFACE_BODY_1_1, nodes (internal 7 82 93)
+TRI_3 136 (internal 135) : part SURFACE_BODY_1_1, nodes (internal 6 82 7)
+TRI_3 106 (internal 105) : part SURFACE_BODY_1_1, nodes (internal 7 79 58)
+TRI_3 105 (internal 104) : part SURFACE_BODY_1_1, nodes (internal 7 93 79)
+TRI_3 47 (internal 46) : part SURFACE_BODY_1_1, nodes (internal 7 58 8)
+node 9 (internal 8) : dim 1, pos -0.0221808 -0.0115331 0
+attached elements:
+LINE_2 146 (internal 5) : part SURFACE_BODY_1_1, nodes (internal 9 8)
+LINE_2 143 (internal 2) : part SURFACE_BODY_1_1, nodes (internal 8 7)
+TRI_3 102 (internal 101) : part SURFACE_BODY_1_1, nodes (internal 8 84 66)
+TRI_3 101 (internal 100) : part SURFACE_BODY_1_1, nodes (internal 8 58 84)
+TRI_3 65 (internal 64) : part SURFACE_BODY_1_1, nodes (internal 8 66 9)
+TRI_3 47 (internal 46) : part SURFACE_BODY_1_1, nodes (internal 7 58 8)
+node 10 (internal 9) : dim 1, pos -0.0149033 -0.0200722 0
+attached elements:
+LINE_2 152 (internal 11) : part SURFACE_BODY_1_1, nodes (internal 10 9)
+LINE_2 146 (internal 5) : part SURFACE_BODY_1_1, nodes (internal 9 8)
+TRI_3 125 (internal 124) : part SURFACE_BODY_1_1, nodes (internal 9 92 10)
+TRI_3 124 (internal 123) : part SURFACE_BODY_1_1, nodes (internal 9 66 92)
+TRI_3 65 (internal 64) : part SURFACE_BODY_1_1, nodes (internal 8 66 9)
+node 11 (internal 10) : dim 1, pos -0.00462422 -0.0245686 0
+attached elements:
+LINE_2 152 (internal 11) : part SURFACE_BODY_1_1, nodes (internal 10 9)
+LINE_2 145 (internal 4) : part SURFACE_BODY_1_1, nodes (internal 11 10)
+TRI_3 126 (internal 125) : part SURFACE_BODY_1_1, nodes (internal 10 92 70)
+TRI_3 125 (internal 124) : part SURFACE_BODY_1_1, nodes (internal 9 92 10)
+TRI_3 70 (internal 69) : part SURFACE_BODY_1_1, nodes (internal 10 70 62)
+TRI_3 52 (internal 51) : part SURFACE_BODY_1_1, nodes (internal 10 62 11)
+node 12 (internal 11) : dim 1, pos 0.0065862 -0.0241168 0
+attached elements:
+LINE_2 145 (internal 4) : part SURFACE_BODY_1_1, nodes (internal 11 10)
+LINE_2 142 (internal 1) : part SURFACE_BODY_1_1, nodes (internal 12 11)
+TRI_3 85 (internal 84) : part SURFACE_BODY_1_1, nodes (internal 11 62 74)
+TRI_3 84 (internal 83) : part SURFACE_BODY_1_1, nodes (internal 11 74 57)
+TRI_3 52 (internal 51) : part SURFACE_BODY_1_1, nodes (internal 10 62 11)
+TRI_3 45 (internal 44) : part SURFACE_BODY_1_1, nodes (internal 11 57 12)
+node 13 (internal 12) : dim 1, pos 0.0164701 -0.0188078 0
+attached elements:
+LINE_2 142 (internal 1) : part SURFACE_BODY_1_1, nodes (internal 12 11)
+LINE_2 141 (internal 0) : part SURFACE_BODY_1_1, nodes (internal 13 12)
+TRI_3 46 (internal 45) : part SURFACE_BODY_1_1, nodes (internal 12 57 53)
+TRI_3 45 (internal 44) : part SURFACE_BODY_1_1, nodes (internal 11 57 12)
+TRI_3 43 (internal 42) : part SURFACE_BODY_1_1, nodes (internal 12 53 13)
+node 14 (internal 13) : dim 1, pos 0.0230369 -0.00971086 0
+attached elements:
+LINE_2 149 (internal 8) : part SURFACE_BODY_1_1, nodes (internal 0 13)
+LINE_2 141 (internal 0) : part SURFACE_BODY_1_1, nodes (internal 13 12)
+TRI_3 89 (internal 88) : part SURFACE_BODY_1_1, nodes (internal 13 60 75)
+TRI_3 88 (internal 87) : part SURFACE_BODY_1_1, nodes (internal 0 13 75)
+TRI_3 49 (internal 48) : part SURFACE_BODY_1_1, nodes (internal 13 53 60)
+TRI_3 43 (internal 42) : part SURFACE_BODY_1_1, nodes (internal 12 53 13)
+node 15 (internal 14) : dim 0, pos 0.05 -0.05 0
+attached elements:
+NODE 191 (internal 0) : part SURFACE_BODY_1_1, nodes (internal 14)
+LINE_2 189 (internal 48) : part SURFACE_BODY_1_1, nodes (internal 49 14)
+LINE_2 161 (internal 20) : part SURFACE_BODY_1_1, nodes (internal 14 16)
+TRI_3 98 (internal 97) : part SURFACE_BODY_1_1, nodes (internal 14 16 49)
+node 16 (internal 15) : dim 0, pos 0.05 0.05 0
+attached elements:
+NODE 194 (internal 3) : part SURFACE_BODY_1_1, nodes (internal 15)
+LINE_2 165 (internal 24) : part SURFACE_BODY_1_1, nodes (internal 15 25)
+LINE_2 155 (internal 14) : part SURFACE_BODY_1_1, nodes (internal 23 15)
+TRI_3 29 (internal 28) : part SURFACE_BODY_1_1, nodes (internal 15 25 23)
+node 17 (internal 16) : dim 1, pos 0.05 -0.0388889 0
+attached elements:
+LINE_2 162 (internal 21) : part SURFACE_BODY_1_1, nodes (internal 16 17)
+LINE_2 161 (internal 20) : part SURFACE_BODY_1_1, nodes (internal 14 16)
+TRI_3 99 (internal 98) : part SURFACE_BODY_1_1, nodes (internal 16 17 83)
+TRI_3 98 (internal 97) : part SURFACE_BODY_1_1, nodes (internal 14 16 49)
+TRI_3 97 (internal 96) : part SURFACE_BODY_1_1, nodes (internal 49 16 83)
+node 18 (internal 17) : dim 1, pos 0.05 -0.0277778 0
+attached elements:
+LINE_2 162 (internal 21) : part SURFACE_BODY_1_1, nodes (internal 16 17)
+LINE_2 159 (internal 18) : part SURFACE_BODY_1_1, nodes (internal 17 18)
+TRI_3 100 (internal 99) : part SURFACE_BODY_1_1, nodes (internal 17 69 83)
+TRI_3 99 (internal 98) : part SURFACE_BODY_1_1, nodes (internal 16 17 83)
+TRI_3 68 (internal 67) : part SURFACE_BODY_1_1, nodes (internal 17 18 69)
+node 19 (internal 18) : dim 1, pos 0.05 -0.0166667 0
+attached elements:
+LINE_2 159 (internal 18) : part SURFACE_BODY_1_1, nodes (internal 17 18)
+LINE_2 157 (internal 16) : part SURFACE_BODY_1_1, nodes (internal 18 19)
+TRI_3 69 (internal 68) : part SURFACE_BODY_1_1, nodes (internal 18 60 69)
+TRI_3 68 (internal 67) : part SURFACE_BODY_1_1, nodes (internal 17 18 69)
+TRI_3 48 (internal 47) : part SURFACE_BODY_1_1, nodes (internal 18 19 60)
+node 20 (internal 19) : dim 1, pos 0.05 -0.00555556 0
+attached elements:
+LINE_2 160 (internal 19) : part SURFACE_BODY_1_1, nodes (internal 19 20)
+LINE_2 157 (internal 16) : part SURFACE_BODY_1_1, nodes (internal 18 19)
+TRI_3 90 (internal 89) : part SURFACE_BODY_1_1, nodes (internal 19 20 75)
+TRI_3 87 (internal 86) : part SURFACE_BODY_1_1, nodes (internal 19 75 60)
+TRI_3 48 (internal 47) : part SURFACE_BODY_1_1, nodes (internal 18 19 60)
+node 21 (internal 20) : dim 1, pos 0.05 0.00555556 0
+attached elements:
+LINE_2 163 (internal 22) : part SURFACE_BODY_1_1, nodes (internal 20 21)
+LINE_2 160 (internal 19) : part SURFACE_BODY_1_1, nodes (internal 19 20)
+TRI_3 130 (internal 129) : part SURFACE_BODY_1_1, nodes (internal 20 21 59)
+TRI_3 91 (internal 90) : part SURFACE_BODY_1_1, nodes (internal 20 59 75)
+TRI_3 90 (internal 89) : part SURFACE_BODY_1_1, nodes (internal 19 20 75)
+node 22 (internal 21) : dim 1, pos 0.05 0.0166667 0
+attached elements:
+LINE_2 163 (internal 22) : part SURFACE_BODY_1_1, nodes (internal 20 21)
+LINE_2 156 (internal 15) : part SURFACE_BODY_1_1, nodes (internal 21 22)
+TRI_3 131 (internal 130) : part SURFACE_BODY_1_1, nodes (internal 21 85 59)
+TRI_3 130 (internal 129) : part SURFACE_BODY_1_1, nodes (internal 20 21 59)
+TRI_3 103 (internal 102) : part SURFACE_BODY_1_1, nodes (internal 21 51 85)
+TRI_3 41 (internal 40) : part SURFACE_BODY_1_1, nodes (internal 21 22 51)
+node 23 (internal 22) : dim 1, pos 0.05 0.0277778 0
+attached elements:
+LINE_2 158 (internal 17) : part SURFACE_BODY_1_1, nodes (internal 22 23)
+LINE_2 156 (internal 15) : part SURFACE_BODY_1_1, nodes (internal 21 22)
+TRI_3 59 (internal 58) : part SURFACE_BODY_1_1, nodes (internal 22 23 64)
+TRI_3 58 (internal 57) : part SURFACE_BODY_1_1, nodes (internal 22 64 51)
+TRI_3 41 (internal 40) : part SURFACE_BODY_1_1, nodes (internal 21 22 51)
+node 24 (internal 23) : dim 1, pos 0.05 0.0388889 0
+attached elements:
+LINE_2 158 (internal 17) : part SURFACE_BODY_1_1, nodes (internal 22 23)
+LINE_2 155 (internal 14) : part SURFACE_BODY_1_1, nodes (internal 23 15)
+TRI_3 59 (internal 58) : part SURFACE_BODY_1_1, nodes (internal 22 23 64)
+TRI_3 57 (internal 56) : part SURFACE_BODY_1_1, nodes (internal 23 25 64)
+TRI_3 29 (internal 28) : part SURFACE_BODY_1_1, nodes (internal 15 25 23)
+node 25 (internal 24) : dim 0, pos -0.05 0.05 0
+attached elements:
+NODE 193 (internal 2) : part SURFACE_BODY_1_1, nodes (internal 24)
+LINE_2 173 (internal 32) : part SURFACE_BODY_1_1, nodes (internal 24 34)
+LINE_2 164 (internal 23) : part SURFACE_BODY_1_1, nodes (internal 32 24)
+TRI_3 17 (internal 16) : part SURFACE_BODY_1_1, nodes (internal 24 34 32)
+node 26 (internal 25) : dim 1, pos 0.0388889 0.05 0
+attached elements:
+LINE_2 169 (internal 28) : part SURFACE_BODY_1_1, nodes (internal 25 26)
+LINE_2 165 (internal 24) : part SURFACE_BODY_1_1, nodes (internal 15 25)
+TRI_3 94 (internal 93) : part SURFACE_BODY_1_1, nodes (internal 26 81 25)
+TRI_3 60 (internal 59) : part SURFACE_BODY_1_1, nodes (internal 25 81 64)
+TRI_3 57 (internal 56) : part SURFACE_BODY_1_1, nodes (internal 23 25 64)
+TRI_3 29 (internal 28) : part SURFACE_BODY_1_1, nodes (internal 15 25 23)
+node 27 (internal 26) : dim 1, pos 0.0277778 0.05 0
+attached elements:
+LINE_2 172 (internal 31) : part SURFACE_BODY_1_1, nodes (internal 26 27)
+LINE_2 169 (internal 28) : part SURFACE_BODY_1_1, nodes (internal 25 26)
+TRI_3 119 (internal 118) : part SURFACE_BODY_1_1, nodes (internal 26 90 81)
+TRI_3 118 (internal 117) : part SURFACE_BODY_1_1, nodes (internal 26 27 90)
+TRI_3 94 (internal 93) : part SURFACE_BODY_1_1, nodes (internal 26 81 25)
+node 28 (internal 27) : dim 1, pos 0.0166667 0.05 0
+attached elements:
+LINE_2 172 (internal 31) : part SURFACE_BODY_1_1, nodes (internal 26 27)
+LINE_2 168 (internal 27) : part SURFACE_BODY_1_1, nodes (internal 27 28)
+TRI_3 120 (internal 119) : part SURFACE_BODY_1_1, nodes (internal 27 72 90)
+TRI_3 118 (internal 117) : part SURFACE_BODY_1_1, nodes (internal 26 27 90)
+TRI_3 77 (internal 76) : part SURFACE_BODY_1_1, nodes (internal 27 28 72)
+node 29 (internal 28) : dim 1, pos 0.00555556 0.05 0
+attached elements:
+LINE_2 168 (internal 27) : part SURFACE_BODY_1_1, nodes (internal 27 28)
+LINE_2 166 (internal 25) : part SURFACE_BODY_1_1, nodes (internal 28 29)
+TRI_3 78 (internal 77) : part SURFACE_BODY_1_1, nodes (internal 28 61 72)
+TRI_3 77 (internal 76) : part SURFACE_BODY_1_1, nodes (internal 27 28 72)
+TRI_3 51 (internal 50) : part SURFACE_BODY_1_1, nodes (internal 28 29 61)
+node 30 (internal 29) : dim 1, pos -0.00555556 0.05 0
+attached elements:
+LINE_2 167 (internal 26) : part SURFACE_BODY_1_1, nodes (internal 29 30)
+LINE_2 166 (internal 25) : part SURFACE_BODY_1_1, nodes (internal 28 29)
+TRI_3 75 (internal 74) : part SURFACE_BODY_1_1, nodes (internal 29 30 71)
+TRI_3 74 (internal 73) : part SURFACE_BODY_1_1, nodes (internal 29 71 61)
+TRI_3 51 (internal 50) : part SURFACE_BODY_1_1, nodes (internal 28 29 61)
+node 31 (internal 30) : dim 1, pos -0.0166667 0.05 0
+attached elements:
+LINE_2 170 (internal 29) : part SURFACE_BODY_1_1, nodes (internal 30 31)
+LINE_2 167 (internal 26) : part SURFACE_BODY_1_1, nodes (internal 29 30)
+TRI_3 111 (internal 110) : part SURFACE_BODY_1_1, nodes (internal 30 87 71)
+TRI_3 110 (internal 109) : part SURFACE_BODY_1_1, nodes (internal 30 31 87)
+TRI_3 75 (internal 74) : part SURFACE_BODY_1_1, nodes (internal 29 30 71)
+
+
