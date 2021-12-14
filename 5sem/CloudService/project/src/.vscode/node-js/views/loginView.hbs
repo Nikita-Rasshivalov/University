@@ -1,0 +1,19 @@
+<section class="container">
+    <div class="login">
+        <form method="post" action="/login">
+            <p><input type="text" name="username" value="" placeholder="Логин или Email"></p>
+            <p><input type="password" name="password" value="" placeholder="Пароль"></p>
+            <p class="reg">
+                <label>
+                    <a href="/registrationView">Регистрация</a>
+                </label>
+            </p>
+            {{#if message}}
+            <div class="alert {{messageClass}}" role="alert">
+                {{message}}
+            </div>
+            {{/if}}
+            <p class="submit"><input type="submit" name="commit" value="Войти"></p>
+        </form>
+    </div>
+</section>

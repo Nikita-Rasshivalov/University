@@ -1,0 +1,32 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "client-sessions": "^0.8.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "node-localstorage": "^2.2.1",
+    "tough-cookie": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

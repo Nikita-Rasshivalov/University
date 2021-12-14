@@ -1,0 +1,27 @@
+<table>
+    <thead>
+        <tr>
+            <th>User name</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Role</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each users}}
+        <tr>
+            <td>{{this.username}}</td>
+            <td>{{this.name}}</td>
+            <td>{{this.surname}}</td>
+            <td>{{this.roles}}</td>
+            <td>
+                <div>
+                    <a href="/editUser/{{this._id}}">Edit</a>
+                    <a href="/delete/{{this._id}}">Delete</a>
+                </div>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

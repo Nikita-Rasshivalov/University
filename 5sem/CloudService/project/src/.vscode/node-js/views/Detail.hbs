@@ -1,0 +1,39 @@
+<section class="container">
+    <div class="">
+        <h1>Edit student</h1>
+        <div class="title">
+            username: {{student.username}}, name: {{student.name}}, surname: {{student.surname}}
+        </div>
+        <form method="post" action="/editStudent">
+            <input type="hidden" name="_id" value="{{student._id}}">
+            <p>Exams</p>
+            <div class="editStudContainer">
+                {{#each student.exams}}
+                <p>{{@key}}<input type="number" name="exams[{{@key}}]" value="{{this}}" max="10" min="1"
+                        placeholder="{{@key}}"></p>
+                {{/each}}
+            </div>
+            <p>Attestations</p>
+            <div class="editStudContainer">
+                {{#each student.attestation}}
+                <p>{{@key}}<input type="number" name="attestation[{{@key}}]" value="{{this}}" max="10" min="1"
+                        placeholder="{{@key}}"></p>
+                {{/each}}
+            </div>
+            <p>Credits</p>
+            <div class="editStudContainer">
+                {{#each student.credit}}
+                <p>{{@key}}:{{this}}
+                   
+                    <select name="credit[{{@key}}]">
+                        <option selected disabled></option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </p>
+                {{/each}}
+            </div>
+            <p class="submit"><input type="submit" name="commit" value="Изменить"></p>
+        </form>
+    </div>
+</section>

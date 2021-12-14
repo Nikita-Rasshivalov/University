@@ -1,0 +1,17 @@
+<section class="container">
+    <div class="login">
+        <h1>Изменение пользователя</h1>
+        <form method="post" action="/editUser">
+            <input type="hidden" name="_id" value="{{user._id}}">
+            <p><input type="text" name="username" value="{{user.username}}" placeholder="Логин или Email"></p>
+            <p><input type="text" name="name" value="{{user.name}}" placeholder="Имя"></p>
+            <p><input type="text" name="surname" value="{{user.surname}}" placeholder="Фамилия"></p>
+            <p><select name="roles">
+                    <option value="TEACHER">TEACHER</option>
+                    <option value="ADMIN">ADMIN</option>
+                    <option value="USER">USER</option>
+                </select></p>
+            <p class="submit"><input type="submit" name="commit" value="Изменить"></p>
+        </form>
+    </div>
+</section>

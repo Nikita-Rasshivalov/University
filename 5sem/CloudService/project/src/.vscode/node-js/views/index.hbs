@@ -1,0 +1,40 @@
+{{#if isStudent}}
+<section>
+    <div class="userInfo"> Username: {{user.username}}, Name: {{user.name}}, Surname: {{user.surname}} </div>
+    <div class="userEducation">
+        <div>
+            <p>Exams:</p>
+            {{#each user.exams}}
+            <ul>
+                <li>{{@key}}:{{this}}</li>
+            </ul>
+            {{/each}}
+        </div>
+        <div>
+            <p>Attestations:</p>
+            {{#each user.attestation}}
+            <ul>
+                <li>{{@key}}:{{this}}</li>
+            </ul>
+            {{/each}}
+        </div>
+        <div>
+            <p>Credits:</p>
+            {{#each user.credit}}
+            <ul>
+                <li>{{@key}}:{{this}}</li>
+            </ul>
+            {{/each}}
+        </div>
+    </div>
+    {{else}}
+    <div class="indexInfo">
+        <p> 1) To the student: in order to view the grades, you must register and get the role of the user or student!
+        </p>
+        <p>2) To the teacher: in order to put down the marks, it is necessary to register and get the role of the
+            teacher!</p>
+        <p> 3) The administrator can do anything!)</p>
+    </div>
+</section>
+
+{{/if}}
