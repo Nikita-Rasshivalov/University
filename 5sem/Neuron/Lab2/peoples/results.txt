@@ -1,0 +1,6 @@
+true    grad    hebb
+go      stop    stop    
+go      stop    stop    
+stop    go      go      
+stop    go      go      
+stop    go      go      

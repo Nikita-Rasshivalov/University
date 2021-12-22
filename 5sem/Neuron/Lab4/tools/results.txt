@@ -1,0 +1,4 @@
+true    predicted
+footbal             footbal             
+smalltennis         smalltennis         
+bigtennis           bigtennis           
