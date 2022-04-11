@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['centerpoint_10',['CenterPoint',['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o.html#a48c73cbb890f9302e6c83bfc32498199',1,'FEM.BLL.Data.ElementDTO.CenterPoint()'],['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o.html#addab7d29d8dee9e7a4e4836eac83437c',1,'FEM.BLL.Data.Elements.LinearTetrahedronDTO.CenterPoint()']]],
+  ['color_11',['Color',['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o.html#a9c8d9711165275074b7dc5ab6c173ae9',1,'FEM.BLL.Data.ElementDTO.Color()'],['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_material_d_t_o.html#a1eddaa29b5739391c71d3a776c723cea',1,'FEM.BLL.Data.MaterialDTO.Color()'],['../class_f_e_m_1_1_d_a_l_1_1_data_1_1_material.html#a35b2c5aeb1cd59fcf27a1bf512b1e3b1',1,'FEM.DAL.Data.Material.Color()']]],
+  ['copy_12',['Copy',['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o.html#a393fef4763d70b190fbcc027166df1c8',1,'FEM.BLL.Data.ElementDTO.Copy()'],['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o.html#a9dc4cc742be9873c77128b8f2da7897f',1,'FEM.BLL.Data.Elements.LinearTetrahedronDTO.Copy()'],['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o.html#a6f8aaa848f17576bb1c21c68464f5431',1,'FEM.BLL.Data.MeshDTO.Copy()'],['../class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_d_t_o.html#abc1e1f99412adac62e381d025a7a9495',1,'FEM.BLL.Data.NodeDTO.Copy()']]],
+  ['currentmaterial_13',['CurrentMaterial',['../class_f_e_m_1_1_w_p_f_g_u_i_1_1_main_view_model.html#a61463dd1d51b41095f18caacd3dbed74',1,'FEM::WPFGUI::MainViewModel']]]
+];

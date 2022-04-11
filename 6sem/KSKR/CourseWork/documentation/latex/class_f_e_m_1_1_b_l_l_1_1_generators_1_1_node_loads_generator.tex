@@ -1,0 +1,145 @@
+\hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator}{}\doxysection{FEM.\+BLL.\+Generators.\+Node\+Loads\+Generator Class Reference}
+\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator}\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}
+
+
+Генератор узловых нагрузок  
+
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum class \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}{Face}} \{ \newline
+\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3aa4ffdcf0dc1f31b9acaf295d75b51d00}{Top}}
+, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a2ad9d63b69c4a10a5cc9cad923133bc4}{Bottom}}
+, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a945d5e233cf7d6240f6b783b36a374ff}{Left}}
+, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a92b09c7c48c520c3c55e497875da437c}{Right}}
+, \newline
+\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a5835bab1ade0060909e31a06af2e2cde}{Front}}
+, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a0557fa923dcee4d0f86b1409f5c2167f}{Back}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+IList$<$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}} $>$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_ac06ceb04933bd372e2570267298af63c}{Generate\+Press\+Loads}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} mesh, double pressure\+Value, double area)
+\begin{DoxyCompactList}\small\item\em Генерация списка узловых нагрузок, как если бы на деталь давил пресс \end{DoxyCompactList}\item 
+IList$<$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}} $>$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a5deb72d9702ff7fe13507aecc2bb30aa}{Generate\+Force\+Loads}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}{Face}} face, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} mesh, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_force_vector}{Node\+Force\+Vector}} force\+Vector, bool is\+Surface\+Force=true)
+\begin{DoxyCompactList}\small\item\em Генерирует силовые нагрузки для определенной поверхности сетки \end{DoxyCompactList}\item 
+IList$<$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}} $>$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a898fe51bdc3bf76e41cab0e619c6a279}{Generate\+Fixation\+Loads}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}{Face}} face, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} mesh)
+\begin{DoxyCompactList}\small\item\em Генерирует закрепления для определенной поверхности сетки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Генератор узловых нагрузок 
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}} 
+\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!Face@{Face}}
+\index{Face@{Face}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}
+\doxysubsubsection{\texorpdfstring{Face}{Face}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}{FEM.\+BLL.\+Generators.\+Node\+Loads\+Generator.\+Face}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Top@{Top}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!Top@{Top}}}\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3aa4ffdcf0dc1f31b9acaf295d75b51d00}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3aa4ffdcf0dc1f31b9acaf295d75b51d00}} 
+Top&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Bottom@{Bottom}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!Bottom@{Bottom}}}\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a2ad9d63b69c4a10a5cc9cad923133bc4}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a2ad9d63b69c4a10a5cc9cad923133bc4}} 
+Bottom&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Left@{Left}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!Left@{Left}}}\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a945d5e233cf7d6240f6b783b36a374ff}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a945d5e233cf7d6240f6b783b36a374ff}} 
+Left&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Right@{Right}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!Right@{Right}}}\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a92b09c7c48c520c3c55e497875da437c}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a92b09c7c48c520c3c55e497875da437c}} 
+Right&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Front@{Front}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!Front@{Front}}}\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a5835bab1ade0060909e31a06af2e2cde}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a5835bab1ade0060909e31a06af2e2cde}} 
+Front&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Back@{Back}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!Back@{Back}}}\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a0557fa923dcee4d0f86b1409f5c2167f}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3a0557fa923dcee4d0f86b1409f5c2167f}} 
+Back&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a898fe51bdc3bf76e41cab0e619c6a279}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a898fe51bdc3bf76e41cab0e619c6a279}} 
+\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!GenerateFixationLoads@{GenerateFixationLoads}}
+\index{GenerateFixationLoads@{GenerateFixationLoads}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}
+\doxysubsubsection{\texorpdfstring{GenerateFixationLoads()}{GenerateFixationLoads()}}
+{\footnotesize\ttfamily IList$<$\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}}$>$ FEM.\+BLL.\+Generators.\+Node\+Loads\+Generator.\+Generate\+Fixation\+Loads (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}{Face}}}]{face,  }\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}}}]{mesh }\end{DoxyParamCaption})}
+
+
+
+Генерирует закрепления для определенной поверхности сетки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em face} & Поверхность сетки\\
+\hline
+{\em mesh} & Сетка\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Список закреплений детали
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a5deb72d9702ff7fe13507aecc2bb30aa}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a5deb72d9702ff7fe13507aecc2bb30aa}} 
+\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!GenerateForceLoads@{GenerateForceLoads}}
+\index{GenerateForceLoads@{GenerateForceLoads}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}
+\doxysubsubsection{\texorpdfstring{GenerateForceLoads()}{GenerateForceLoads()}}
+{\footnotesize\ttfamily IList$<$\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}}$>$ FEM.\+BLL.\+Generators.\+Node\+Loads\+Generator.\+Generate\+Force\+Loads (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_a3c94942831408f006fecef01fb8341a3}{Face}}}]{face,  }\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}}}]{mesh,  }\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_force_vector}{Node\+Force\+Vector}}}]{force\+Vector,  }\item[{bool}]{is\+Surface\+Force = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Генерирует силовые нагрузки для определенной поверхности сетки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em face} & Поверхность сетки\\
+\hline
+{\em mesh} & Сетка\\
+\hline
+{\em force\+Vector} & Вектор узловых нагрузок\\
+\hline
+{\em is\+Surface\+Force} & Является ли сила поверхностной или действует на каждый узел\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Список узловых нагрузок детали
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_ac06ceb04933bd372e2570267298af63c}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_node_loads_generator_ac06ceb04933bd372e2570267298af63c}} 
+\index{FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}!GeneratePressLoads@{GeneratePressLoads}}
+\index{GeneratePressLoads@{GeneratePressLoads}!FEM.BLL.Generators.NodeLoadsGenerator@{FEM.BLL.Generators.NodeLoadsGenerator}}
+\doxysubsubsection{\texorpdfstring{GeneratePressLoads()}{GeneratePressLoads()}}
+{\footnotesize\ttfamily IList$<$\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}}$>$ FEM.\+BLL.\+Generators.\+Node\+Loads\+Generator.\+Generate\+Press\+Loads (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}}}]{mesh,  }\item[{double}]{pressure\+Value,  }\item[{double}]{area }\end{DoxyParamCaption})}
+
+
+
+Генерация списка узловых нагрузок, как если бы на деталь давил пресс 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mesh} & Сетка для которой необходимо сформировать вектор узловых нагрузок\\
+\hline
+{\em pressure\+Value} & Давление пресса в тоннах\\
+\hline
+{\em area} & Площадь поверхности детали\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Список узловых нагрузок детали
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 0
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+FEM.\+BLL/\+Generators/\mbox{\hyperlink{_node_loads_generator_8cs}{Node\+Loads\+Generator.\+cs}}\end{DoxyCompactItemize}

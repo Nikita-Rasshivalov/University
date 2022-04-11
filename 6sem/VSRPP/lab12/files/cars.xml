@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<cars>
+    <car id="5">
+        <_stamp>MAN</_stamp>
+        <_number>555</_number>
+        <_isBroken>false</_isBroken>
+        <_type>TankTruck</_type>
+    </car>
+    <car id="5">
+        <_stamp>MB</_stamp>
+        <_number>333</_number>
+        <_isBroken>false</_isBroken>
+        <_type>ContainerShip</_type>
+    </car>
+    <car id="5">
+        <_stamp>Volvo</_stamp>
+        <_number>333</_number>
+        <_isBroken>false</_isBroken>
+        <_type>Refrigerator</_type>
+    </car>
+    <car id="5">
+        <_stamp>lil</_stamp>
+        <_number>456</_number>
+        <_isBroken>false</_isBroken>
+        <_type>Refrigerator</_type>
+    </car>
+    <car id="5">
+        <_stamp>VAZ</_stamp>
+        <_number>7777 XX -7</_number>
+        <_isBroken>false</_isBroken>
+        <_type>ContainerShip</_type>
+    </car>
+</cars>

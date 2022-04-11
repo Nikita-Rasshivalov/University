@@ -1,0 +1,35 @@
+[
+  {
+    "_id": 1,
+    "_stamp": "MAN",
+    "_number": "555",
+    "_isBroken": true,
+    "_type": "TankTruck",
+    "@class": "models.TankTruck"
+  },
+  {
+    "_id": 2,
+    "_stamp": "MB",
+    "_number": "333",
+    "_isBroken": true,
+    "_type": "ContainerShip",
+    "_daysNumber": 0,
+    "@class": "models.ContainerShip"
+  },
+  {
+    "_id": 3,
+    "_stamp": "Volvo",
+    "_number": "333",
+    "_isBroken": false,
+    "_type": "Refrigerator",
+    "@class": "models.Refrigerator"
+  },
+  {
+    "_id": 4,
+    "_stamp": "Volvo",
+    "_number": "3123123123",
+    "_isBroken": false,
+    "_type": "Refrigerator",
+    "@class": "models.Refrigerator"
+  }
+]

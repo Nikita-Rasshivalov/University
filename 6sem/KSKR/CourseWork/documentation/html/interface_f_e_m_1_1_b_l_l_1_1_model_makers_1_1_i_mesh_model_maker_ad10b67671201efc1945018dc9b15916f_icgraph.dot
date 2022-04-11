@@ -1,0 +1,14 @@
+digraph "FEM.BLL.ModelMakers.IMeshModelMaker.GenerateCharacteristicModel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="FEM.BLL.ModelMakers.IMesh\lModelMaker.GenerateCharacteristicModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Вычисляет модель с градиентным окрасом. Градиент показывает изменения характеристики элементов сетки"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FEM.WPFGUI.MainViewModel.\lGetDisplacementMeshModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_e_m_1_1_w_p_f_g_u_i_1_1_main_view_model.html#ab913f0fbb46a134c0ce4f0aba3445b34",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FEM.WPFGUI.MainViewModel.\lGetStrainMeshModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_e_m_1_1_w_p_f_g_u_i_1_1_main_view_model.html#a30b5b553b76fb84654fa6da64365df64",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FEM.WPFGUI.MainViewModel.\lGetStressMeshModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_e_m_1_1_w_p_f_g_u_i_1_1_main_view_model.html#adb03b7cae233c098b453083db26a0214",tooltip=" "];
+}

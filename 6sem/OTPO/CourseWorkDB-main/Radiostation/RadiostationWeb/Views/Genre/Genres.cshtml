@@ -1,0 +1,41 @@
+﻿@model PageItemsModel<Genre>
+@addTagHelper *, RadiostationWeb
+@{
+    ViewData["Title"] = "Genres";
+}
+<div class="main-container">
+    <div class="container-item">
+        <h1 class="title">Genres</h1>
+        @if (User.IsInRole(RoleType.Admin) || User.IsInRole(RoleType.Employeе))
+        {
+            <div class="crudBtn"><a class="crudLink" asp-action="ManageGenres" asp-controller="Genre">Manage</a></div>
+        }
+        @if (@Model?.Items.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Genre name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var genre in @Model.Items)
+                    {
+                        <tr>
+                            <td>@genre.GenreName</td>
+                            <td>@genre.Description</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3>There are no genres </h3>
+        }
+        <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Genres"></page-link></div>
+    </div>
+</div>
+

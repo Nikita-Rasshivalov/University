@@ -1,0 +1,25 @@
+﻿@model CreatePerformerViewModel
+@{
+    ViewData["Title"] = "Create performer";
+}
+<div class="main-container">
+    <div class="formContainer">
+        <h1 class="title">Add performer</h1>
+        <form asp-action="Create" asp-controller="Performer" method="post" class="form">
+            <label>Name</label>
+            <input class="inputStyle" asp-for="@Model.Name" type="text" placeholder="Name">
+            <label>Surname</label>
+            <input class="inputStyle" asp-for="@Model.Surname" type="text" placeholder="Surname">
+            <label>Group Description</label>
+            <div class="select-container">
+                <select class="select-items" asp-for="@Model.GroupId" asp-items="@Model.GroupsList">
+                    <option value="" disabled selected>Select  Group</option>
+                </select>
+            </div>
+
+            <input type="submit" class="addRecordbtn" value="Add">
+        </form>
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+        <div class="error-box" asp-validation-summary="All"></div>
+    </div>
+</div>

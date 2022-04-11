@@ -1,0 +1,40 @@
+﻿@model UserEmployeeEditViewModel
+@using Microsoft.AspNetCore.Identity;
+<div class="main-container">
+    <div class="header-item">
+        <h1 class="title">Edit user</h1>
+        <form asp-action="Edit" asp-controller="Account" method="post" class="form">
+            <div class="error-box" asp-validation-summary="All"></div>
+            <input asp-for="Id" value="@Model.Id" type="hidden" />
+            <label class="active">Usename</label>
+            <input asp-for="UserName" value="@Model.UserName" class="inputStyle" placeholder="Username" />
+            <label class="active">Email</label>
+            <input asp-for="Email" value="@Model.Email" class="inputStyle" placeholder="Email" />
+            <label class="active">Name</label>
+            <input asp-for="Name" value="@Model.Name" class="inputStyle" placeholder="Name" />
+            <label class="active">Surname</label>
+            <input asp-for="Surname" value="@Model.Surname" class="inputStyle" placeholder="Surname" />
+            <label class="active">Middle Name</label>
+            <input asp-for="MiddleName" value="@Model.MiddleName" class="inputStyle" placeholder="Middle Name" />
+            @if (Model.EmployeeRole)
+            {
+                <div class="select-container">
+                    <label class="active">Position</label>
+                    <select class="select-items" asp-for="PositionId" asp-items="@Model.PositionList">
+                        <option value="">Select Position</option>
+                    </select>
+                    <label class="active">Education</label>
+                    <select class="select-items" asp-for="@Model.Education" asp-items="@Model.EducationList">
+                        <option value="">Select Education</option>
+                    </select>
+                    <label class="active">Work time</label>
+                    <input asp-for="@Model.WorkTime" type="number" placeholder="WorkTime" />
+                </div>
+            }
+            <div class="formButtons">
+                <input type="submit" class="addRecordbtn" value="Edit">
+            </div>
+        </form>
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+    </div>
+</div>

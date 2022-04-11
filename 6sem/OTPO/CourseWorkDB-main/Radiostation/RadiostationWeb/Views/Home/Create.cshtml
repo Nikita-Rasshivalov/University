@@ -1,0 +1,17 @@
+﻿@model HomePageImage
+<div class="main-container">
+    <div class="formContainer">
+        <h1 class="title">Add image</h1>
+        <form asp-action="Create" asp-controller="Home" method="post" class="form" enctype="multipart/form-data">
+            <div class="img-items">
+                <label>Src</label>
+                <input class="browse-img" type="file" name="uploadedFile" placeholder="src" required>
+                <label>Caption</label>
+                <input class="inputStyle" asp-for="@Model.ImgCaption" type="text" placeholder="caption">
+                <input type="submit" class="addRecordbtn" value="Add">
+            </div>
+        </form>
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+        <div class="error-box" asp-validation-summary="All"></div>
+    </div>
+</div>

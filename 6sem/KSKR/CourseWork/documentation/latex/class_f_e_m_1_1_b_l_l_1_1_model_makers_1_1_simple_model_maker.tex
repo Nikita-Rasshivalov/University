@@ -1,0 +1,96 @@
+\hypertarget{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker}{}\doxysection{FEM.\+BLL.\+Model\+Makers.\+Simple\+Model\+Maker Class Reference}
+\label{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker}\index{FEM.BLL.ModelMakers.SimpleModelMaker@{FEM.BLL.ModelMakers.SimpleModelMaker}}
+
+
+Стандартный создатель геометрии сетки  
+
+
+
+
+Inheritance diagram for FEM.\+BLL.\+Model\+Makers.\+Simple\+Model\+Maker\+:
+% FIG 0
+
+
+Collaboration diagram for FEM.\+BLL.\+Model\+Makers.\+Simple\+Model\+Maker\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_a421ead7eaa5c5ce8a083b4b60ea4af70}{Simple\+Model\+Maker}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_tools_1_1_gradient_maker}{Gradient\+Maker}} gradient\+Maker)
+\item 
+Model3\+DGroup \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_a316dbf06749a6ea45d97522fe44282ba}{Generate\+Geometry}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} mesh, Material\+Group material, IList$<$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}} $>$ loads)
+\begin{DoxyCompactList}\small\item\em Метод для создания стандартной геометрии сетки \end{DoxyCompactList}\item 
+Model3\+DGroup \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_ac4de5fa68c06fc8b546b1042c90674a7}{Generate\+Characteristic\+Model}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} mesh, double\mbox{[}$\,$\mbox{]} elements\+Characteristic)
+\begin{DoxyCompactList}\small\item\em Вычисляет модель с градиентным окрасом. Градиент показывает изменения характеристики элементов сетки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Стандартный создатель геометрии сетки 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_a421ead7eaa5c5ce8a083b4b60ea4af70}\label{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_a421ead7eaa5c5ce8a083b4b60ea4af70}} 
+\index{FEM.BLL.ModelMakers.SimpleModelMaker@{FEM.BLL.ModelMakers.SimpleModelMaker}!SimpleModelMaker@{SimpleModelMaker}}
+\index{SimpleModelMaker@{SimpleModelMaker}!FEM.BLL.ModelMakers.SimpleModelMaker@{FEM.BLL.ModelMakers.SimpleModelMaker}}
+\doxysubsubsection{\texorpdfstring{SimpleModelMaker()}{SimpleModelMaker()}}
+{\footnotesize\ttfamily FEM.\+BLL.\+Model\+Makers.\+Simple\+Model\+Maker.\+Simple\+Model\+Maker (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_tools_1_1_gradient_maker}{Gradient\+Maker}}}]{gradient\+Maker }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_ac4de5fa68c06fc8b546b1042c90674a7}\label{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_ac4de5fa68c06fc8b546b1042c90674a7}} 
+\index{FEM.BLL.ModelMakers.SimpleModelMaker@{FEM.BLL.ModelMakers.SimpleModelMaker}!GenerateCharacteristicModel@{GenerateCharacteristicModel}}
+\index{GenerateCharacteristicModel@{GenerateCharacteristicModel}!FEM.BLL.ModelMakers.SimpleModelMaker@{FEM.BLL.ModelMakers.SimpleModelMaker}}
+\doxysubsubsection{\texorpdfstring{GenerateCharacteristicModel()}{GenerateCharacteristicModel()}}
+{\footnotesize\ttfamily Model3\+DGroup FEM.\+BLL.\+Model\+Makers.\+Simple\+Model\+Maker.\+Generate\+Characteristic\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}}}]{mesh,  }\item[{double\mbox{[}$\,$\mbox{]}}]{elements\+Characteristic }\end{DoxyParamCaption})}
+
+
+
+Вычисляет модель с градиентным окрасом. Градиент показывает изменения характеристики элементов сетки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mesh} & Сетка, на основе который строится модель\\
+\hline
+{\em elements\+Characteristic} & Характеристика (Напряжение, деформации и т.\+д.) конечных элементов в этой сетке\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Модель с градиентным окрасом в зависимости от характеристики
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_i_mesh_model_maker_ad10b67671201efc1945018dc9b15916f}{FEM.\+BLL.\+Model\+Makers.\+IMesh\+Model\+Maker}}.
+
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_a316dbf06749a6ea45d97522fe44282ba}\label{class_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_simple_model_maker_a316dbf06749a6ea45d97522fe44282ba}} 
+\index{FEM.BLL.ModelMakers.SimpleModelMaker@{FEM.BLL.ModelMakers.SimpleModelMaker}!GenerateGeometry@{GenerateGeometry}}
+\index{GenerateGeometry@{GenerateGeometry}!FEM.BLL.ModelMakers.SimpleModelMaker@{FEM.BLL.ModelMakers.SimpleModelMaker}}
+\doxysubsubsection{\texorpdfstring{GenerateGeometry()}{GenerateGeometry()}}
+{\footnotesize\ttfamily Model3\+DGroup FEM.\+BLL.\+Model\+Makers.\+Simple\+Model\+Maker.\+Generate\+Geometry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}}}]{mesh,  }\item[{Material\+Group}]{material,  }\item[{IList$<$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_load_d_t_o}{Node\+Load\+DTO}} $>$}]{loads }\end{DoxyParamCaption})}
+
+
+
+Метод для создания стандартной геометрии сетки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mesh} & Конечно-\/элементная сетка\\
+\hline
+{\em material} & Материал детали\\
+\hline
+{\em loads} & Нагрузки детали\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Геометрия сетки
+\end{DoxyReturn}
+= 
+
+Implements \mbox{\hyperlink{interface_f_e_m_1_1_b_l_l_1_1_model_makers_1_1_i_mesh_model_maker_a89edf9fefbf03ad0310c482b9fc28e1d}{FEM.\+BLL.\+Model\+Makers.\+IMesh\+Model\+Maker}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+FEM.\+BLL/\+Model\+Makers/\mbox{\hyperlink{_simple_model_maker_8cs}{Simple\+Model\+Maker.\+cs}}\end{DoxyCompactItemize}

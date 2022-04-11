@@ -1,0 +1,76 @@
+﻿@model RecordsItemModel
+@addTagHelper *, RadiostationWeb
+@{
+    ViewData["Title"] = "Records";
+
+    var currentNameFilter = (string)Context.Request.Query["nameFilter"] ?? Context.Request.Cookies["nameFilter"];
+}
+
+<div class="main-container">
+    <div class="formContainer">
+        <h1 class="title">Records</h1>
+        <form asp-action="Records" asp-controller="Record" method="get" class="form">
+            <div class="wrapper-items">
+                <div class="items">
+                    <div>Composition name filter</div>
+                    <input class="inputStyle" name="nameFilter" type="text" value="@currentNameFilter" />
+                </div>
+                <div class="items">
+                    <div>Performer filter</div>
+                    <select class="select-items" name="performerFilter" asp-items="@Model.SelectPerformers">
+                        <option value="" disabled selected>Select Performer</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formButtons">
+                <input type="submit" class="addRecordbtn" value="Find">
+                <div class="crudBtn reset"><a class="crudLink" asp-controller="Record" asp-action="ResetFilter"> Reset</a></div>
+            </div>
+        </form>
+    </div>
+    <div class="container-item">
+
+        @if (User.IsInRole(RoleType.Admin) || User.IsInRole(RoleType.Employeе))
+        {
+            <div class="crudBtn"><a class="crudLink" asp-action="ManageRecords" asp-controller="Record">Manage</a></div>
+        }
+        @if (@Model?.Items?.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Composition name</th>
+                        <th>Album</th>
+                        <th>Genre name</th>
+                        <th>Performer name</th>
+                        <th>Lasting</th>
+                        <th>Rating</th>
+                        <th>Record date</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var record in Model.Items)
+                    {
+                        <tr>
+                            <td>@record.СompositionName</td>
+                            <td>@record.Album</td>
+                            <td>@record.GenreName</td>
+                            <td>@record.PerformerName</td>
+                            <td>@record.Lasting</td>
+                            <td>@record.Rating</td>
+                            <td>@record.RecordDate.ToShortDateString()</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Records"></page-link></div>
+        }
+        else
+        {
+            <h3>There are no records</h3>
+        }
+
+    </div>
+</div>
+

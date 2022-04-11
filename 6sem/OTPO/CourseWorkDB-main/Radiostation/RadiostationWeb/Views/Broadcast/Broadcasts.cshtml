@@ -1,0 +1,88 @@
+﻿@model BroadcastsItemModel
+@addTagHelper *, RadiostationWeb
+@{
+    ViewData["Title"] = "Broadcasts";
+    var start = (string)Context.Request.Query["broadcastsFrom"] ?? Context.Request.Cookies["broadcastsFrom"];
+    var end = (string)Context.Request.Query["broadcastsTo"] ?? Context.Request.Cookies["broadcastsTo"];
+}
+<div class="main-container">
+    <div class="formContainer">
+        <h2 class="title">Broadcasts</h2>
+        <form asp-action="Broadcasts" asp-controller="Broadcast" method="get" class="form">
+            <div class="wrapper-items">
+                <div class="items">
+                    <div>Date from</div>
+                    <input class="inputStyle" name="start" type="date" value="@start" />
+                </div>
+                <div class="items">
+                    <div>Date to</div>
+                    <input class="inputStyle" name="end" type="date" value="@end" />
+                </div>
+            </div>
+            <div class="formButtons">
+                <input type="submit" class="addRecordbtn" value="Find">
+                <div class="crudBtn reset"><a class="crudLink" asp-controller="Broadcast" asp-action="ResetFilter"> Reset</a></div>
+            </div>
+        </form>
+    </div>
+    <div class="container-item">
+        @if (User.IsInRole(RoleType.Admin) || User.IsInRole(RoleType.Employeе))
+        {
+            <div class="crudBtn"><a class="crudLink" asp-action="ManageBroadcasts" asp-controller="Broadcast">Manage</a></div>
+        }
+        @if (@Model?.Items?.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th>
+                            <sort-header action="Broadcasts" up="@Model.SortViewModel.Up"
+                                         current="@Model.SortViewModel.Current" property="@Model.SortViewModel.NameSort">
+                                Employee Name
+                            </sort-header>
+                        </th>
+                        <th>
+                            <sort-header action="Broadcasts" up="@Model.SortViewModel.Up"
+                                         current="@Model.SortViewModel.Current" property="@Model.SortViewModel.SurnameSort">
+                                Employee Surname
+                            </sort-header>
+                        </th>
+                        <th>
+                            <sort-header action="Broadcasts" up="@Model.SortViewModel.Up"
+                                         current="@Model.SortViewModel.Current" property="@Model.SortViewModel.DateSort">
+                                Date and time
+                            </sort-header>
+                        </th>
+                        <th>
+                            <sort-header action="Broadcasts" up="@Model.SortViewModel.Up"
+                                         current="@Model.SortViewModel.Current" property="@Model.SortViewModel.RecordSort">
+                                Record name
+                            </sort-header>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var broadcast in Model.Items)
+                    {
+                        <tr>
+                            <td>@broadcast.EmployeeName</td>
+                            <td>@broadcast.EmployeeSurname</td>
+                            <td>@broadcast.DateAndTime</td>
+                            <td>@broadcast.RecordName</td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Broadcasts"></page-link></div>
+
+        }
+        else
+        {
+            <h3>There are no broadcasts</h3>
+        }
+
+    </div>
+</div>

@@ -1,0 +1,93 @@
+\hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator}{}\doxysection{FEM.\+BLL.\+Generators.\+Mesh\+Generator Class Reference}
+\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator}\index{FEM.BLL.Generators.MeshGenerator@{FEM.BLL.Generators.MeshGenerator}}
+
+
+Класс, генерирующий различные сетки  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_ac849bfebcb4047be579acce28519f768}{Generate\+Moved\+Mesh}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} mesh, double\mbox{[}$\,$\mbox{]} nodes\+Displacement)
+\begin{DoxyCompactList}\small\item\em Получает копию текущей сетки, в которой узлы перемещены \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_ae38b489b78f1877f95beda13cebd0420}{Get\+Cylinder\+Mesh}} (double radius, double height)
+\begin{DoxyCompactList}\small\item\em Генерация сетки для цилиндра \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_abd4ca7bc7812a6fca92d6f51a7766b32}{Get\+Polygon\+Mesh}} (int sides\+Count, double sides\+Length, double height)
+\begin{DoxyCompactList}\small\item\em Генерация сетки для многоугольной призмы \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс, генерирующий различные сетки 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_ac849bfebcb4047be579acce28519f768}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_ac849bfebcb4047be579acce28519f768}} 
+\index{FEM.BLL.Generators.MeshGenerator@{FEM.BLL.Generators.MeshGenerator}!GenerateMovedMesh@{GenerateMovedMesh}}
+\index{GenerateMovedMesh@{GenerateMovedMesh}!FEM.BLL.Generators.MeshGenerator@{FEM.BLL.Generators.MeshGenerator}}
+\doxysubsubsection{\texorpdfstring{GenerateMovedMesh()}{GenerateMovedMesh()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} FEM.\+BLL.\+Generators.\+Mesh\+Generator.\+Generate\+Moved\+Mesh (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}}}]{mesh,  }\item[{double\mbox{[}$\,$\mbox{]}}]{nodes\+Displacement }\end{DoxyParamCaption})}
+
+
+
+Получает копию текущей сетки, в которой узлы перемещены 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nodes\+Displacement} & Вектор узловых перемещений\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Копия текущей сетки, в которой узлы перемещены
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 0
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_ae38b489b78f1877f95beda13cebd0420}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_ae38b489b78f1877f95beda13cebd0420}} 
+\index{FEM.BLL.Generators.MeshGenerator@{FEM.BLL.Generators.MeshGenerator}!GetCylinderMesh@{GetCylinderMesh}}
+\index{GetCylinderMesh@{GetCylinderMesh}!FEM.BLL.Generators.MeshGenerator@{FEM.BLL.Generators.MeshGenerator}}
+\doxysubsubsection{\texorpdfstring{GetCylinderMesh()}{GetCylinderMesh()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} FEM.\+BLL.\+Generators.\+Mesh\+Generator.\+Get\+Cylinder\+Mesh (\begin{DoxyParamCaption}\item[{double}]{radius,  }\item[{double}]{height }\end{DoxyParamCaption})}
+
+
+
+Генерация сетки для цилиндра 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & Радиус цилиндра\\
+\hline
+{\em height} & Высота цилиндра\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Сетка для цилиндра
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_abd4ca7bc7812a6fca92d6f51a7766b32}\label{class_f_e_m_1_1_b_l_l_1_1_generators_1_1_mesh_generator_abd4ca7bc7812a6fca92d6f51a7766b32}} 
+\index{FEM.BLL.Generators.MeshGenerator@{FEM.BLL.Generators.MeshGenerator}!GetPolygonMesh@{GetPolygonMesh}}
+\index{GetPolygonMesh@{GetPolygonMesh}!FEM.BLL.Generators.MeshGenerator@{FEM.BLL.Generators.MeshGenerator}}
+\doxysubsubsection{\texorpdfstring{GetPolygonMesh()}{GetPolygonMesh()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_mesh_d_t_o}{Mesh\+DTO}} FEM.\+BLL.\+Generators.\+Mesh\+Generator.\+Get\+Polygon\+Mesh (\begin{DoxyParamCaption}\item[{int}]{sides\+Count,  }\item[{double}]{sides\+Length,  }\item[{double}]{height }\end{DoxyParamCaption})}
+
+
+
+Генерация сетки для многоугольной призмы 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sides\+Count} & Количество сторон призмы\\
+\hline
+{\em sides\+Length} & Длина стороны призмы\\
+\hline
+{\em height} & Высота призмы\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+FEM.\+BLL/\+Generators/\mbox{\hyperlink{_mesh_generator_8cs}{Mesh\+Generator.\+cs}}\end{DoxyCompactItemize}

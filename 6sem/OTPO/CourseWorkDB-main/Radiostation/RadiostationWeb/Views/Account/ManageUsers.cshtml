@@ -1,0 +1,114 @@
+﻿
+@using Microsoft.AspNetCore.Identity;
+@model PageItemsModel<RadiostationWeb.Data.ApplicationUser>
+@addTagHelper *, RadiostationWeb
+@inject UserManager<RadiostationWeb.Data.ApplicationUser> UserManager
+@{
+
+    ViewData["Title"] = "Manage users";
+
+    var currentNameFilter = (string)Context.Request.Query["nameFilter"] ?? Context.Request.Cookies["nameFilter"];
+    var currentSurnameFilter = (string)Context.Request.Query["surnameFilter"] ?? Context.Request.Cookies["surnameFilter"];
+
+}
+<link href="~/css/site.css" rel="stylesheet">
+<div class="main-container">
+    <div class="formContainer">
+        <h1 class="title">Users managment</h1>
+        <form asp-action="ManageUsers" asp-controller="Account" method="get" class="form">
+            <div class="wrapper-items">
+                <div class="items">
+                    <div>Name filter</div>
+                    <input class="inputStyle" name="nameFilter" type="text" value="@currentNameFilter" />
+                </div>
+                <div class="items">
+                    <div>Surname filter</div>
+                    <input class="inputStyle" name="surnameFilter" type="text" value="@currentSurnameFilter" />
+                </div>
+            </div>
+            <div class="formButtons">
+                <input type="submit" class="addRecordbtn" value="Find">
+                <div class="crudBtn reset"><a class="crudLink" asp-controller="Account" asp-action="ResetManageFilter"> Reset</a></div>
+            </div>
+        </form>
+    </div>
+
+    <div class="crudBtn"><a class="crudLink" asp-action="Create" asp-controller="Account">Create</a></div>
+    <div id="info"></div>
+    <div class="container-item">
+        @if (@Model?.Items.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Mid Name</th>
+                        <th>Roles</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var user in @Model.Items)
+                    {
+                        <tr>
+                            <td>@user.UserName</td>
+                            <td>@user.Email</td>
+                            <td>@user.Name</td>
+                            <td>@user.Surname</td>
+                            <td>@user.MiddleName</td>
+                            <td>
+                                <div class="role-buttons">
+                                    @if (User.IsInRole(RoleType.Admin))
+                                    {
+                                        @if (await UserManager.IsInRoleAsync(user, RoleType.Admin))
+                                        {
+                                            <div class="crudBtn"><a class="crudLink" asp-controller="Account" asp-action="DeleteRole" asp-route-userId="@user.Id" asp-route-roleName="Admin">Delete Admin</a></div>
+                                        }
+                                        else
+                                        {
+                                            <div class="crudBtn"><a class="crudLink" asp-controller="Account" asp-action="AddRole" asp-route-userId="@user.Id" asp-route-roleName="Admin">Add Admin</a></div>
+                                        }
+                                    }
+
+
+                                    @if (await UserManager.IsInRoleAsync(user, RoleType.HR_Employee))
+                                    {
+                                        <div class="crudBtn"><a class="crudLink" asp-controller="Account" asp-action="DeleteRole" asp-route-userId="@user.Id" asp-route-roleName="HR_Employee">Delete HR</a></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="crudBtn"><a class="crudLink" asp-controller="Account" asp-action="AddRole" asp-route-userId="@user.Id" asp-route-roleName="HR_Employee">Add HR</a></div>
+                                    }
+                                    @if (await UserManager.IsInRoleAsync(user, RoleType.Employeе))
+                                    {
+                                        <div class="crudBtn"><a class="crudLink" asp-controller="Account" asp-action="DeleteRole" asp-route-userId="@user.Id" asp-route-roleName="Employee">Del Employee</a></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="crudBtn"><a class="crudLink" asp-controller="Account" asp-action="AddRole" asp-route-userId="@user.Id" asp-route-roleName="Employee">Add Employee</a></div>
+                                    }
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="crudBtn"><a class="crudLink"  asp-controller="Account"  asp-route-userId="@user.Id" asp-action="Delete">Delete</a></div>
+                            </td>
+                            <td>
+                                <div class="crudBtn"><a class="crudLink" asp-controller="Account" asp-action="Edit" asp-route-userId="@user.Id">Edit</a></div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3>There are no users</h3>
+        }
+        <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Users"></page-link></div>
+    </div>
+</div>

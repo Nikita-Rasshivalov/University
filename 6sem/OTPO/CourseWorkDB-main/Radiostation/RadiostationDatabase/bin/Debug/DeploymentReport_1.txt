@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AspNetRoleClaims] (Table)
+       [dbo].[AspNetRoles] (Table)
+       [dbo].[AspNetUserClaims] (Table)
+       [dbo].[AspNetUserLogins] (Table)
+       [dbo].[AspNetUserRoles] (Table)
+       [dbo].[AspNetUsers] (Table)
+       [dbo].[AspNetUserTokens] (Table)
+       [dbo].[BroadcastSchedule] (Table)
+       [dbo].[Employees] (Table)
+       [dbo].[Genres] (Table)
+       [dbo].[Groups] (Table)
+       [dbo].[Performers] (Table)
+       [dbo].[Records] (Table)
+       [dbo].[FK_BroadcastSchedule_Records] (Foreign Key)
+       [dbo].[FK_BroadcastSchedule_Employees] (Foreign Key)
+       [dbo].[FK_Performers_Groups] (Foreign Key)
+       [dbo].[FK_Performers_Records] (Foreign Key)
+
+** Supporting actions

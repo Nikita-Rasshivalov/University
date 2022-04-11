@@ -1,0 +1,77 @@
+﻿@model PerformersItemsModel
+@addTagHelper *, RadiostationWeb
+@{
+    ViewData["Title"] = "Performers";
+    var currentSurnameFilter = (string)Context.Request.Query["surnameFilter"] ?? Context.Request.Cookies["surnameFilter"];
+    var currentNameFilter = (string)Context.Request.Query["nameFilter"] ?? Context.Request.Cookies["nameFilter"];
+}
+<div class="main-container">
+    <div class="formContainer">
+        <h1 class="title">Performers</h1>
+        <form asp-action="Performers" asp-controller="Performer" method="get" class="form">
+            <div class="wrapper-items">
+                <div class="items">
+                    <div>Name filter</div>
+                    <input class="inputStyle" name="nameFilter" type="text" value="@currentNameFilter" />
+                </div>
+                <div class="items">
+                    <div>Surname filter</div>
+                    <input class="inputStyle" name="surnameFilter" type="text" value="@currentSurnameFilter" />
+                </div>
+                <div class="items">
+                    <div>Group filter</div>
+                    <select class="select-items" name="groupFilter" asp-items="@Model.SelectGroups">
+                        <option value="" disabled selected>Select Group</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formButtons performer-item">
+                <input type="submit" class="addRecordbtn" value="Find">
+                <div class="crudBtn reset"><a class="crudLink" asp-controller="Performer" asp-action="ResetFilter"> Reset</a></div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container-item">
+        @if (User.IsInRole(RoleType.Admin) || User.IsInRole(RoleType.Employeе))
+        {
+            <div class="crudBtn"><a class="crudLink" asp-action="ManagePerformers" asp-controller="Performer">Manage</a></div>
+        }
+        @if (@Model?.Items.Count() > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Group name</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var performer in @Model.Items)
+                    {
+                    <tr>
+                        <td>@performer.Name</td>
+                        <td>@performer.Surname</td>
+                        @if (@performer.GroupName != null)
+                        {
+                            <td>@performer.GroupName</td>
+                        }
+                        else
+                        {
+                            <td>-</td>
+                        }
+                    </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Performers"></page-link></div>
+        }
+        else
+        {
+            <h3>There are no performers </h3>
+        }
+    </div>
+</div>
+

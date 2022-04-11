@@ -1,0 +1,25 @@
+﻿@model EditBroadcastViewModel
+<div class="main-container">
+    <div class="formContainer">
+        <h1 class="title">Edit broadcast</h1>
+        <div class="error-box" asp-validation-summary="All"></div>
+        <form asp-action="Edit" asp-controller="Broadcast" method="post" class="form">
+            <input asp-for="@Model.Id" type="hidden" />
+            <div class="select-container">
+                <label>Employee</label>
+                <select class="select-items" asp-for="@Model.EmployeeId" asp-items="@Model.EmployeeList" required>
+                    <option value="" disabled>Select  Employee</option>
+                </select>
+                <label>Record</label>
+                <select class="select-items" asp-for="@Model.RecordId" asp-items="@Model.RecordList" required>
+                    <option value="" disabled>Select  Record</option>
+                </select>
+            </div>
+            <label>Date and time</label>
+            <input class="inputStyle" asp-for="@Model.DateAndTime" type="datetime-local" min="2018-06-01T08:30" placeholder="Date and time">
+            <input type="submit" class="addRecordbtn" value="Edit">
+
+        </form>
+        <p class="success-message">@ViewData["SuccessMessage"]</p>
+    </div>
+</div>

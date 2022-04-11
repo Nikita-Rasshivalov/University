@@ -1,0 +1,62 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Employees]
+       [dbo].[Performers]
+       [dbo].[Records]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Performers].[Surname] is being dropped, data loss could occur.
+       The column [dbo].[Records].[ComposName] is being dropped, data loss could occur.
+       The column [dbo].[Records].[СompositionName] on table [dbo].[Records] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Drop
+       [dbo].[FK_Records_Genres] (Foreign Key)
+       [dbo].[FK_Performers_Records] (Foreign Key)
+     Table rebuild
+       [dbo].[Employees] (Table)
+       [dbo].[Performers] (Table)
+       [dbo].[Records] (Table)
+     Create
+       [dbo].[AspNetRoleClaims] (Table)
+       [dbo].[AspNetRoles] (Table)
+       [dbo].[AspNetUserClaims] (Table)
+       [dbo].[AspNetUserLogins] (Table)
+       [dbo].[AspNetUserRoles] (Table)
+       [dbo].[AspNetUsers] (Table)
+       [dbo].[AspNetUserTokens] (Table)
+       [dbo].[FK_Employees_AspNetUsers] (Foreign Key)
+       [dbo].[FK_AspNetRoleClaims_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserClaims_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserLogins_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserTokens_AspNetUsers_UserId] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_BroadcastSchedule_Records] (Foreign Key)
+       [dbo].[FK_BroadcastSchedule_Employees] (Foreign Key)
+       [dbo].[FK_Performers_Groups] (Foreign Key)
+     Create
+       [dbo].[FK_BroadcastSchedule_Records] (Foreign Key)
+       [dbo].[FK_BroadcastSchedule_Employees] (Foreign Key)
+       [dbo].[FK_Performers_Groups] (Foreign Key)
+
+The column AspNetUserId on table [dbo].[Employees] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Performers].[Surname] is being dropped, data loss could occur.
+The column [dbo].[Records].[ComposName] is being dropped, data loss could occur.
+The column [dbo].[Records].[СompositionName] on table [dbo].[Records] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+If this deployment is executed, changes to [dbo].[Employees] might introduce run-time errors in [dbo].[InsertEmployees].
+If this deployment is executed, changes to [dbo].[Performers] might introduce run-time errors in [dbo].[InsertPerformers].
+If this deployment is executed, changes to [dbo].[Performers] might introduce run-time errors in [dbo].[PerformersView].
+If this deployment is executed, changes to [dbo].[Performers] might introduce run-time errors in [dbo].[RecordsView].
+If this deployment is executed, changes to [dbo].[Records] might introduce run-time errors in [dbo].[InsertRecords].
+If this deployment is executed, changes to [dbo].[Records] might introduce run-time errors in [dbo].[RecordsView].
+

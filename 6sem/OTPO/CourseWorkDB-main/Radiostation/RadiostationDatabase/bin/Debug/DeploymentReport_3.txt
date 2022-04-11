@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AspNetRoleClaims] (Table)
+       [dbo].[AspNetRoles] (Table)
+       [dbo].[AspNetUserClaims] (Table)
+       [dbo].[AspNetUserLogins] (Table)
+       [dbo].[AspNetUserRoles] (Table)
+       [dbo].[AspNetUsers] (Table)
+       [dbo].[AspNetUserTokens] (Table)
+       [dbo].[BroadcastSchedule] (Table)
+       [dbo].[Employees] (Table)
+       [dbo].[Genres] (Table)
+       [dbo].[Groups] (Table)
+       [dbo].[Performers] (Table)
+       [dbo].[Records] (Table)
+       [dbo].[FK_AspNetRoleClaims_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserClaims_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserLogins_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserTokens_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_BroadcastSchedule_Records] (Foreign Key)
+       [dbo].[FK_BroadcastSchedule_Employees] (Foreign Key)
+       [dbo].[FK_Employees_AspNetUsers] (Foreign Key)
+       [dbo].[FK_Performers_Groups] (Foreign Key)
+
+** Supporting actions

@@ -1,0 +1,192 @@
+\hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o}{}\doxysection{FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO Class Reference}
+\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o}\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+
+
+Линейный тетраэдральный конечный элемент  
+
+
+
+
+Inheritance diagram for FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO\+:
+% FIG 0
+
+
+Collaboration diagram for FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_af77dc211d640ad7ecf8e5bb3c88e0152}{Linear\+Tetrahedron\+DTO}} (int id, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_d_t_o}{Node\+DTO}}\mbox{[}$\,$\mbox{]} nodes, \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o_a9c8d9711165275074b7dc5ab6c173ae9}{Color}} color)
+\begin{DoxyCompactList}\small\item\em Создание линейного тетраэдрального конечного элемента \end{DoxyCompactList}\item 
+override double\mbox{[},\mbox{]} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a37163311e6028bd78e09e1cdebb3a841}{Get\+Stiffness\+Matrix}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_material_d_t_o}{Material\+DTO}} material)
+\begin{DoxyCompactList}\small\item\em Вычисление матрицы жесткости линейного тетраэдра \end{DoxyCompactList}\item 
+override double\mbox{[},\mbox{]} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a2da96785e06d0858a2329657d520e7cf}{Get\+InversedA}} ()
+\begin{DoxyCompactList}\small\item\em Вычисляет обратную матрицу А для вычисления геометрической матрицы \end{DoxyCompactList}\item 
+override double\mbox{[},\mbox{]} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a5f6c73cc5a2bcbcd07833cbbb1dc02b3}{Get\+Elastic\+Matrix}} (\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_material_d_t_o}{Material\+DTO}} material)
+\begin{DoxyCompactList}\small\item\em Вычисляет эластичную матрицу линейного тетраэдра \end{DoxyCompactList}\item 
+override \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o}{Element\+DTO}} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a9dc4cc742be9873c77128b8f2da7897f}{Copy}} (IList$<$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_d_t_o}{Node\+DTO}} $>$ nodes)
+\begin{DoxyCompactList}\small\item\em Метод копирует конечный элемент \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+override double \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a0c1648545817130c9ee997a0fc164a19}{Volume}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Объём конечного элемента \end{DoxyCompactList}\item 
+override double\mbox{[},\mbox{]} \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_ac0d9d0d67429f99673451c1df4b51e0e}{Geometric\+Matrix}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Геометрическая матрица конечного элемента \mbox{[}D\mbox{]} \end{DoxyCompactList}\item 
+override Point3D \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_addab7d29d8dee9e7a4e4836eac83437c}{Center\+Point}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Линейный тетраэдральный конечный элемент 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_af77dc211d640ad7ecf8e5bb3c88e0152}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_af77dc211d640ad7ecf8e5bb3c88e0152}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!LinearTetrahedronDTO@{LinearTetrahedronDTO}}
+\index{LinearTetrahedronDTO@{LinearTetrahedronDTO}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{LinearTetrahedronDTO()}{LinearTetrahedronDTO()}}
+{\footnotesize\ttfamily FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Linear\+Tetrahedron\+DTO (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_d_t_o}{Node\+DTO}}\mbox{[}$\,$\mbox{]}}]{nodes,  }\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o_a9c8d9711165275074b7dc5ab6c173ae9}{Color}}}]{color }\end{DoxyParamCaption})}
+
+
+
+Создание линейного тетраэдрального конечного элемента 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Идентификатор конечного элемента\\
+\hline
+{\em nodes} & Узлы конечного элемента\\
+\hline
+{\em color} & Цвет конечного элемента\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 2
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a9dc4cc742be9873c77128b8f2da7897f}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a9dc4cc742be9873c77128b8f2da7897f}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!Copy@{Copy}}
+\index{Copy@{Copy}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{Copy()}{Copy()}}
+{\footnotesize\ttfamily override \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o}{Element\+DTO}} FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Copy (\begin{DoxyParamCaption}\item[{IList$<$ \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_node_d_t_o}{Node\+DTO}} $>$}]{nodes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Метод копирует конечный элемент 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nodes} & Узлы конечно-\/элементной сетки, в котором находится этот конечный элемент\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Копия текущего конечного элемента
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o_a393fef4763d70b190fbcc027166df1c8}{FEM.\+BLL.\+Data.\+Element\+DTO}}.
+
+Here is the call graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a5f6c73cc5a2bcbcd07833cbbb1dc02b3}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a5f6c73cc5a2bcbcd07833cbbb1dc02b3}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!GetElasticMatrix@{GetElasticMatrix}}
+\index{GetElasticMatrix@{GetElasticMatrix}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{GetElasticMatrix()}{GetElasticMatrix()}}
+{\footnotesize\ttfamily override double \mbox{[},\mbox{]} FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Get\+Elastic\+Matrix (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_material_d_t_o}{Material\+DTO}}}]{material }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Вычисляет эластичную матрицу линейного тетраэдра 
+
+
+\begin{DoxyParams}{Parameters}
+{\em material} & Материал линейного тетраэдра\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Эластичная матрица линейного тетраэдра
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o_a1c665c172081a79882c4b8c81beef376}{FEM.\+BLL.\+Data.\+Element\+DTO}}.
+
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a2da96785e06d0858a2329657d520e7cf}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a2da96785e06d0858a2329657d520e7cf}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!GetInversedA@{GetInversedA}}
+\index{GetInversedA@{GetInversedA}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{GetInversedA()}{GetInversedA()}}
+{\footnotesize\ttfamily override double \mbox{[},\mbox{]} FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Get\+InversedA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Вычисляет обратную матрицу А для вычисления геометрической матрицы 
+
+\begin{DoxyReturn}{Returns}
+Обратная матрица А
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o_a64913aae3d146a63528924a405a0020f}{FEM.\+BLL.\+Data.\+Element\+DTO}}.
+
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a37163311e6028bd78e09e1cdebb3a841}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a37163311e6028bd78e09e1cdebb3a841}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!GetStiffnessMatrix@{GetStiffnessMatrix}}
+\index{GetStiffnessMatrix@{GetStiffnessMatrix}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{GetStiffnessMatrix()}{GetStiffnessMatrix()}}
+{\footnotesize\ttfamily override double \mbox{[},\mbox{]} FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Get\+Stiffness\+Matrix (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_material_d_t_o}{Material\+DTO}}}]{material }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Вычисление матрицы жесткости линейного тетраэдра 
+
+
+\begin{DoxyParams}{Parameters}
+{\em material} & Материал тетраэдра\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Матрица жесткости линейного тетраэдра
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_f_e_m_1_1_b_l_l_1_1_data_1_1_element_d_t_o_a715cdb609130f6848edf681c73665584}{FEM.\+BLL.\+Data.\+Element\+DTO}}.
+
+Here is the call graph for this function\+:
+% FIG 5
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_addab7d29d8dee9e7a4e4836eac83437c}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_addab7d29d8dee9e7a4e4836eac83437c}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!CenterPoint@{CenterPoint}}
+\index{CenterPoint@{CenterPoint}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{CenterPoint}{CenterPoint}}
+{\footnotesize\ttfamily override Point3D FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Center\+Point\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_ac0d9d0d67429f99673451c1df4b51e0e}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_ac0d9d0d67429f99673451c1df4b51e0e}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!GeometricMatrix@{GeometricMatrix}}
+\index{GeometricMatrix@{GeometricMatrix}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{GeometricMatrix}{GeometricMatrix}}
+{\footnotesize\ttfamily override double \mbox{[},\mbox{]} FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Geometric\+Matrix\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Геометрическая матрица конечного элемента \mbox{[}D\mbox{]} 
+
+\mbox{\Hypertarget{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a0c1648545817130c9ee997a0fc164a19}\label{class_f_e_m_1_1_b_l_l_1_1_data_1_1_elements_1_1_linear_tetrahedron_d_t_o_a0c1648545817130c9ee997a0fc164a19}} 
+\index{FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}!Volume@{Volume}}
+\index{Volume@{Volume}!FEM.BLL.Data.Elements.LinearTetrahedronDTO@{FEM.BLL.Data.Elements.LinearTetrahedronDTO}}
+\doxysubsubsection{\texorpdfstring{Volume}{Volume}}
+{\footnotesize\ttfamily override double FEM.\+BLL.\+Data.\+Elements.\+Linear\+Tetrahedron\+DTO.\+Volume\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Объём конечного элемента 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+FEM.\+BLL/\+Data/\+Elements/\mbox{\hyperlink{_linear_tetrahedron_d_t_o_8cs}{Linear\+Tetrahedron\+DTO.\+cs}}\end{DoxyCompactItemize}

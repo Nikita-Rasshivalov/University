@@ -1,0 +1,1 @@
+[{"_id":1,"_name":"admin","_surname":"admin","_username":"admin","_password":"admin","@class":"models.Admin"},{"_id":2,"_name":"Dispatcher","_surname":"Dispatcher","_username":"d","_password":"d","@class":"models.Dispatcher"},{"_id":3,"_name":"Ivan","_surname":"Leonov","_username":"driver","_password":"driver","_isWorked":true,"_tripId":1,"_carId":1,"@class":"models.Driver"}]

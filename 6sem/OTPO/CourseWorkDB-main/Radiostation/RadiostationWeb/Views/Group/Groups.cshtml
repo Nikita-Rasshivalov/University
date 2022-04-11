@@ -1,0 +1,62 @@
+﻿@model PageItemsModel<Group>
+@addTagHelper *, RadiostationWeb
+@{
+
+    ViewData["Title"] = "Groups";
+
+    var groupFilter = (string)Context.Request.Query["groupFilter"] ?? Context.Request.Cookies["groupFilter"];
+}
+<div class="main-container">
+    <div class="info-container">
+        <div class="formContainer">
+            <h1 class="title">Groups</h1>
+            <form asp-action="Groups" asp-controller="Group" method="get" class="form">
+                <div class="wrapper-items">
+                    <div class="items group-item">
+                        <div>Name filter</div>
+                        <input class="inputStyle" name="groupFilter" type="text" value="@groupFilter" />
+                    </div>
+
+                    <div class="formButtons">
+                        <input type="submit" class="addRecordbtn" value="Find">
+                        <div class="crudBtn reset"><a class="crudLink" asp-controller="Group" asp-action="ResetFilter"> Reset</a></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container-item">
+            @if (User.IsInRole(RoleType.Admin) || User.IsInRole(RoleType.Employeе))
+            {
+                <div class="crudBtn"><a class="crudLink" asp-action="ManageGroups" asp-controller="Group">Manage</a></div>
+            }
+            @if (@Model?.Items.Count() > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var group in @Model.Items)
+                        {
+                            <tr>
+                                <td>
+                                    <a asp-controller="Group" asp-action="GroupDetail" asp-route-id="@group.Id">@group.Description</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="pages-container"><page-link page-model="Model.PageModel" page-action="Groups"></page-link></div>
+            }
+            else
+            {
+                <h3>There are no Groups </h3>
+            }
+        </div>
+
+    </div>
+</div>
+
