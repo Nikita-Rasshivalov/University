@@ -1,0 +1,258 @@
+﻿<Window x:Name="loa" x:Class="CourseWork.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork.UI"
+        mc:Ignorable="d"
+        Title="course work" Height="1080" Width="1237" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Window.Resources>
+        <Style x:Key="SimpleText">
+            <Setter Property="Control.Foreground" Value="AntiqueWhite" />
+            <Setter Property="Control.FontSize" Value="20"/>
+            <Setter Property="Control.HorizontalAlignment" Value="Center"/>
+            <Setter Property="Control.VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="SimpleButton">
+            <Setter Property="Control.Margin" Value="5" />
+            <Setter Property="Control.HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Control.VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="SimpleBox">
+            <Setter Property="Control.Margin" Value="5" />
+            <Setter Property="Control.HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Control.VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+        </Style>
+    </Window.Resources>
+    <Grid PreviewMouseWheel="Grid_PreviewMouseWheel">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="730*"/>
+            <RowDefinition Height="250*"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="Canvas" Background="AliceBlue" Grid.RowSpan="3" />
+
+        <Grid Grid.Row="2" Margin="10,0,10,5" Background="#e89646" PreviewMouseWheel="Grid_PreviewMouseWheel">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Column="0" Visibility="Hidden" Text="Задать силу (Ньютонов)" Style="{StaticResource SimpleText}"/>
+            <TextBox x:Name="PressureBox" Visibility="Hidden" Grid.Column="1" Style="{StaticResource SimpleBox}" Text="7" FontSize="30" />
+            <Button x:Name="PressureApplyButton" Visibility="Hidden" Grid.Column="2" Content="Применить" Style="{StaticResource SimpleButton}" Click="PressureApplyButton_Click"/>
+            <Button x:Name="MakeSolutionButton" Grid.Column="3" Grid.Row="3" Content="Вычислить" Style="{StaticResource SimpleButton}" Click="MakeSolutionButton_Click"
+                     Background="#ffa899"/>
+
+
+
+            <Button x:Name="ModelApplyButton" Grid.Column="3" Content="Применить" Style="{StaticResource SimpleButton}" Click="ModelApplyButton_Click"  Grid.Row="1"/>
+            <TextBox  x:Name="ElementsBox" Grid.Row="1" Grid.Column="1"   FontSize="25"  MouseDoubleClick="ElementsBox_MouseDoubleClick" Style="{StaticResource SimpleBox}">
+                <TextBox.Text>Путь к элементам</TextBox.Text>
+                <TextBox.ToolTip>
+                    <ToolTip Width="120" Height="30">
+                        <StackPanel>
+                            <TextBlock Text="Путь к элементам" />
+                        </StackPanel>
+                    </ToolTip>
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox  x:Name="StepBox" Grid.Row="1" Visibility="Hidden" Grid.Column="2"  FontSize="25"   Style="{StaticResource SimpleBox}">
+                <TextBox.ToolTip>
+                    <ToolTip Width="120" Height="30">
+                        <StackPanel>
+                            <TextBlock Text="Шаг сетки" />
+                        </StackPanel>
+                    </ToolTip>
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox  x:Name="NodesBox" Grid.Row="1" Grid.Column="2"  FontSize="25" MouseDoubleClick="NodesBox_MouseDoubleClick"  Style="{StaticResource SimpleBox}">
+                <TextBox.Text>Путь к узлам</TextBox.Text>
+                <TextBox.ToolTip>
+                    <ToolTip Width="120" Height="30">
+                        <StackPanel>
+                            <TextBlock Text="Путь к узлам" />
+                        </StackPanel>
+                    </ToolTip>
+                </TextBox.ToolTip>
+            </TextBox>
+
+
+            <ComboBox x:Name="FileTypeBox" SelectedIndex="0" Grid.Column="0" Grid.Row="1" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionChanged="FileTypeBox_SelectionChanged" Style="{StaticResource SimpleButton}" >
+                <ComboBoxItem Content="txt" IsSelected="True"/>
+                <ComboBoxItem Content="json"/>
+                <ComboBox.ToolTip>
+                    <ToolTip Width="120" Height="30">
+                        <StackPanel>
+                            <TextBlock Text="Тип файла" />
+                        </StackPanel>
+                    </ToolTip>
+                </ComboBox.ToolTip>
+            </ComboBox>
+
+
+            <TextBox  x:Name="LoadsBox" Grid.Row="2" Grid.Column="0"  FontSize="25" MouseDoubleClick="LoadsBox_MouseDoubleClick" Style="{StaticResource SimpleBox}">
+                <TextBox.Text>Путь к нагрузкам</TextBox.Text>
+                <TextBox.ToolTip>
+                    <ToolTip Width="120" Height="30">
+                        <StackPanel>
+                            <TextBlock Text="Путь к нагрузкам" />
+                        </StackPanel>
+                    </ToolTip>
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox  x:Name="DeformationCoefBox" Visibility="Hidden" Grid.Row="2" Grid.Column="1"  FontSize="25" Style="{StaticResource SimpleBox}" Text="1000" Margin="4,5,4,5" KeyDown="DeformationCoefBox_KeyDown">
+                <TextBox.ToolTip>
+                    <ToolTip Width="120" Height="30">
+                        <StackPanel>
+                            <TextBlock Text="Коэффицент деформации" />
+                        </StackPanel>
+                    </ToolTip>
+                </TextBox.ToolTip>
+            </TextBox>
+        </Grid>
+        <Grid Grid.Row="0" Margin="10,20,10,10" Background="#e89646">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="MaterialInfoButton" Grid.Column="0" Height="30" Width="30" VerticalAlignment="Center" HorizontalAlignment="Left"
+                    Content="!" FontSize="20" FontWeight="Bold" MouseEnter="MaterialInfoButton_MouseEnter" Margin="10,0,0,0">
+                <Button.ToolTip>
+                    <ToolTip>
+                    </ToolTip>
+                </Button.ToolTip>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <SolidColorBrush Color="#FFDDDDDD"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <ContentPresenter HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBlock Text="Материал" Style="{StaticResource SimpleText}" FontSize="25" HorizontalAlignment="Left" Margin="50,0,0,0"/>
+            <ComboBox x:Name="MaterialsBox" Grid.Column="1" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionChanged="MaterialsBox_SelectionChanged" Margin="0,5,10,5"/>
+
+
+
+
+            <Button x:Name="ShowOriginalDetailButton" Grid.Column="2" Content="Исходная деталь" Style="{StaticResource SimpleButton}" Click="ShowOriginalDetailButton_Click"/>
+            <Button x:Name="ShowDisplacementButton" Grid.Column="3" Content="Перемещения" Style="{StaticResource SimpleButton}" Click="ShowDisplacementButton_Click"/>
+            <Button x:Name="ShowStrainButton" Grid.Column="4" Content="Деформации " Style="{StaticResource SimpleButton}" Click="ShowStrainButton_Click"/>
+            <Button x:Name="ShowStressButton" Grid.Column="5" Content="Напряжения" Style="{StaticResource SimpleButton}" Click="ShowStressButton_Click" />
+        </Grid>
+        <Grid Grid.Row="1" Margin="20,5,20,195"  Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="205*"/>
+                <ColumnDefinition Width="793*"/>
+                <ColumnDefinition Width="199*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="GradientScaleGrid" Grid.ColumnSpan="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="270*"/>
+                    <ColumnDefinition Width="992*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Margin="20,0,180,64">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="87*"/>
+                        <RowDefinition Height="28*"/>
+                        <RowDefinition Height="26*"/>
+                        <RowDefinition Height="210*"/>
+                        <RowDefinition Height="263*"/>
+                        <RowDefinition Height="88*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="GradientScaleMaxValue" Grid.Row="0" Text="10000" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-32,10,0,0" Height="21" Width="93"/>
+                    <TextBlock x:Name="GradientScaleMinValue" Grid.Row="5" Text="6000" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="-32,0,0,0" Height="22" Width="93"/>
+                    <TextBlock x:Name="GradientScaleMaxValueUnder" Grid.Row="1" Text="9000" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-32,10,0,0" Height="22" Width="93" Grid.RowSpan="2"/>
+                    <TextBlock x:Name="GradientScaleMinValueUnder" Grid.Row="4" Text="7000" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="-32,0,0,88" Height="22" Width="93" Grid.RowSpan="2"/>
+                </Grid>
+                <Rectangle x:Name="GradientScaleRectangle" Margin="76,5,61,69">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush>
+                            <GradientStop Color="Red" Offset="0" />
+                            <GradientStop Color="Green" Offset="0.5" />
+                            <GradientStop Color="Blue" Offset="1" />
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+            <Border MouseMove="Border_MouseMove" Background="AliceBlue"  Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,0,56">
+                <Viewport3D x:Name="Viewport" PreviewMouseMove="Viewport_PreviewMouseMove" Margin="0,-14,0,-53">
+                    <Viewport3D.Camera>
+                        <PerspectiveCamera x:Name="Camera" Position="0.5,0.5,10" LookDirection="0,-0.5,-11" FieldOfView="50" />
+                    </Viewport3D.Camera>
+                    <ModelVisual3D>
+                        <ModelVisual3D.Content>
+                            <AmbientLight Color="White"/>
+                        </ModelVisual3D.Content>
+                    </ModelVisual3D>
+                    <ModelVisual3D x:Name="MeshModel">
+                        <ModelVisual3D.Content>
+                            <Model3DGroup>
+                                <Model3DGroup.Children>
+                                    <Model3DCollection>
+                                        <GeometryModel3D>
+                                            <GeometryModel3D.Material>
+                                                <MaterialGroup>
+                                                    <DiffuseMaterial>
+                                                        <DiffuseMaterial.Brush>
+                                                            <SolidColorBrush Color="Black"/>
+                                                        </DiffuseMaterial.Brush>
+                                                    </DiffuseMaterial>
+                                                </MaterialGroup>
+                                            </GeometryModel3D.Material>
+                                            <GeometryModel3D.BackMaterial>
+                                                <MaterialGroup>
+                                                    <DiffuseMaterial>
+                                                        <DiffuseMaterial.Brush>
+                                                            <SolidColorBrush Color="#BF000000"/>
+                                                        </DiffuseMaterial.Brush>
+                                                    </DiffuseMaterial>
+                                                </MaterialGroup>
+                                            </GeometryModel3D.BackMaterial>
+                                            <GeometryModel3D.Geometry>
+                                                <MeshGeometry3D Positions="0,0,0 0,0,1 0,1,1 1,1,1"
+                                                        TriangleIndices="0 1 3 2 1 0 0 2 3 1 2 3"/>
+                                            </GeometryModel3D.Geometry>
+                                        </GeometryModel3D>
+                                    </Model3DCollection>
+                                </Model3DGroup.Children>
+                            </Model3DGroup>
+                        </ModelVisual3D.Content>
+                        <ModelVisual3D.Transform>
+                            <Transform3DGroup>
+                                <ScaleTransform3D ScaleX="2" ScaleY="2" ScaleZ="2"/>
+                                <RotateTransform3D>
+                                    <RotateTransform3D.Rotation>
+                                        <AxisAngleRotation3D Axis="0, 1, 0" Angle="120"/>
+                                    </RotateTransform3D.Rotation>
+                                </RotateTransform3D>
+                            </Transform3DGroup>
+                        </ModelVisual3D.Transform>
+                    </ModelVisual3D>
+                </Viewport3D>
+            </Border>
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+D:\GIT\kskr\src\CourceWork.Common\bin\Debug\net5.0\CourceWork.Common.deps.json
+D:\GIT\kskr\src\CourceWork.Common\bin\Debug\net5.0\CourceWork.Common.dll
+D:\GIT\kskr\src\CourceWork.Common\bin\Debug\net5.0\ref\CourceWork.Common.dll
+D:\GIT\kskr\src\CourceWork.Common\bin\Debug\net5.0\CourceWork.Common.pdb
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\CourceWork.Common.csproj.AssemblyReference.cache
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\CourceWork.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\CourceWork.Common.AssemblyInfoInputs.cache
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\CourceWork.Common.AssemblyInfo.cs
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\CourceWork.Common.csproj.CoreCompileInputs.cache
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\CourceWork.Common.dll
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\ref\CourceWork.Common.dll
+D:\GIT\kskr\src\CourceWork.Common\obj\Debug\net5.0\CourceWork.Common.pdb

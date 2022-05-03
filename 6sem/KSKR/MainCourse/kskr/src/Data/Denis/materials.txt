@@ -1,0 +1,3 @@
+Name	Young	Poisson	a	r	g	b
+Steel	166670000000	0.3	153	83	210	245	
+Structural Steel	200000000000	0.3	153	83	210	111

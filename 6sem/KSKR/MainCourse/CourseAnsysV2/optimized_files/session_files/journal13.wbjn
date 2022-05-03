@@ -1,0 +1,9 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
+Open(FilePath="C:/Users/nikit/Desktop/cube/cube.wbpj")

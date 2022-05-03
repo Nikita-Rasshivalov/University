@@ -1,0 +1,15 @@
+D:\GIT\kskr\src\CourseWork.BLL\bin\Debug\net5.0\CourseWork.BLL.deps.json
+D:\GIT\kskr\src\CourseWork.BLL\bin\Debug\net5.0\CourseWork.BLL.dll
+D:\GIT\kskr\src\CourseWork.BLL\bin\Debug\net5.0\ref\CourseWork.BLL.dll
+D:\GIT\kskr\src\CourseWork.BLL\bin\Debug\net5.0\CourseWork.BLL.pdb
+D:\GIT\kskr\src\CourseWork.BLL\bin\Debug\net5.0\CourseWork.Common.dll
+D:\GIT\kskr\src\CourseWork.BLL\bin\Debug\net5.0\CourseWork.Common.pdb
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.csproj.AssemblyReference.cache
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.AssemblyInfoInputs.cache
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.AssemblyInfo.cs
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.csproj.CoreCompileInputs.cache
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.csproj.CopyComplete
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.dll
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\ref\CourseWork.BLL.dll
+D:\GIT\kskr\src\CourseWork.BLL\obj\Debug\net5.0\CourseWork.BLL.pdb

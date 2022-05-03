@@ -18,7 +18,7 @@ public class Lab10Application {
     public static void main(String[] args) {
         SpringApplication.run(Lab10Application.class, args);
     }
-    @GetMapping("/mul")
+    @GetMapping("/mul/{}")
     public String getMul(String val1, String val2) throws InvalidApplicationException {
        try {
            int value1 = Integer.parseInt(val1);

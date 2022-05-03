@@ -1,0 +1,21 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+template1 = GetTemplate(TemplateName="Mechanical APDL")
+system1 = GetSystem(Name="SYS")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+setupComponent1 = system2.GetComponent(Name="Setup")
+setupComponent1.Refresh()
+setup1 = system2.GetContainer(ComponentName="Setup")
+setup1.Edit(
+    Interactive=True,
+    LoadInputFiles=True)
+model1.Edit()
+setup1.Exit()
+model1.Exit()
+Save(Overwrite=True)

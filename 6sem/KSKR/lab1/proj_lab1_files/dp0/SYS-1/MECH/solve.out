@@ -97,13 +97,13 @@
   DISTRIBUTED MEMORY PARALLEL REQUESTED
        2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
     TOTAL OF     2 CORES REQUESTED
-  INPUT FILE NAME              = D:\University\6sem\KSKR\lab1\_ProjectScratch\Scr1DD0\dummy.dat
-  OUTPUT FILE NAME             = D:\University\6sem\KSKR\lab1\_ProjectScratch\Scr1DD0\solve.out
+  INPUT FILE NAME              = D:\University\6sem\KSKR\lab1\_ProjectScratch\ScrC91E\dummy.dat
+  OUTPUT FILE NAME             = D:\University\6sem\KSKR\lab1\_ProjectScratch\ScrC91E\solve.out
   START-UP FILE MODE           = NOREAD
   STOP FILE MODE               = NOREAD
 
  RELEASE= 2022 R1              BUILD= 22.1      UP20211129   VERSION=WINDOWS x64 
- CURRENT JOBNAME=file0  21:28:51  MAR 28, 2022 CP=      0.094
+ CURRENT JOBNAME=file0  23:03:10  APR 11, 2022 CP=      0.062
 
 
  PARAMETER _DS_PROGRESS =     999.0000000    
@@ -112,11 +112,11 @@
 
 
 
- *** NOTE ***                            CP =       0.234   TIME= 21:28:52
+ *** NOTE ***                            CP =       0.188   TIME= 23:03:11
  The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
  solution.  Command is ignored.                                          
 
- *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  21.4811111    
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  23.0530556    
 
  TITLE= 
  proj_lab1--Static Structural (B5)                                             
@@ -129,7 +129,7 @@
  SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_PROJECTSCRATCH_DIR(1) = D:\University\6sem\KSKR\lab1\_ProjectScratch\Scr1DD0\
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = D:\University\6sem\KSKR\lab1\_ProjectScratch\ScrC91E\
 
  SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
@@ -140,34 +140,23 @@
   TYPE=STRI  DIMENSIONS=      248        1        1
 
  PARAMETER _WB_USERFILES_DIR(1) = D:\University\6sem\KSKR\lab1\proj_lab1_files\user_files\
- --- Data in consistent MKS units. See Solving Units in the help system for more
+ --- Data in consistent NMM units. See Solving Units in the help system for more
 
- MKS UNITS SPECIFIED FOR INTERNAL    
-  LENGTH        (l)  = METER (M)
-  MASS          (M)  = KILOGRAM (KG)
-  TIME          (t)  = SECOND (SEC)
-  TEMPERATURE   (T)  = CELSIUS (C)
-  TOFFSET            = 273.0
-  CHARGE        (Q)  = COULOMB
-  FORCE         (f)  = NEWTON (N) (KG-M/SEC2)
-  HEAT               = JOULE (N-M)
+ MPA UNITS SPECIFIED FOR INTERNAL    
+  LENGTH      = MILLIMETERS (mm)
+  MASS        = TONNE (Mg)
+  TIME        = SECONDS (sec)
+  TEMPERATURE = CELSIUS (C)
+  TOFFSET     = 273.0
+  FORCE       = NEWTON (N)
+  HEAT        = MILLIJOULES (mJ)
 
-  PRESSURE           = PASCAL (NEWTON/M**2)
-  ENERGY        (W)  = JOULE (N-M)
-  POWER         (P)  = WATT (N-M/SEC)
-  CURRENT       (i)  = AMPERE (COULOMBS/SEC)
-  CAPACITANCE   (C)  = FARAD
-  INDUCTANCE    (L)  = HENRY
-  MAGNETIC FLUX      = WEBER
-  RESISTANCE    (R)  = OHM
-  ELECTRIC POTENTIAL = VOLT
-
- INPUT  UNITS ARE ALSO SET TO MKS 
+ INPUT  UNITS ARE ALSO SET TO MPA 
 
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2022 R1          22.1     ***
  DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
 
- 00000000  VERSION=WINDOWS x64   21:28:52  MAR 28, 2022 CP=      0.234
+ 00000000  VERSION=WINDOWS x64   23:03:11  APR 11, 2022 CP=      0.188
 
  proj_lab1--Static Structural (B5)                                             
 
@@ -176,401 +165,21 @@
           ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
  *********** Nodes for the whole assembly ***********
  *********** Elements for Body 1 "SYS-1\Solid" ***********
- *********** Send User Defined Coordinate System(s) ***********
- *********** Set Reference Temperature ***********
- *********** Send Materials ***********
- *********** Fixed Supports ***********
- *********** Define Force Using Surface Effect Elements ***********
 
-
- ***** ROUTINE COMPLETED *****  CP =         0.234
-
-
- --- Number of total nodes = 1588
- --- Number of contact elements = 23
- --- Number of spring elements = 0
- --- Number of bearing elements = 0
- --- Number of solid elements = 190
- --- Number of condensed parts = 0
- --- Number of total elements = 213
-
- *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  21.4811111    
- ****************************************************************************
- *************************    SOLUTION       ********************************
- ****************************************************************************
-
- *****  ANSYS SOLUTION ROUTINE  *****
-
-
- PERFORM A STATIC ANALYSIS
-  THIS WILL BE A NEW ANALYSIS
-
- PARAMETER _THICKRATIO =     0.000000000    
-
- USE SPARSE MATRIX DIRECT SOLVER
-
- CONTACT INFORMATION PRINTOUT LEVEL       1
-
- DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
-
- DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
-
- NLDIAG: Nonlinear diagnostics CONT option is set to ON. 
-         Writing frequency : each ITERATION.
-
- DO NOT SAVE ANY RESTART FILES AT ALL
- ****************************************************
- ******************* SOLVE FOR LS 1 OF 1 ****************
-
- SELECT       FOR ITEM=TYPE COMPONENT=    
-  IN RANGE         2 TO          2 STEP          1
-
-         23  ELEMENTS (OF        213  DEFINED) SELECTED BY  ESEL  COMMAND.
-
- SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
-
-         96 NODES (OF       1588  DEFINED) SELECTED FROM
-       23 SELECTED ELEMENTS BY NSLE COMMAND.
-
- SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
-     VALUES =   -0.19993E-06   -0.19993E-06   -0.19993E-06   -0.19993E-06
-
- SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  2   KVAL = 1
-     VALUES =    0.43603E+07    0.43603E+07    0.43603E+07    0.43603E+07
-
- SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  3   KVAL = 1
-     VALUES =    0.87222E+08    0.87222E+08    0.87222E+08    0.87222E+08
-
- ALL SELECT   FOR ITEM=NODE COMPONENT=    
-  IN RANGE         1 TO       1588 STEP          1
-
-       1588  NODES (OF       1588  DEFINED) SELECTED BY NSEL  COMMAND.
-
- ALL SELECT   FOR ITEM=ELEM COMPONENT=    
-  IN RANGE         1 TO        703 STEP          1
-
-        213  ELEMENTS (OF        213  DEFINED) SELECTED BY  ESEL  COMMAND.
-
- PRINTOUT RESUMED BY /GOP
-
- USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
- FOR AUTOMATIC TIME STEPPING:
-   USE      1 SUBSTEPS AS A MAXIMUM
-   USE      1 SUBSTEPS AS A MINIMUM
-
- TIME=  1.0000    
-
- ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
-
-
- WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
-   FOR ALL APPLICABLE ENTITIES
-
- *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
-
- *IF  ANSINTER_                         ( =   0.00000     )  NE  
-      0                                 ( =   0.00000     )  THEN    
-
- *ENDIF
-
- *** NOTE ***                            CP =       0.266   TIME= 21:28:52
- The automatic domain decomposition logic has selected the MESH domain   
- decomposition method with 2 processes per solution.                     
-
- *****  ANSYS SOLVE    COMMAND  *****
-
- *** WARNING ***                         CP =       0.266   TIME= 21:28:52
- Element shape checking is currently inactive.  Issue SHPP,ON or         
- SHPP,WARN to reactivate, if desired.                                    
-
- *** NOTE ***                            CP =       0.266   TIME= 21:28:52
- The model data was checked and warning messages were found.             
-  Please review output or errors file (                                  
- D:\University\6sem\KSKR\lab1\_ProjectScratch\Scr1DD0\file0.err ) for    
- these warning messages.                                                 
-
- *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
-      --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
-
- ELEMENT TYPE         1 IS SOLID186. KEYOPT(2)=0 IS SUGGESTED AND HAS BEEN RESET.
-  KEYOPT(1-12)=    0    0    0    0    0    0    0    0    0    0    0    0
-
-
-
- *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2022 R1          22.1     ***
- DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
-
- 00000000  VERSION=WINDOWS x64   21:28:52  MAR 28, 2022 CP=      0.266
-
- proj_lab1--Static Structural (B5)                                             
-
-
-
-                       S O L U T I O N   O P T I O N S
-
-   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
-   DEGREES OF FREEDOM. . . . . . UX   UY   UZ  
-   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
-   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
-   EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
-   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
-
- *** WARNING ***                         CP =       0.266   TIME= 21:28:52
- Material number 2 (used by element 681) should normally have at least   
- one MP or one TB type command associated with it.  Output of energy by  
- material may not be available.                                          
-
- *** NOTE ***                            CP =       0.266   TIME= 21:28:52
- The step data was checked and warning messages were found.              
-  Please review output or errors file (                                  
- D:\University\6sem\KSKR\lab1\_ProjectScratch\Scr1DD0\file0.err ) for    
- these warning messages.                                                 
-
- *** NOTE ***                            CP =       0.266   TIME= 21:28:52
- The conditions for direct assembly have been met.  No .emat or .erot    
- files will be produced.                                                 
-
-  
-  
-     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
-  
-  ...Number of elements: 213
-  ...Number of nodes:    1588
-  ...Decompose to 2 CPU domains
-  ...Element load balance ratio =     1.123
-
-
-                      L O A D   S T E P   O P T I O N S
-
-   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
-   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
-   NUMBER OF SUBSTEPS. . . . . . . . . . . . . . .     1
-   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
-   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
-   DATABASE OUTPUT CONTROLS
-      ITEM     FREQUENCY   COMPONENT
-       ALL       NONE               
-      NSOL        ALL               
-      RSOL        ALL               
-      EANG        ALL               
-      ETMP        ALL               
-      VENG        ALL               
-      STRS        ALL               
-      EPEL        ALL               
-      EPPL        ALL               
-      CONT        ALL               
-
-
- SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
-
-
-
-                         ***********  PRECISE MASS SUMMARY  ***********
-
-   TOTAL RIGID BODY MASS MATRIX ABOUT ORIGIN
-               Translational mass               |   Coupled translational/rotational mass
-        0.52631        0.0000        0.0000     |     0.0000       0.86541E-04  -0.32236E-02
-         0.0000       0.52631        0.0000     |   -0.86541E-04    0.0000      -0.88781E-04
-         0.0000        0.0000       0.52631     |    0.32236E-02   0.88781E-04    0.0000    
-     ------------------------------------------ | ------------------------------------------
-                                                |         Rotational mass (inertia)
-                                                |    0.63890E-03   0.54378E-06   0.26658E-07
-                                                |    0.54378E-06   0.12215E-02  -0.53006E-06
-                                                |    0.26658E-07  -0.53006E-06   0.63521E-03
-
-   TOTAL MASS = 0.52631    
-     The mass principal axes coincide with the global Cartesian axes
-
-   CENTER OF MASS (X,Y,Z)=  -0.16869E-03   0.61250E-02   0.16443E-03
-
-   TOTAL INERTIA ABOUT CENTER OF MASS
-        0.61914E-03   0.50348E-18   0.12060E-07
-        0.50348E-18   0.12214E-02   0.96019E-19
-        0.12060E-07   0.96019E-19   0.61545E-03
-     The inertia principal axes coincide with the global Cartesian axes
-
-
-  *** MASS SUMMARY BY ELEMENT TYPE ***
-
-  TYPE      MASS
-     1  0.526306    
-
- Range of element maximum matrix coefficients in global coordinates
- Maximum = 3.498164398E+09 at element 13.                                
- Minimum = 1.024565442E+09 at element 186.                               
-
-   *** ELEMENT MATRIX FORMULATION TIMES
-     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
-
-        1       190  SOLID186      0.000   0.000000
-        2        23  SURF154       0.031   0.001359
- Time at end of element matrix formulation CP = 0.328125.                
-
- DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
-  Number of equations =        4440,    Maximum wavefront =    201
-
-  Process memory allocated for solver              =     7.499 MB
-  Process memory required for in-core solution     =     7.247 MB
-  Process memory required for out-of-core solution =     5.878 MB
-
-  Total memory allocated for solver                =    14.545 MB
-  Total memory required for in-core solution       =    14.034 MB
-  Total memory required for out-of-core solution   =    10.943 MB
-
- *** NOTE ***                            CP =       0.391   TIME= 21:28:52
- The Distributed Sparse Matrix Solver is currently running in the        
- in-core memory mode.  This memory mode uses the most amount of memory   
- in order to avoid using the hard drive as much as possible, which most  
- often results in the fastest solution time.  This mode is recommended   
- if enough physical memory is present to accommodate all of the solver   
- data.                                                                   
- Distributed sparse solver maximum pivot= 5.812471424E+09 at node 535    
- UX.                                                                     
- Distributed sparse solver minimum pivot= 3419843.62 at node 882 UY.     
- Distributed sparse solver minimum pivot in absolute value= 3419843.62   
- at node 882 UY.                                                         
-
-   *** ELEMENT RESULT CALCULATION TIMES
-     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
-
-        1       190  SOLID186      0.016   0.000082
-        2        23  SURF154       0.000   0.000000
-
-   *** NODAL LOAD CALCULATION TIMES
-     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
-
-        1       190  SOLID186      0.031   0.000164
-        2        23  SURF154       0.000   0.000000
- *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
- *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
-
-
- *** ANSYS BINARY FILE STATISTICS
-  BUFFER SIZE USED= 16384
-        1.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
-        0.438 MB WRITTEN ON RESULTS FILE: file0.rst
- *************** Write FE CONNECTORS *********
-
- WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
- ****************************************************
- *************** FINISHED SOLVE FOR LS 1 *************
-
- *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  21.4811111    
-
- PRINTOUT RESUMED BY /GOP
-
- FINISH SOLUTION PROCESSING
-
-
- ***** ROUTINE COMPLETED *****  CP =         0.516
-
-
-
- *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2022 R1          22.1     ***
- DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
-
- 00000000  VERSION=WINDOWS x64   21:28:52  MAR 28, 2022 CP=      0.547
-
- proj_lab1--Static Structural (B5)                                             
-
-
-
-          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
-
- *** NOTE ***                            CP =       0.547   TIME= 21:28:52
- Reading results into the database (SET command) will update the current 
- displacement and force boundary conditions in the database with the     
- values from the results file for that load set.  Note that any          
- subsequent solutions will use these values unless action is taken to    
- either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
-
- Set Encoding of XML File to:ISO-8859-1
-
- Set Output of XML File to:
-     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
-         ,     ,     ,     ,     ,     ,     ,
-
- DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
-
- EXIT THE ANSYS POST1 DATABASE PROCESSOR
-
-
- ***** ROUTINE COMPLETED *****  CP =         0.547
-
-
-
- PRINTOUT RESUMED BY /GOP
-
- *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  21.4811111    
-
- PARAMETER _PREPTIME =     0.000000000    
-
- PARAMETER _SOLVTIME =     0.000000000    
-
- PARAMETER _POSTTIME =     0.000000000    
-
- PARAMETER _TOTALTIM =     0.000000000    
-
- *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.12264151    
-
- *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.982970000E-02
-
- *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
-
- *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  4440.00000    
-
- *GET  _SOL_END_TIME  FROM  ACTI  ITEM=SET  TIME  VALUE=  1.00000000    
-
- *IF  _sol_end_time                     ( =   1.00000     )  EQ  
-      1.000000                          ( =   1.00000     )  THEN    
-
- /FCLEAN COMMAND REMOVING ALL LOCAL FILES
-
- *ENDIF
- --- Total number of nodes = 1588
- --- Total number of elements = 213
- --- Element load balance ratio = 1.12264151
- --- Time to combine distributed files = 9.8297E-03
- --- Sparse memory mode = 2
- --- Number of DOF = 4440
-
- EXIT ANSYS WITHOUT SAVING DATABASE
-
-
- NUMBER OF WARNING MESSAGES ENCOUNTERED=          2
- NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+ *** FATAL ***                           CP =       2.688   TIME= 23:03:12
+ The version size limits( NODES )have been exceeded.                     
+  Contact your Ansys support person for more information.                
+
+ ************************************************************************
+ The above error is non-recoverable by ANSYS                             
+  ANSYS run terminated by the indicated error                            
+  Current data base saved if possible.                                   
+ ************************************************************************
 
 +--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
 
 Release: 2022 R1            Build: 22.1       Update: UP20211129   Platform: WINDOWS x64 
-Date Run: 03/28/2022   Time: 21:28     Process ID: 2320
+Date Run: 04/11/2022   Time: 23:03     Process ID: 10488
 Operating System: Windows 10  (Build: 18362)
 
 Processor Model: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
@@ -579,10 +188,7 @@ Compiler: Intel(R) Fortran Compiler Version 19.0.5  (Build: 20190815)
           Intel(R) C/C++ Compiler Version 19.0.5  (Build: 20190815)
           Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191125
           BLAS Library supplied by Intel(R) MKL
-
-Number of machines requested            :    1
-Total number of cores available         :    8
-Number of physical cores available      :    4
+ 
 Number of processes requested           :    2
 Number of threads per process requested :    1
 Total number of cores requested         :    2 (Distributed Memory Parallel)               
@@ -592,37 +198,28 @@ MPI Version: Intel(R) MPI Library 2019 Update 10 for Windows* OS
 
 GPU Acceleration: Not Requested
 
-Job Name: file0
+Job Name: file
 Input File: dummy.dat
 
   Core                Machine Name   Working Directory
  -----------------------------------------------------
-     0                    NikitaPC   D:\University\6sem\KSKR\lab1\_ProjectScratch\Scr1DD0
-     1                    NikitaPC   D:\University\6sem\KSKR\lab1\_ProjectScratch\Scr1DD0
+     0                    NikitaPC   D:\University\6sem\KSKR\lab1\_ProjectScratch\ScrC91E
+     1                    NikitaPC   D:\University\6sem\KSKR\lab1\_ProjectScratch\ScrC91E
  
-Latency time from master to core     1 =    8.511 microseconds
+Latency time from master to core     1 =    9.414 microseconds
  
-Communication speed from master to core     1 =  2201.19 MB/sec
+Communication speed from master to core     1 =  1702.10 MB/sec
 
-Total CPU time for main thread                    :        0.6 seconds
-Total CPU time summed for all threads             :        0.8 seconds
+Total CPU time for main thread                    :        2.2 seconds
+Total CPU time summed for all threads             :        2.9 seconds
 
 Elapsed time spent obtaining a license            :        0.3 seconds
 Elapsed time spent pre-processing model (/PREP7)  :        0.0 seconds
 Elapsed time spent solution - preprocessing       :        0.0 seconds
-Elapsed time spent computing solution             :        0.1 seconds
+Elapsed time spent computing solution             :        0.0 seconds
 Elapsed time spent solution - postprocessing      :        0.0 seconds
 Elapsed time spent post-processing model (/POST1) :        0.0 seconds
  
-Equation solver used                              :            Sparse (symmetric)
-Equation solver computational rate                :        4.9 Gflops
-
-Sum of memory used on all processes               :       88.0 MB
-Sum of memory allocated on all processes          :     3136.0 MB
-Physical memory available                         :          8 GB
-
-Total amount of I/O written to disk               :        0.0 GB
-Total amount of I/O read from disk                :        0.0 GB
 
 +------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
 
@@ -638,11 +235,22 @@ Total amount of I/O read from disk                :        0.0 GB
  |---------------------------------------------------------------------------|
  |                                                                           |
  | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
- | Maximum Database Used       1 MB    Maximum Scratch Memory Used     43 MB |
+ | Maximum Database Used     273 MB    Maximum Scratch Memory Used     57 MB |
  |                                                                           |
  |---------------------------------------------------------------------------|
  |                                                                           |
- |        CP Time      (sec) =          0.766       Time  =  21:28:56        |
- |        Elapsed Time (sec) =          6.000       Date  =  03/28/2022      |
+ |        CP Time      (sec) =          2.891       Time  =  23:03:17        |
+ |        Elapsed Time (sec) =          8.000       Date  =  04/11/2022      |
  |                                                                           |
  *---------------------------------------------------------------------------*
+ 
+ ERROR: Worker process(es) with rank(s) 1 have encountered a FATAL error.
+ The information below was gathered from the file*.out output file(s).
+ Please review the worker process output file(s) listed below for more
+ details on this error.
+ 
+ 
+ Worker Process Output File .\file1.out:
+ 
+ *** FATAL ***                           CP =       0.141   TIME= 23:03:15
+ Check processor 0 (master) for error message(s).                        
