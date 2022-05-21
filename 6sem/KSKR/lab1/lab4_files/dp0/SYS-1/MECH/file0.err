@@ -1,0 +1,11 @@
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       23:03:10
+
+ *** FATAL ***                           CP =       2.688   TIME= 23:03:12
+ The version size limits( NODES )have been exceeded.                     
+  Contact your Ansys support person for more information.                
+
+ ************************************************************************
+ The above error is non-recoverable by ANSYS                             
+  ANSYS run terminated by the indicated error                            
+  Current data base saved if possible.                                   
+ ************************************************************************
