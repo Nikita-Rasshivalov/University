@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.header {
+    background: rgb(113, 128, 159);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    background: rgb(201, 216, 189);;
+    width: 20em;
+    height: 100px;
+}
+
+
+.logo-img{
+    width:150px;
+ padding-left: 1rem;
+}
+
+.title {
+    background: #ac9494;
+    height: 100px;
+    width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(88, 148, 174);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.main {
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    max-width: 15em;
+    padding: 0 4px;
+}
+
+.items {
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+}
+
+
+
+.items {
+    text-align: justify;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: rgb(111, 136, 174);
+}
+
+
+
+.rectangle {
+    counter-reset: li;
+    list-style: none;
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+.rectangle a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #D3D4DA;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    width: 100%;
+}
+
+li {
+    width: 15em;
+}
+
+.rectangle a:hover {
+    background: #DCDDE1;
+}
+
+.rectangle a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #9097A2;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rectangle a:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.rectangle a:hover:after {
+    left: -.5em;
+    border-left-color: #9097A2;
+}

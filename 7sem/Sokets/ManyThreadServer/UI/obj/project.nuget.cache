@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rhSBSGrKLQR/tqWpmsASbAo+1jVZAx8wcogwHa/CVCGiqhj3cW7C1Vp4PLs1GEptKHBdyHs3JlTh+Oa/ik6N3A==",
+  "success": true,
+  "projectFilePath": "D:\\University\\7sem\\Sokets\\ManyThreadServer\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

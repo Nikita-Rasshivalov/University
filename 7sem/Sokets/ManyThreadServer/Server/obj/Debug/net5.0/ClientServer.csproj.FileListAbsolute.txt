@@ -1,0 +1,12 @@
+D:\University\7sem\Sokets\ManyThreadServer\Server\bin\Debug\net5.0\ClientServer.deps.json
+D:\University\7sem\Sokets\ManyThreadServer\Server\bin\Debug\net5.0\ClientServer.dll
+D:\University\7sem\Sokets\ManyThreadServer\Server\bin\Debug\net5.0\ref\ClientServer.dll
+D:\University\7sem\Sokets\ManyThreadServer\Server\bin\Debug\net5.0\ClientServer.pdb
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ClientServer.csproj.AssemblyReference.cache
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ClientServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ClientServer.AssemblyInfoInputs.cache
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ClientServer.AssemblyInfo.cs
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ClientServer.csproj.CoreCompileInputs.cache
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ClientServer.dll
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ref\ClientServer.dll
+D:\University\7sem\Sokets\ManyThreadServer\Server\obj\Debug\net5.0\ClientServer.pdb
