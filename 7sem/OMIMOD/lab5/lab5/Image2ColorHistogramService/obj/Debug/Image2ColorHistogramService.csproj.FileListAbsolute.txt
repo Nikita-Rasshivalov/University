@@ -1,0 +1,20 @@
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.csproj.AssemblyReference.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.csproj.CoreCompileInputs.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\bin\Debug\Image2ColorHistogramService.dll.config
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\bin\Debug\Image2ColorHistogramService.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\bin\Debug\Image2ColorHistogramService.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\bin\Debug\Histograms.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\bin\Debug\Histograms.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.csproj.CopyComplete
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\bin\Debug\Image2ColorHistogramService.dll.config
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\bin\Debug\Image2ColorHistogramService.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\bin\Debug\Image2ColorHistogramService.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\bin\Debug\Histograms.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\bin\Debug\Histograms.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.csproj.AssemblyReference.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.csproj.CoreCompileInputs.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.csproj.CopyComplete
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Image2ColorHistogramService\obj\Debug\Image2ColorHistogramService.pdb

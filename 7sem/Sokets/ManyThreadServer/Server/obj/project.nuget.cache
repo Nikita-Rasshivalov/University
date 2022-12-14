@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "peNuA1n4sMgZePRtPz3MDasUajhPFoJ9zFGJwgb3hezvtiBrP4uDC1UFdwjIgqxeK44rVl96uS5MkdMyguAEiQ==",
+  "dgSpecHash": "LzUW7bcXI1kKinpwN2T91IADMAtgtuT+NFgWy6MwwvIbask69G4G9lL/KUDXY23SGJFbXML9beka3tiByVMP0g==",
   "success": true,
-  "projectFilePath": "D:\\University\\7sem\\Sokets\\ManyThreadServer\\Server\\ClientServer.csproj",
+  "projectFilePath": "E:\\University\\7sem\\Sokets\\ManyThreadServer\\Server\\ClientServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

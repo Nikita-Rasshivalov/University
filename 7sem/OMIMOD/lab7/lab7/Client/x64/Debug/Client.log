@@ -1,0 +1,2 @@
+﻿  Client.cpp
+D:\university\4_course\multithreading\lab3\lab3\Client\Client.cpp(5,10): fatal error C1083: Не удается открыть файл включение: rapidjson/document.h: No such file or directory,

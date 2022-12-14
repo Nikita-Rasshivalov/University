@@ -1,0 +1,28 @@
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\obj\Debug\Host.csproj.SuggestedBindingRedirects.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Host.exe.config
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Host.exe
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Host.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Histograms.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Image2ColorHistogramService.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Histograms.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Image2ColorHistogramService.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\bin\Debug\Image2ColorHistogramService.dll.config
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\obj\Debug\Host.csproj.CopyComplete
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\obj\Debug\Host.exe
+C:\Users\workr\Desktop\ОМиМОД\lab5\Host\obj\Debug\Host.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Host.exe.config
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Host.exe
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Host.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Histograms.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Image2ColorHistogramService.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Histograms.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Image2ColorHistogramService.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\bin\Debug\Image2ColorHistogramService.dll.config
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\obj\Debug\Host.csproj.SuggestedBindingRedirects.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\obj\Debug\Host.csproj.CopyComplete
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\obj\Debug\Host.exe
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Host\obj\Debug\Host.pdb

@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Single application\\SingleApplication\\SingleApplication.csproj": {}
+  },
+  "projects": {
+    "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Histograms\\Histograms.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Histograms\\Histograms.csproj",
+        "projectName": "Histograms",
+        "projectPath": "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Histograms\\Histograms.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Single application\\SingleApplication\\SingleApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Single application\\SingleApplication\\SingleApplication.csproj",
+        "projectName": "SingleApplication",
+        "projectPath": "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Single application\\SingleApplication\\SingleApplication.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Single application\\SingleApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\denis\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Histograms\\Histograms.csproj": {
+                "projectPath": "D:\\university\\4_course\\multithreading\\lab5\\lab5\\Histograms\\Histograms.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

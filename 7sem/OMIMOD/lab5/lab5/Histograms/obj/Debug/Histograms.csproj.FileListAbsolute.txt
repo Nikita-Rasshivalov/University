@@ -1,0 +1,9 @@
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\bin\Debug\Histograms.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\bin\Debug\Histograms.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\bin\Debug\System.Drawing.Common.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\bin\Debug\System.Drawing.Common.xml
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\obj\Debug\Histograms.csproj.AssemblyReference.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\obj\Debug\Histograms.csproj.CoreCompileInputs.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\obj\Debug\Histograms.csproj.CopyComplete
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\obj\Debug\Histograms.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Histograms\obj\Debug\Histograms.pdb

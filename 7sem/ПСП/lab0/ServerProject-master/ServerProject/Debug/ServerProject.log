@@ -1,4 +1,0 @@
-﻿  SServer.cpp
-D:\University\7sem\ПСП\lab0\ServerProject-master\ServerProject\SServer.cpp(26,11): warning C4101: ssdf: неиспользованная локальная переменная
-D:\University\7sem\ПСП\lab0\ServerProject-master\ServerProject\SServer.cpp(56,8): warning C4101: buffer: неиспользованная локальная переменная
-  ServerProject.vcxproj -> D:\University\7sem\ПСП\lab0\ServerProject-master\Debug\ServerProject.exe

@@ -1,0 +1,44 @@
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.exe
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.deps.json
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.runtimeconfig.json
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.csproj.AssemblyReference.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.AssemblyInfoInputs.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.AssemblyInfo.cs
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.csproj.CoreCompileInputs.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.csproj.CopyComplete
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\refint\SingleApplication.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.genruntimeconfig.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Single application\SingleApplication\obj\Debug\net6.0\ref\SingleApplication.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.exe
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.deps.json
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.runtimeconfig.json
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\SingleApplication.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.csproj.AssemblyReference.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.AssemblyInfoInputs.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.AssemblyInfo.cs
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.csproj.CoreCompileInputs.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.csproj.CopyComplete
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\refint\SingleApplication.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\SingleApplication.genruntimeconfig.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\obj\Debug\net6.0\ref\SingleApplication.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\Histograms.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Single application\SingleApplication\bin\Debug\net6.0\Histograms.pdb

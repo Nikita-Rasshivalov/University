@@ -1,0 +1,22 @@
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\bin\Debug\Client.exe.config
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\bin\Debug\Client.exe
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\bin\Debug\Client.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\bin\Debug\Histograms.dll
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\bin\Debug\Histograms.pdb
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\obj\Debug\Client.exe
+C:\Users\workr\Desktop\ОМиМОД\lab5\Client\obj\Debug\Client.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\bin\Debug\Client.exe.config
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\bin\Debug\Client.exe
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\bin\Debug\Client.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\bin\Debug\Histograms.dll
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\bin\Debug\Histograms.pdb
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\obj\Debug\Client.csproj.CopyComplete
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\obj\Debug\Client.exe
+D:\4 курс\ОММОД\ЛАБЫ\lab5\Client\obj\Debug\Client.pdb

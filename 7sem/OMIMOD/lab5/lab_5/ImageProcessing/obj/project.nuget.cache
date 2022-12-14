@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2JbXU3+eg2BIgRySQa601hyhl/Pr0VbntJzD8m8BkRxM/ledv2EbEiq7Jpub2AWOb5FYaJCJkTiw9hTY6kUNoQ==",
+  "success": true,
+  "projectFilePath": "E:\\University\\7sem\\OMIMOD\\омимод\\lab5\\lab_5\\ImageProcessing\\ImageProcessing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

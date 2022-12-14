@@ -1,0 +1,63 @@
+{
+    "students": [
+      {
+        "id": "3",
+        "firstName": "Lev",
+        "secondName": "Levov",
+        "age": "12",
+        "speciality": "driver",
+        "labs": [
+          { "name": "Math", "mark": "8", "PassDate": "13.02.2020" },
+          { "name": "Eng", "mark": "9", "PassDate": "22.02.2020" },
+          { "name": "Russian", "mark": "7", "PassDate": "25.02.2020" }
+        ]
+      },
+      {
+        "id": "4",
+        "firstName": "Nikita",
+        "secondName": "Rasshivalovv",
+        "age": "21",
+        "speciality": "programmer",
+        "labs": [
+          { "name": "Math", "mark": "8", "PassDate": "23.02.2020" },
+          { "name": "Eng", "mark": "9", "PassDate": "28.02.2020" },
+          { "name": "Russian", "mark": "7", "PassDate": "25.02.2020" }
+        ]
+      },
+      {
+        "firstName": "Ilua",
+        "secondName": "Egorov",
+        "age": "25",
+        "speciality": "enginier",
+        "id": "5"
+      },
+      {
+        "firstName": "Ilua",
+        "secondName": "Egorov",
+        "age": "25",
+        "speciality": "enginier",
+        "id": "e296e913-10160-460e"
+      },
+      {
+        "firstName": "Lev",
+        "secondName": "Levov",
+        "age": "12",
+        "speciality": "driver",
+        "id": "8b5084e1-4a9c-4210a"
+      },
+      {
+        "firstName": "Lev324",
+        "secondName": "Levovyy",
+        "age": "121",
+        "speciality": "driver",
+        "id": "c75272d6-a10d5-4e29"
+      },
+      {
+        "firstName": "Levdasdasd",
+        "secondName": "Levov",
+        "age": "12",
+        "speciality": "driver",
+        "id": "110812b70-b569-4105"
+      }
+    ]
+  }

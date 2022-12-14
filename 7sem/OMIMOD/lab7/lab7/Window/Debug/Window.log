@@ -1,0 +1,8 @@
+﻿  Window.cpp
+D:\university\4_course\multithreading\lab3\lab3\Window\Window.cpp(419,26): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+D:\university\4_course\multithreading\lab3\lab3\Window\Window.cpp(512,12): warning C4244: инициализация: преобразование "_Rep" в "int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+  Window.vcxproj -> D:\university\4_course\multithreading\lab3\lab3\Debug\Window.exe

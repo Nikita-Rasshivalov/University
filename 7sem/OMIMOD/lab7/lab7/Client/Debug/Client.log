@@ -1,0 +1,7 @@
+﻿  Client.cpp
+E:\University\7sem\OMIMOD\омимод\lab7\lab7\Client\Client.cpp(187,12): warning C4244: 'initializing': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  Client.vcxproj -> E:\University\7sem\OMIMOD\омимод\lab7\lab7\Debug\Client.exe

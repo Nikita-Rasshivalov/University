@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Cars</string>
+    <string name="title_activity_create_car">CreateCar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="create_car">Create car</string>
+    <string name="model">Model</string>
+    <string name="stamp">Stamp</string>
+    <string name="color">Color</string>
+    <string name="price">Price</string>
+    <string name="year">Year</string>
+    <string name="reg_number">Reg number</string>
+    <string name="create">Create</string>
+</resources>
