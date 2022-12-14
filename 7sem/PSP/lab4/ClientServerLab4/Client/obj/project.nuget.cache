@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kXFQ1rGS9rQV158IvBCXtN69bGRi2Bh5H1qCwdmEJR523/pK/zbow5Nmsx9bBVnP/sUkdamZGBIVZ8D0Ym8FFQ==",
+  "success": true,
+  "projectFilePath": "E:\\University\\7sem\\PSP\\lab4\\ClientServerLab4\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,4 @@
+﻿  Single.cpp
+D:\university\4_course\psp\lab0\lab1\Single\Single.cpp(64,32): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+D:\university\4_course\psp\lab0\lab1\Single\Single.cpp(127,12): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  Single.vcxproj -> D:\university\4_course\psp\lab0\lab1\Debug\Single.exe

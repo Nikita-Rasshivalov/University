@@ -1,0 +1,3 @@
+﻿  Client.cpp
+D:\university\4_course\psp\lab0\lab0\Client\Client.cpp(44): warning C4172: возвращение адреса локальной или временной переменной : item
+  Client.vcxproj -> D:\university\4_course\psp\lab0\lab0\Debug\Client.exe
