@@ -1,0 +1,12 @@
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\bin\Debug\net7.0\Yolov5.deps.json
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\bin\Debug\net7.0\Yolov5.dll
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\bin\Debug\net7.0\Yolov5.pdb
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\Yolov5.csproj.AssemblyReference.cache
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\Yolov5.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\Yolov5.AssemblyInfoInputs.cache
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\Yolov5.AssemblyInfo.cs
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\Yolov5.csproj.CoreCompileInputs.cache
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\Yolov5.dll
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\refint\Yolov5.dll
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\Yolov5.pdb
+E:\University\7sem\PSP\Course\ApiSharp\VideoProcessing\Yolov5\obj\Debug\net7.0\ref\Yolov5.dll

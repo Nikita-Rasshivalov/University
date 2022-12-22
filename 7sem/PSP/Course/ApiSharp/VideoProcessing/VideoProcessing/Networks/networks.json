@@ -1,0 +1,50 @@
+﻿[
+  {
+    "Name": "nano",
+    "Path": "/Networks/best_n.onnx",
+    "Model": {
+      "Width": 640,
+      "Height": 640,
+      "Dimensions": 7,
+      "Confidence": 0.75,
+      "MulConfidence": 0.25,
+      "Overlap": 0.45,
+      "Outputs": [ "output0" ],
+      "Labels": [
+        {
+          "Id": 1,
+          "Name": "cucumber"
+        },
+        {
+          "Id": 2,
+          "Name": "trash"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "small",
+    "Path": "/Networks/best_s.onnx",
+    "Model": {
+      "Width": 640,
+      "Height": 640,
+      "Dimensions": 7,
+      "Confidence": 0.75,
+      "MulConfidence": 0.25,
+      "Overlap": 0.45,
+      "Outputs": [ "output0" ],
+      "Labels": [
+        {
+          "Id": 1,
+          "Name": "cucumber"
+        },
+        {
+          "Id": 2,
+          "Name": "trash"
+        }
+      ]
+    }
+  }
+
+
+]

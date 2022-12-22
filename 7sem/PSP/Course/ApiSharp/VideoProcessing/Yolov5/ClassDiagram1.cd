@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Yolov5.Models.Yolo5Model" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAFAAgAAAgAAAAAEIAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Yolo5Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Yolov5.DetectedYolo5Object">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAMAAAgAAAAAAIAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DetectedYolo5Object.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yolov5.YoloDetection">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YoloDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yolov5.YoloDetector&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAhICAAIAAAAwDAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>YoloDetector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Yolov5.YoloLabel">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YoloLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Yolov5.Models.IYoloModel">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAFAAgAAAgAAAAAEIAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IYoloModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Yolov5.IYoloDetector">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IYoloDetector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="15" />
+</ClassDiagram>
